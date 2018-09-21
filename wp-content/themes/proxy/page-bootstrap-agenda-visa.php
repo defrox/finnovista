@@ -140,7 +140,7 @@ if ( $query2->have_posts() ) {
                         $day_col = 6;
                     else if (count($agenda_items) >= 3)
                         $day_col = 4;
-                    asort($agenda_items, SORT_STRING | SORT_ASC);
+                    ksort($agenda_items, SORT_STRING | SORT_ASC);
                     ?>
                     <div class="container agenda-event">
                         <?php if (is_array($agenda_terms) && count($agenda_terms) > 0): ?>
