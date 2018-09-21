@@ -1,0 +1,10 @@
+*** Proxy Changelog ***
+
+20 Feb 2013 - Version 1.0.1
+
+	* style.css - updated version number, fixed minor issue with slider
+	* Added missing dummy data
+
+19 Feb 2013 - Version 1.0
+
+	Initial Release

@@ -1,0 +1,966 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stag Framework v1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-15 12:03+0530\n"
+"PO-Revision-Date: 2013-07-04 13:41+0100\n"
+"Last-Translator: Ram Ratan Maurya <owner@codestag.com>\n"
+"Language-Team:  <support@codestag.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Esta entrada tiene una contraseña protegida. Introduce para ver los "
+"comentarios."
+
+#: ../comments.php:25
+msgid "0 Comments"
+msgstr "0 Comentarios"
+
+#: ../comments.php:25
+msgid "1 Comment"
+msgstr "1 Comentario"
+
+#: ../comments.php:25
+msgid "% Comments"
+msgstr "% Comentarios"
+
+#: ../comments.php:26
+msgid "Leave a Comment"
+msgstr "Deja un comentario"
+
+#: ../comments.php:26
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Deja un comentario a %s"
+
+#: ../comments.php:37
+msgid "Trackbacks for this post"
+msgstr ""
+
+#: ../comments.php:60
+msgid "Comments are now closed for this article."
+msgstr "Los comentarios están cerrados para este artículo."
+
+#: ../comments.php:92
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Tienes que estar %1$sregistrado en%2$s para añadir un comentario."
+
+#: ../comments.php:119
+msgid "Submit Comment"
+msgstr "Enviar comentario"
+
+#: ../functions.php:42
+msgid "Other Widgets"
+msgstr ""
+
+#: ../functions.php:48
+msgid ""
+"All widgets excluding Homepage and Services widgets should be included in "
+"this sidebar."
+msgstr ""
+
+#: ../functions.php:52
+msgid "Homepage Widgets"
+msgstr ""
+
+#: ../functions.php:61
+msgid "Services Widgets"
+msgstr ""
+
+#: ../functions.php:94
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:208
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/stag-admin-functions.php:163
+msgid "Remove"
+msgstr "Eliminar"
+
+#: ../framework/stag-admin-functions.php:292
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: ../framework/stag-admin-functions.php:293
+#: ../framework/stag-admin-functions.php:317
+#, php-format
+msgid "Add New %s"
+msgstr "Añadir nuevo %s"
+
+#: ../framework/stag-admin-functions.php:294
+#: ../framework/stag-admin-functions.php:315
+#, php-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: ../framework/stag-admin-functions.php:295
+#, php-format
+msgid "New %s"
+msgstr "Nuevo %s"
+
+#: ../framework/stag-admin-functions.php:296
+#, php-format
+msgid "View %s"
+msgstr "Vista %s"
+
+#: ../framework/stag-admin-functions.php:297
+#: ../framework/stag-admin-functions.php:310
+#, php-format
+msgid "Search %s"
+msgstr "Buscar %s"
+
+#: ../framework/stag-admin-functions.php:298
+#, php-format
+msgid "No %s found"
+msgstr "No %s encontrado"
+
+#: ../framework/stag-admin-functions.php:299
+#, php-format
+msgid "No %s found in Trash"
+msgstr "No %s encontrado en la Papelera"
+
+#: ../framework/stag-admin-functions.php:311
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: ../framework/stag-admin-functions.php:312
+#, php-format
+msgid "All %s"
+msgstr "Todos %s"
+
+#: ../framework/stag-admin-functions.php:316
+#, php-format
+msgid "Update %s"
+msgstr "Actualizar %s"
+
+#: ../framework/stag-admin-functions.php:318
+#, php-format
+msgid "New %s Name"
+msgstr "Nuevo Nombre %s"
+
+#: ../framework/stag-admin-functions.php:319
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Separar %s con commas"
+
+#: ../framework/stag-admin-functions.php:320
+#, php-format
+msgid "Add or remove %s"
+msgstr "Añadir o eliminar %s"
+
+#: ../framework/stag-admin-functions.php:321
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Elija entre los más utilizados %s"
+
+#: ../framework/stag-admin-functions.php:397
+#: ../framework/stag-admin-page-update.php:13
+#, php-format
+msgid ""
+"<strong>There is a new version of the %s theme available.</strong> You have "
+"version %s installed. <a href=\"%s\">Update to version %s</a>."
+msgstr ""
+
+#: ../framework/stag-admin-init.php:54
+#: ../framework/stag-theme-functions.php:241
+msgid "Theme Options"
+msgstr ""
+
+#: ../framework/stag-admin-init.php:55
+msgid "Advanced"
+msgstr ""
+
+#: ../framework/stag-admin-page-options.php:9
+#, php-format
+msgid "%s activated, please save settings before leaving this page."
+msgstr "%s activado, por favor guarda los ajustes antes de cerrar la página."
+
+#: ../framework/stag-admin-page-options.php:61
+msgid "Reset settings"
+msgstr "Restablecer la configuación"
+
+#: ../framework/stag-admin-page-options.php:62
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: ../framework/stag-admin-page-options.php:79
+msgid "You do not have sufficient permissions to save these options."
+msgstr "No tienes los permisos suficientes para guardar estas opciones."
+
+#: ../framework/stag-admin-page-options.php:92
+msgid "Settings Successfully Saved!"
+msgstr "¡Ajustes guadados con exito!"
+
+#: ../framework/stag-admin-page-options.php:105
+msgid "You do not have sufficient permissions to reset these options."
+msgstr "No tienes los permisos suficientes para restablecer estas opciones."
+
+#: ../framework/stag-admin-page-update.php:7
+msgid "Theme Updates"
+msgstr ""
+
+#: ../framework/stag-admin-page-update.php:38
+#: ../framework/stag-admin-page-update.php:44
+msgid "Changelog"
+msgstr ""
+
+#: ../framework/stag-admin-page-update.php:49
+msgid "<p>Error: Unable to fetch the changelog.</p>"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:10
+msgid "Button URL"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:11
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:15
+msgid "Button Style"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:16
+msgid "Select the button's style, ie the button's colour"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:30
+msgid "Button Size"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:31
+msgid "Select the button's size"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:40
+msgid "Button Type"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:41
+msgid "Select the button's type"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:49
+msgid "Button Target"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:50
+msgid "_self = open in same window. _blank = open in new window"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:59
+msgid "Button's Text"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:60
+msgid "Add the button's text"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:64
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:74
+msgid "Alert Style"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:75
+msgid "Select the alert's style, ie the alert colour"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:88
+msgid "Alert Text"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:89
+msgid "Add the alert's text"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:93
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:103
+msgid "Toggle Content Title"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:104
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:110
+msgid "Toggle Content"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:111
+msgid "Add the toggle content. Will accept HTML"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:115
+msgid "Toggle State"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:116
+msgid "Select the state of the toggle on page load"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:125
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:134
+msgid "Insert Tab Shortcode"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:140
+msgid "Tab Title"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:141
+msgid "Title of the tab"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:146
+msgid "Tab Content"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:147
+msgid "Add the tabs content"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:151
+msgid "Add Tab"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:158
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:165
+msgid "Column Type"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:166
+msgid "Select the type, ie width of the column."
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:195
+msgid "Column Content"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:196
+msgid "Add the column content."
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:200
+msgid "Add Column"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:213
+msgid "Author Name"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:214
+msgid "Select the User to display."
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:219
+#: ../framework/shortcodes/tinymce/config.php:235
+msgid "Insert Author Shortcode"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:228
+msgid "Intro Text"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:229
+msgid "Enter the intro text."
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:243
+msgid "Divider"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:244
+msgid "Select the style of the Divider"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:259
+msgid "Insert Divider"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:269
+msgid "Code"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:270
+msgid "Input your code without code tags."
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:274
+msgid "Code Type"
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:275
+msgid "Select the type of code you are using."
+msgstr ""
+
+#: ../framework/shortcodes/tinymce/config.php:290
+msgid "Insert Code Shortcode"
+msgstr ""
+
+#: ../framework/updater/framework-update.php:6
+msgid "CodeStag Framework Update"
+msgstr ""
+
+#: ../includes/theme-customizer.php:6
+msgid "Accent Color"
+msgstr ""
+
+#: ../includes/theme-customizer.php:17
+msgid "Choose accent color"
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:7
+msgid "Portfolio Details"
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:8
+msgid "Enter the details of work."
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:14
+msgid "Project Date"
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:15
+msgid "Enter the project date e.g. Feb 24, 2013"
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:21
+msgid "Project URL"
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:22
+msgid "Enter the project URL."
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:29
+msgid "Project Image 1"
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:30
+#: ../includes/metaboxes/portfolio.php:37
+#: ../includes/metaboxes/portfolio.php:44
+#: ../includes/metaboxes/portfolio.php:51
+#: ../includes/metaboxes/portfolio.php:58
+msgid "Choose an image, ideal size 1400px x unlimited."
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:36
+msgid "Project Image 2"
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:43
+msgid "Project Image 3"
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:50
+msgid "Project Image 4"
+msgstr ""
+
+#: ../includes/metaboxes/portfolio.php:57
+msgid "Project Image 5"
+msgstr ""
+
+#: ../includes/metaboxes/post-metabox.php:8
+msgid "Cover Image Settings"
+msgstr ""
+
+#: ../includes/metaboxes/post-metabox.php:9
+msgid "Set a cover image for the post."
+msgstr ""
+
+#: ../includes/metaboxes/post-metabox.php:15
+msgid "Select Cover Image"
+msgstr ""
+
+#: ../includes/metaboxes/post-metabox.php:16
+msgid "Ideal size 1400px x unlimited."
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:8
+msgid "SEO Settings"
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:9
+msgid "Customize the SEO settings of your posts/pages"
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:15
+msgid "Title"
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:16
+msgid ""
+"Enter the post title, most search engines use a maximum of 60 characters."
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:22
+msgid "Description"
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:23
+msgid ""
+"Enter the post SEO description, most search engines use a maximum of 160 "
+"characters."
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:29
+msgid "Keywords"
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:30
+msgid "A comma separated list of keywords"
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:36
+msgid "Meta Robots Index"
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:37
+msgid "Do you want robots to index this page?"
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:44
+msgid "Meta Robots Follow"
+msgstr ""
+
+#: ../includes/metaboxes/seo.php:45
+msgid "Do you want robots to follow links from this page?"
+msgstr ""
+
+#: ../includes/metaboxes/slider-metabox.php:8
+msgid "Slider Settings"
+msgstr ""
+
+#: ../includes/metaboxes/slider-metabox.php:9
+msgid "Customize the slider settings."
+msgstr ""
+
+#: ../includes/metaboxes/slider-metabox.php:15
+msgid "Sub Title"
+msgstr ""
+
+#: ../includes/metaboxes/slider-metabox.php:16
+msgid "Enter the sub title for slider (optional)."
+msgstr ""
+
+#: ../includes/metaboxes/slider-metabox.php:22
+msgid "Slide URL"
+msgstr ""
+
+#: ../includes/metaboxes/slider-metabox.php:23
+msgid "Enter the URL for slide (optional)."
+msgstr ""
+
+#: ../includes/metaboxes/slider-metabox.php:29
+msgid "Slide Image"
+msgstr ""
+
+#: ../includes/metaboxes/slider-metabox.php:30
+msgid "Upload the slider image"
+msgstr ""
+
+#: ../includes/metaboxes/team-metabox.php:8
+msgid "Team Member Details"
+msgstr ""
+
+#: ../includes/metaboxes/team-metabox.php:9
+msgid "Enter the details of team member."
+msgstr ""
+
+#: ../includes/metaboxes/team-metabox.php:15
+msgid "Member's Position"
+msgstr ""
+
+#: ../includes/metaboxes/team-metabox.php:16
+msgid "Enter the current position of team member."
+msgstr ""
+
+#: ../includes/metaboxes/team-metabox.php:22
+msgid "Member's twitter Profile URL"
+msgstr ""
+
+#: ../includes/metaboxes/team-metabox.php:23
+msgid "Enter the twitter Profile url of team member."
+msgstr ""
+
+#: ../includes/metaboxes/team-metabox.php:29
+msgid "Member's linkedin Profile URL"
+msgstr ""
+
+#: ../includes/metaboxes/team-metabox.php:30
+msgid "Enter the linkedin Profile url of team member."
+msgstr ""
+
+#: ../includes/options/homepage-settings.php:5
+msgid "Configure your homepage settings."
+msgstr ""
+
+#: ../includes/options/social-settings.php:5
+msgid "Configure the social links for your site."
+msgstr ""
+
+#: ../includes/options/styling-options.php:5
+msgid "Configure the visual appearance of you theme, or insert any custom CSS."
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:5
+#: ../includes/post-types/cpt-portfolio.php:6
+msgid "Portfolio"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:8
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:9
+msgid "Edit Portfolio"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:10
+msgid "New Portfolio"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:11
+msgid "View Portfolio"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:12
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:13
+msgid "No portfolios found"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:14
+msgid "No portfolios found in Trash"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:23
+#: ../includes/post-types/cpt-portfolio.php:33
+#: ../includes/post-types/cpt-portfolio.php:37
+msgid "portfolio"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:37
+#: ../includes/post-types/cpt-portfolio.php:57
+msgid "skill"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:37
+#: ../includes/post-types/cpt-portfolio.php:45
+msgid "Skills"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:44
+msgid "Portfolio Title"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:46
+#: ../includes/post-types/cpt-slider.php:42
+#: ../includes/post-types/cpt-team.php:43
+msgid "Date"
+msgstr ""
+
+#: ../includes/post-types/cpt-portfolio.php:56
+msgid "type"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:5
+#: ../includes/post-types/cpt-slider.php:6
+msgid "Slides"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:8
+msgid "Add New Slides"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:9
+msgid "Edit Slides"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:10
+msgid "New Slides"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:11
+msgid "View Slides"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:12
+msgid "Search Slides"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:13
+msgid "No slides found"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:14
+msgid "No slides found in Trash"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:23
+#: ../includes/post-types/cpt-slider.php:34
+msgid "slides"
+msgstr ""
+
+#: ../includes/post-types/cpt-slider.php:41
+msgid "Slider Title"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:5 ../includes/post-types/cpt-team.php:6
+msgid "Team"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:8
+msgid "Add New Team"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:9
+msgid "Edit Team"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:10
+msgid "New Team"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:11
+msgid "View Team"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:12
+msgid "Search Team"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:13
+msgid "No team found"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:14
+msgid "No team found in Trash"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:23
+#: ../includes/post-types/cpt-team.php:34
+msgid "team"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:41
+msgid "Team Member Title"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:42
+msgid "Team Member Position"
+msgstr ""
+
+#: ../includes/post-types/cpt-team.php:53
+msgid "position"
+msgstr ""
+
+#: ../includes/widgets/widget-about.php:6
+msgid "Show info about your site from specific page."
+msgstr ""
+
+#: ../includes/widgets/widget-about.php:8
+msgid "Homepage: Content Section"
+msgstr ""
+
+#: ../includes/widgets/widget-about.php:77
+#: ../includes/widgets/widget-blog.php:124
+#: ../includes/widgets/widget-contact.php:189
+#: ../includes/widgets/widget-flickr.php:67
+#: ../includes/widgets/widget-service-box.php:63
+#: ../includes/widgets/widget-services.php:67
+#: ../includes/widgets/widget-team.php:103
+#: ../includes/widgets/widget-twitter.php:72
+#: ../includes/widgets/widget-work.php:97
+msgid "Title:"
+msgstr ""
+
+#: ../includes/widgets/widget-about.php:83
+#: ../includes/widgets/widget-blog.php:130
+#: ../includes/widgets/widget-contact.php:194
+#: ../includes/widgets/widget-services.php:72
+#: ../includes/widgets/widget-team.php:108
+#: ../includes/widgets/widget-work.php:102
+msgid "Sub Title:"
+msgstr ""
+
+#: ../includes/widgets/widget-about.php:88
+msgid "Select Page:"
+msgstr ""
+
+#: ../includes/widgets/widget-about.php:109
+msgid "Section ID:"
+msgstr ""
+
+#: ../includes/widgets/widget-blog.php:6
+msgid "Displays your recent blog post."
+msgstr ""
+
+#: ../includes/widgets/widget-blog.php:8
+msgid "Homepage: Blog Section"
+msgstr ""
+
+#: ../includes/widgets/widget-contact.php:6
+msgid "Displayed contact form including map and contact details."
+msgstr ""
+
+#: ../includes/widgets/widget-contact.php:8
+msgid "Homepage: Contact Section"
+msgstr ""
+
+#: ../includes/widgets/widget-contact.php:118
+msgid "Thanks, your email was sent successfully."
+msgstr "Gracias, tu email ha sido enviado."
+
+#: ../includes/widgets/widget-contact.php:199
+msgid "Map URL:"
+msgstr ""
+
+#: ../includes/widgets/widget-contact.php:205
+msgid "Sub Heading:"
+msgstr ""
+
+#: ../includes/widgets/widget-contact.php:210
+msgid "Address:"
+msgstr ""
+
+#: ../includes/widgets/widget-contact.php:215
+msgid "Email:"
+msgstr ""
+
+#: ../includes/widgets/widget-contact.php:221
+#: ../includes/widgets/widget-service-box.php:68
+msgid "Description:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:8
+msgid "Display Flickr photos from a user's photostream"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:11
+msgid "Custom Flickr Photos"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:72
+msgid "Flickr ID:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:77
+msgid "Number of Photos:"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:85
+msgid "Type (user or group):"
+msgstr ""
+
+#: ../includes/widgets/widget-flickr.php:93
+msgid "Display (random or latest):"
+msgstr ""
+
+#: ../includes/widgets/widget-other.php:6
+msgid ""
+"Displays a section on homepage to display widgets used under Other Widets "
+"Sidebar."
+msgstr ""
+
+#: ../includes/widgets/widget-other.php:8
+msgid "Homepage: Other Widgets Section"
+msgstr ""
+
+#: ../includes/widgets/widget-service-box.php:6
+msgid "Service box, use it under Services Widgets Sidebar."
+msgstr ""
+
+#: ../includes/widgets/widget-service-box.php:8
+msgid "Services: Service Box"
+msgstr ""
+
+#: ../includes/widgets/widget-service-box.php:73
+msgid "Icon:"
+msgstr ""
+
+#: ../includes/widgets/widget-services.php:6
+msgid ""
+"Displays a section on homepage to show your services. Use under Homepage "
+"Widgets."
+msgstr ""
+
+#: ../includes/widgets/widget-services.php:8
+msgid "Homepage: Services Section"
+msgstr ""
+
+#: ../includes/widgets/widget-slider.php:6
+msgid "Display your slides from custom post type Slides."
+msgstr ""
+
+#: ../includes/widgets/widget-slider.php:8
+msgid "Homepage: Custom Slides"
+msgstr ""
+
+#: ../includes/widgets/widget-team.php:6
+msgid "Displays your team members and their info."
+msgstr ""
+
+#: ../includes/widgets/widget-team.php:8
+msgid "Homepage: Team Section"
+msgstr ""
+
+#: ../includes/widgets/widget-twitter.php:6
+msgid "Display your latest Twitter tweets."
+msgstr ""
+
+#: ../includes/widgets/widget-twitter.php:8
+msgid "Custom Twitter Feeds"
+msgstr ""
+
+#: ../includes/widgets/widget-twitter.php:77
+msgid "Twitter username:"
+msgstr ""
+
+#: ../includes/widgets/widget-twitter.php:82
+msgid "Number of tweets (max 20):"
+msgstr ""
+
+#: ../includes/widgets/widget-twitter.php:87
+msgid "Follow text e.g. Follow on twitter"
+msgstr ""
+
+#: ../includes/widgets/widget-work.php:6
+msgid "Showcase your work from Portfolio section."
+msgstr ""
+
+#: ../includes/widgets/widget-work.php:8
+msgid "Homepage: Work Section"
+msgstr ""
+
+#: ../includes/widgets/widget-blog.php:82
+msgid "Older Posts"
+msgstr "Entradas anteriores"

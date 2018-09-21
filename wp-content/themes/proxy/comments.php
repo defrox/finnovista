@@ -1,0 +1,106 @@
+<?php stag_comments_before(); ?>
+
+<?php
+
+  if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments.php' == basename($_SERVER['SCRIPT_FILENAME']))
+    die ('Please do not load this page directly. Thanks!');
+
+  if ( post_password_required() ) { ?>
+    <p class="nocomments"><?php _e('This post is password protected. Enter the password to view comments.', 'stag') ?></p>
+  <?php
+    return;
+  }
+
+/*-----------------------------------------------------------------------------------*/
+/*  Display the comments + Pings
+/*-----------------------------------------------------------------------------------*/
+
+    if ( have_comments() ) : // if there are comments ?>
+
+        <?php if ( ! empty($comments_by_type['comment']) ) : // if there are normal comments ?>
+
+        <div id="comment-wrap" class="clearfix">
+            <div class="inner-section">
+                <div class="comments-header clearfix">
+                <h3 id="comments"><?php comments_number(__('0 Comments', 'stag'), __('1 Comment', 'stag'), __('% Comments', 'stag')); ?></h3>
+                    <a href="#respond" class="button">
+                      <span class="continue-reading "><?php comment_form_title( __('Leave a Comment', 'stag'), __('Leave a Comment', 'stag') ); ?></span></a></p>
+                </div>
+
+                <ul class="commentlist">
+                  <?php wp_list_comments('type=comment&avatar_size=30&callback=stag_comments'); ?>
+                </ul>
+
+              <?php endif; ?>
+
+              <?php if ( ! empty($comments_by_type['pings']) ) : // if there are pings ?>
+
+              <h3 id="pings"><?php _e('Trackbacks for this post', 'stag') ?></h3>
+
+              <ol class="pinglist">
+                <?php wp_list_comments('type=pings&callback=stag_list_pings'); ?>
+              </ol>
+
+                <?php endif; ?>
+
+                <div class="navigation">
+                  <div class="alignleft"><?php previous_comments_link(); ?></div>
+                  <div class="alignright"><?php next_comments_link(); ?></div>
+                </div>
+            </div>
+      </div>
+    <?php
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Deal with no comments or closed comments
+/*-----------------------------------------------------------------------------------*/
+
+    if ('closed' == $post->comment_status ) : // if the post has comments but comments are now closed ?>
+
+    <p class="nocomments"><?php _e('Comments are now closed for this article.', 'stag') ?></p>
+
+    <?php endif; ?>
+
+    <?php else :  ?>
+
+        <?php if ('open' == $post->comment_status) : // if comments are open but no comments so far ?>
+
+        <?php else : // if comments are closed ?>
+
+        <?php endif; ?>
+
+<?php endif;
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Comment Form
+/*-----------------------------------------------------------------------------------*/
+
+  if ( comments_open() ) : ?>
+
+  <div id="respond-wrap" class="clearfix">
+    <div id="respond" class="clearfix">
+
+  <?php
+      $fields = array(
+              'comment_field' => '<p class="comment-form-comment"><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>',
+              'must_log_in' => '<p class="must-log-in">' .  sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.', 'stag' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
+              'logged_in_as' => '<p class="logged-in-as">' . sprintf( __( 'Registrado como <a href="%1$s">%2$s</a>. <a href="%3$s" title="Desconectarse de esta cuenta">Desconectarse &raquo;</a>', 'stag' ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
+              'comment_notes_before' => '',
+              'comment_notes_after' => '',
+              'title_reply' => __('Leave a Comment', 'stag'),
+              'title_reply_to' => __('Leave a Reply to %s', 'stag'),
+              'cancel_reply_link' => __('Cancel Reply', 'stag'),
+              'label_submit' => __('Submit Comment', 'stag')
+      );
+
+      comment_form($fields); ?>
+
+    </div>
+  </div>
+
+  <?php endif; // if you delete this the sky will fall on your head ?>
+
+
+<?php stag_comments_after(); ?>

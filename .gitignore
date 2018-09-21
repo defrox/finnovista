@@ -1,0 +1,9 @@
+wp-config.php
+phpminiadmin.php
+wp-config-local.php
+wp-content/uploads/
+wp-content/backups/
+wp-content/upgrade/
+administrator/
+dev/
+.idea/

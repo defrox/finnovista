@@ -1,0 +1,371 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPrime\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-05 09:15+0700\n"
+"PO-Revision-Date: 2013-05-05 23:15+0700\n"
+"Last-Translator: WPPrime <info@wpprime.com>\n"
+"Language-Team: WPPrime <info@wpprime.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../mega-slider.php:122
+msgid "Slider created"
+msgstr "Slider đã được tạo"
+
+#: ../mega-slider.php:122
+#: ../mega-slider.php:293
+msgid "View Slider"
+msgstr "Xem Slider"
+
+#: ../mega-slider.php:288
+#: ../mega-slider.php:289
+msgid "Add New Slider"
+msgstr "Thêm slider mới"
+
+#: ../mega-slider.php:290
+msgid "Edit Slider"
+msgstr "Sửa Slider"
+
+#: ../mega-slider.php:291
+msgid "New Slider"
+msgstr "Tạo Slider mới"
+
+#: ../mega-slider.php:292
+msgid "All Sliders"
+msgstr "Tất cả Slider"
+
+#: ../mega-slider.php:294
+msgid "Search Sliders"
+msgstr "Tìm Slider"
+
+#: ../mega-slider.php:295
+msgid "No sliders found"
+msgstr "Không tìm thấy slide nào"
+
+#: ../mega-slider.php:296
+msgid "No sliders found in Trash"
+msgstr "Không tìm thấy slide nào trong thùng rác"
+
+#: ../mega-slider.php:366
+msgid "General Settings"
+msgstr "Cài đặt tổng quan "
+
+#: ../mega-slider.php:371
+msgid "Fullwidth"
+msgstr ""
+
+#: ../mega-slider.php:375
+msgid "Width"
+msgstr "Chiều ngang"
+
+#: ../mega-slider.php:380
+msgid "Height"
+msgstr "Chiều cao"
+
+#: ../mega-slider.php:386
+msgid "Auto crop image"
+msgstr "Tự động crop ảnh "
+
+#: ../mega-slider.php:390
+msgid "Slide animation"
+msgstr "Hiệu ứng slide "
+
+#: ../mega-slider.php:404
+msgid "Enable touch swipe"
+msgstr "Bật touch swipe"
+
+#: ../mega-slider.php:410
+msgid "Enable responsive"
+msgstr "Bật responsive"
+
+#: ../mega-slider.php:414
+msgid "Loading bar"
+msgstr "Thanh loading"
+
+#: ../mega-slider.php:422
+msgid "Bar position"
+msgstr "Thanh position"
+
+#: ../mega-slider.php:429
+msgid "Navigation"
+msgstr "Điều hướng"
+
+#: ../mega-slider.php:433
+msgid "Show next previous button"
+msgstr "Hiện nút next, previous "
+
+#: ../mega-slider.php:438
+msgid "Auto play slides"
+msgstr "Tự động chạy slide"
+
+#: ../mega-slider.php:443
+msgid "Show bullet"
+msgstr "Hiện bullet"
+
+#: ../mega-slider.php:447
+msgid "Bullet position"
+msgstr "Vị trí bullet"
+
+#: ../mega-slider.php:460
+msgid "Show thumbnail"
+msgstr "Hiện thumbnail"
+
+#: ../mega-slider.php:464
+msgid "Thumbnail width"
+msgstr "Chiều ngang thumbnail"
+
+#: ../mega-slider.php:470
+msgid "Thumbail height"
+msgstr "Chiều cao Thumbnail"
+
+#: ../mega-slider.php:476
+msgid "Thumbnail position"
+msgstr "Vị trí thumbnail"
+
+#: ../mega-slider.php:487
+msgid "Border style"
+msgstr "Kiểu viền"
+
+#: ../mega-slider.php:503
+msgid "Slide delay"
+msgstr "Độ trễ slide"
+
+#: ../mega-slider.php:508
+msgid "Slide's translation time"
+msgstr "Thời gian hoán chuyển "
+
+#: ../mega-slider.php:524
+msgid "Move to Trash"
+msgstr "Chuyển tới thùng rác"
+
+#: ../mega-slider.php:529
+msgid "Initilize Slider"
+msgstr "Khởi tạo"
+
+#: ../mega-slider.php:529
+msgid "Update Settings"
+msgstr "Cập nhật cài đặt "
+
+#: ../mega-slider.php:548
+msgid "You can use the following shortcode for displaying the newly created slider"
+msgstr "Sử dụng đoạn shortcode bên dưới để hiển thị slider mới tạo"
+
+#: ../mega-slider.php:550
+msgid "Copy and paste it where you wish the slider will display"
+msgstr "Copy và paste đoạn code này vào nơi mà bạn muốn slider sẽ hiển thị"
+
+#: ../mega-slider.php:551
+msgid "e.g. Post, Page editor, Text widget or even directly in your PHP code by using "
+msgstr "Ví dụ: Khung soạn thảo bài viết, trang, Text widget hoặc trực tiếp vào trong code PHP của bạn bằng cách sử dụng "
+
+#: ../mega-slider.php:552
+msgid "function"
+msgstr "hàm"
+
+#: ../mega-slider.php:612
+msgid "Slider Content"
+msgstr "Nội dung Slider "
+
+#: ../mega-slider.php:615
+msgid "Add new tab"
+msgstr "Thêm tab mới"
+
+#: ../mega-slider.php:615
+msgid "ADD"
+msgstr "Thêm"
+
+#: ../mega-slider.php:620
+msgid "Slide"
+msgstr ""
+
+#: ../mega-slider.php:621
+msgid "Remove Tab"
+msgstr "Xóa tab"
+
+#: ../mega-slider.php:632
+#: ../mega-slider.php:935
+msgid "Choose slide background image"
+msgstr "Chọn ảnh nền slide"
+
+#: ../mega-slider.php:633
+#: ../mega-slider.php:936
+msgid "Choose slide thumbnail image"
+msgstr "Chọn ảnh thumbnail slide"
+
+#: ../mega-slider.php:634
+#: ../mega-slider.php:937
+msgid "Clone slide"
+msgstr "Sao chép slide"
+
+#: ../mega-slider.php:679
+msgid "Add new text"
+msgstr "Thêm chữ mới"
+
+#: ../mega-slider.php:680
+msgid "Add new image"
+msgstr "Thêm ảnh mới"
+
+#: ../mega-slider.php:681
+msgid "Add new video"
+msgstr "Thêm video mới"
+
+#: ../mega-slider.php:683
+msgid "Align left edge"
+msgstr "Canh trái"
+
+#: ../mega-slider.php:684
+msgid "Align horizontal center"
+msgstr "Cái dọc giữa"
+
+#: ../mega-slider.php:685
+msgid "Align right edge"
+msgstr "Canh phải"
+
+#: ../mega-slider.php:686
+msgid "Align top edge"
+msgstr "Canh trên"
+
+#: ../mega-slider.php:687
+msgid "Align vertical center"
+msgstr "Canh ngang giữa"
+
+#: ../mega-slider.php:688
+msgid "Align bottom edge"
+msgstr "Canh dưới"
+
+#: ../mega-slider.php:690
+msgid "Space evenly vertically"
+msgstr "Canh đều chiều ngang"
+
+#: ../mega-slider.php:691
+msgid "Space evenly horizontally"
+msgstr "Canh đều chiều dọc"
+
+#: ../mega-slider.php:701
+msgid "Text"
+msgstr "Chữ "
+
+#: ../mega-slider.php:703
+#: ../mega-slider.php:759
+msgid "Add link"
+msgstr "Thêm liên kết"
+
+#: ../mega-slider.php:741
+msgid "Underline"
+msgstr "Gạch dưới"
+
+#: ../mega-slider.php:742
+msgid "All caps"
+msgstr "In hoa tất cả"
+
+#: ../mega-slider.php:744
+msgid "Left alignment"
+msgstr "Canh trái"
+
+#: ../mega-slider.php:745
+msgid "Center alignment"
+msgstr "Canh giữa"
+
+#: ../mega-slider.php:746
+msgid "Right alignment"
+msgstr "Canh phải"
+
+#: ../mega-slider.php:747
+msgid "Justified alignment"
+msgstr "Canh đều"
+
+#: ../mega-slider.php:749
+msgid "Text color"
+msgstr "Màu chữ"
+
+#: ../mega-slider.php:760
+msgid "Image"
+msgstr "Ảnh "
+
+#: ../mega-slider.php:760
+msgid "Change image"
+msgstr "Đổi ảnh "
+
+#: ../mega-slider.php:768
+msgid "Video"
+msgstr ""
+
+#: ../mega-slider.php:768
+msgid "Change"
+msgstr "Đổi"
+
+#: ../mega-slider.php:834
+msgid "Background color"
+msgstr "Màu nền"
+
+#: ../mega-slider.php:839
+msgid "All borders"
+msgstr "Viền hết các mặt"
+
+#: ../mega-slider.php:840
+msgid "Top borders"
+msgstr "Viền trên"
+
+#: ../mega-slider.php:841
+msgid "Right borders"
+msgstr "Viền phải"
+
+#: ../mega-slider.php:842
+msgid "Bottom borders"
+msgstr "Viền dưới"
+
+#: ../mega-slider.php:843
+msgid "Left borders"
+msgstr "Viền trái"
+
+#: ../mega-slider.php:853
+msgid "Border color"
+msgstr "Màu viền"
+
+#: ../mega-slider.php:870
+msgid "Hover text color"
+msgstr "Màu chữ khi hover"
+
+#: ../mega-slider.php:873
+msgid "Hover background color"
+msgstr "Màu nền khi hover"
+
+#: ../mega-slider.php:877
+msgid "Hover border color"
+msgstr "Màu viền khi hover"
+
+#: ../mega-slider.php:888
+msgid "Timeline"
+msgstr "Thời gian"
+
+#: ../mega-slider.php:907
+msgid "Item setting"
+msgstr "Cài đặt item"
+
+#: ../mega-slider.php:912
+msgid "Video URL"
+msgstr "Đường dẫn Video"
+
+#: ../mega-slider.php:914
+msgid "Search"
+msgstr "Tìm"
+
+#: ../mega-slider.php:917
+msgid "Video Id"
+msgstr ""
+
+#: ../mega-slider.php:921
+msgid "Video Name"
+msgstr "Tên Video"
+
+#: ../mega-slider.php:927
+msgid "Choose another thumbnail"
+msgstr "Ảnh ảnh thumbnail khác"
+

@@ -1,0 +1,424 @@
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+	
+.main-box {
+	max-width:338px;
+}	
+	
+/* Navigations
+---------------------------------------- */
+
+/* Primary navigation */
+nav.primary {
+	clear:both;
+	width:100%;
+	margin:0;
+	text-align:center;
+	padding:10px 0;
+}
+
+.sf-menu {
+	display:none;
+	}
+
+/* Logo */
+.logo {
+	padding-bottom:15px;
+	}
+.logo img{
+	width:200px;
+	height:auto;
+	}
+.logo h1,
+.logo h2 {
+	font-size:1.5em;
+	}
+	.logo .tagline {
+		display:none;
+		}
+	
+
+/* Top search */
+#top-search {
+	margin-top:12px;
+	}
+#top-search .input-search {
+	width:130px;
+	margin-right:0;
+	}
+#top-search #submit {
+	width:20px;
+	height:20px;
+	padding:0;
+	background:url(../images/search-icon.gif) 0 0 no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	position:absolute;
+	right:0;
+	top:8px;
+	}
+	
+
+/* Header widget */
+#widget-header {
+	padding:5px 0;
+	text-align:center;
+	}
+
+
+/* Slider
+---------------------------------------- */
+.flexslider-holder {
+	height:122px;
+	}
+
+/* Flickr widget */
+.flickrImages a {
+	width:49px;
+	height:49px;
+	}
+	
+.clients .slides_container {
+	min-height: 242px;
+}	
+
+#bottom-area {
+	margin-top:0;
+}
+
+#before-area .widget_text,
+#before-area .widget_text h3 {
+	font-size:15px;
+}
+
+/* Request a quote */
+.box-text {
+	width:100%;
+	float:none;
+	}
+.box-button {
+	width:100%;
+	float:none;
+	padding-left:0;
+	padding-right:0;
+	margin-bottom: 25px;
+	}
+	.box-button .button {
+		float:none;
+		}
+.box-text .text {
+	padding-right:0;
+	padding-bottom:15px;
+	margin-bottom: 10px;
+}		
+
+/* Post */
+.featured-thumbnail {
+	
+	}
+	.featured-thumbnail img {
+		
+		}
+.post-meta .fright {
+	float:none;
+	clear:left;
+	}
+.featured-thumbnail.large {
+	width:auto;
+	height:auto;
+	margin:0 0 10px 0;
+	}
+
+
+/* Comments */
+.comment-meta {
+	position:static;
+	padding-bottom:1em;
+	}
+.comment-author {
+	padding-bottom:0;
+	}
+
+#commentform input[type="text"],
+#commentform textarea {
+	width:100%;
+	}
+
+/* Comment Form */
+.commentlist ul.children {
+	margin-left:0;
+	}	
+
+
+/* Team */
+.recent-posts.team li {
+	float:none;
+	width:auto;
+	margin:0 0 30px 0;
+	}
+	.recent-posts.team li .featured-thumbnail {
+		width:120px;
+		height:auto;
+		overflow:hidden;
+		float:left;
+		margin:0 20px 0 0;
+		}
+
+/* Services */
+.recent-posts.services li {
+	float:none;
+	width:100%;
+	margin:0 0 30px 0;
+	}
+
+.portfolio_custom_posts {
+	margin-top:-15px;
+}	
+.portfolio_custom_posts	li {
+	width:139px;
+	margin-top:15px;
+}
+.portfolio_custom_posts	li:nth-child(2n) {
+	margin-right:0;
+}
+
+/* Testimonials list*/
+article.testimonial {
+	padding:18px 0 0 0;
+	background-position:0 5px;
+	}
+	
+		article.testimonial .featured-thumbnail {
+			display: none;
+		}
+
+			
+
+/* Images */
+.frame.alignleft,
+.frame.alignright,
+.frame.alignnone {
+	margin-right:0;
+	width:284px;
+	}
+.frame.alignleft img,
+.frame.alignright img,
+.frame.alignnone img	{
+	width:100%;
+	height:auto;
+	}
+	
+
+/* Related Posts */
+.related-posts li {
+	width:auto;
+	float:none;
+	margin:0 0 .5em 0;
+	}
+.related-posts li:first-child {
+	margin-left:0;
+	}
+.related-posts li .featured-thumbnail {
+	display:none;
+	}
+
+
+/* SlidesJS */
+.slides_container {
+	width:300px;
+}
+.slides_container .item {
+	width:300px;
+	height:250px;
+}
+.slides_container .item .thumbnail img {
+	width:100%;
+	height:auto;
+	}
+	
+/* Address */
+.address dt {
+	width:auto;
+	margin:0 0 20px 0;
+	padding:0 0 0 55px;
+	font-size:12px;
+	float:none;
+	}
+.address dd {
+	float:none;
+	width:auto;
+	padding:0 0 0 43px;
+	margin:0 0 20px 0;
+	}
+	.address dd span {
+		width:100px;
+		}
+
+
+/* Comments */
+.commentlist ul.children {
+	margin-left:0;
+	}
+			
+
+/* Portfolio
+---------------------------------------- */
+
+/* 1 column portfolio*/
+#gallery.one_column .portfolio li a.image-wrap {
+	width:290px;
+	height:145px;
+	float:none;
+	}
+	#gallery.one_column .folio-desc {
+		width:100%;
+		padding-top:15px;
+		margin:0;
+		}
+			
+/* 4 columns portfolio*/
+#gallery.four_columns .portfolio li {
+	width:100%;
+	margin:0 0 30px 0;
+	float:none;
+	}
+	#gallery.four_columns .portfolio li a.image-wrap {
+		width:290px;
+		height:174px;
+		}
+		#gallery.four_columns .portfolio li a img {
+			width:100%;
+			height:auto;
+			}
+
+/* 2 columns portfolio*/
+#gallery.two_columns .portfolio li {
+	width:100%;
+	margin-right:0;
+	}
+	#gallery.two_columns .portfolio li a.image-wrap {
+		width:290px;
+		height:158px;
+		}
+
+/* Carousel */
+.es-carousel ul li h4 {
+	display:none;
+	}
+.es-carousel ul li .excerpt {
+	display:none;
+	}
+.es-carousel ul li .link {
+	display:none;
+	}	
+
+.post_list .featured-thumbnail {
+	float:left;
+	margin:0 20px 0 0;
+	}
+
+.latestpost .featured-thumbnail {
+	float:left;
+	margin:0 20px 0 0;
+	}
+
+
+/* Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+.image-post-format img {
+	width:100%;
+	overflow:hidden;
+	}
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:300px;
+	height:150px;
+	}
+	.slides_container_gallery .g_item {
+		width:300px;
+		}	
+
+/* Audio Format Type */
+.audiojs .scrubber {
+	width:130px;
+	}
+
+	
+	
+/* Google Map */
+.google-map {
+	position: relative;
+	padding-bottom: 46.25%;
+	height: 0;
+	overflow: hidden;
+	margin:0 0 2% 0;
+}
+.google-map iframe,  
+.google-map object,  
+.google-map embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+	
+.error404-num {
+	font-size:180px;
+	text-align:left;
+}
+
+.post-holder .featured-thumbnail {
+	float: none;
+	overflow: hidden;
+	display: block;
+	margin-right:0;
+}
+	.post-holder .featured-thumbnail img {
+		width:100%;
+		height: auto;
+	}
+
+#error404 #searchform .searching {
+	width:235px;
+}	
+	
+.no-results #searchform .searching {
+	width:235px;
+}
+	
+.slides_container .cycle_item .featured-thumbnail {
+		min-height: 301px;
+	}	
+		
+	
+/* Footer
+---------------------------------------- */
+nav.footer {
+	float:none;
+	text-align:center;
+	padding:0 0 10px 0;
+	}
+
+.widget-footer {
+	margin-bottom: 20px;
+}	
+	
+#copyright .social-networks {
+	text-align:center;
+	padding-top:10px;
+}	
+
+#footer-text {
+	width:auto;
+	float:none;
+	text-align:center;
+	}
+}

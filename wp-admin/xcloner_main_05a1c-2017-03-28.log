@@ -1,0 +1,1 @@
+[2017-03-28 18:27:20] php_system.INFO: E_NOTICE: array (   'type' => 8,   'message' => 'Undefined index: page',   'file' => '/homepages/22/d568169862/htdocs/wp-content/themes/proxy/framework/stag-admin-init.php',   'line' => 38, ) [] []

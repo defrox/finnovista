@@ -1,0 +1,250 @@
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.main-box {
+	max-width:460px;
+}
+
+/* Navigations
+---------------------------------------- */
+
+/* Primary navigation */
+nav.primary {
+	clear:both;
+	width:100%;
+	margin:0;
+	text-align:center;
+	padding:10px 0;
+}
+
+/* Logo */
+.logo {
+	padding-bottom:0;
+	}
+.logo img{
+	width:260px;
+	height:auto;
+	}
+	.logo .tagline {
+		display:block;
+		}
+
+/* Top search */
+#top-search {
+
+	}
+#top-search .input-search {
+	width:150px;
+	}
+#top-search #submit {
+	
+	}
+
+/* Header widget */
+#widget-header {
+	padding:5px 0 15px 0;
+	}
+	
+	
+/* Slider
+---------------------------------------- */
+.flexslider-holder {
+	height:175px;
+	}
+
+/* Flickr widget */
+.flickrImages a {
+	width:69px;
+	height:69px;
+	}
+
+/* Post */
+.post-meta .fright {
+	float:right;
+	clear:none;
+	}
+
+/* Testimonials list*/
+article.testimonial {
+	padding:18px 0 0 0;
+	background-position:0 5px;
+	}
+	article.testimonial .featured-thumbnail {
+		display: none;
+	}
+
+	
+.slides_container .cycle_item .featured-thumbnail {
+		min-height: 426px;
+	}
+	
+.no-results #searchform .searching {
+	width:355px;
+}	
+		
+
+/* Images */
+.frame.alignleft,
+.frame.alignright,
+.frame.alignnone {
+	margin-right:0;
+	width:404px;
+	}
+	
+/* SlidesJS */
+.slides_container {
+	width:420px;
+	overflow: hidden;
+}
+.slides_container .item {
+	width:420px;
+	height:250px;
+}
+.slides_container .item .thumbnail img {
+	width:100%;
+	height:auto;
+	}
+
+.clients .slides_container {
+	min-height: 311px;
+}
+.clients_item a img {
+	height: 137px;
+}
+
+.portfolio_custom_posts {
+	margin-top:-20px;
+}
+.portfolio_custom_posts	li {
+	width:199px;
+	margin-top: 20px;
+}
+.portfolio_custom_posts	li:nth-child(2n) {
+	margin-right:0;
+}
+
+#before-area {
+	margin-bottom: 30px;
+}
+#bottom-area {
+	margin-top: 0;
+}
+
+	
+
+/* Comments */
+.commentlist ul.children {
+	margin-left:0;
+	}
+
+
+/* Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:420px;
+	height:200px;
+	}
+	.slides_container_gallery .g_item {
+		width:420px;
+		}
+
+/* Audio Format Type */
+.audiojs .scrubber {
+	width:248px;
+	}
+	
+		
+	
+/* Portfolio
+---------------------------------------- */
+
+/* Default layout 3 columns */
+#gallery .portfolio li {
+	width:auto;
+	float:none;
+	margin-right:0;
+	}
+	#gallery .portfolio li a.image-wrap {
+		width:410px;
+		height:212px;
+		}
+		#gallery .portfolio li img {
+			width:100%;
+			height:auto;
+			}
+
+/* 1 column portfolio*/
+#gallery.one_column .portfolio li a.image-wrap {
+	width:410px;
+	height:205px;
+	float:none;
+	}
+	#gallery.one_column .folio-desc {
+		width:100%;
+		padding-top:15px;
+		margin:0;
+		}
+			
+			
+/* 2 columns portfolio*/
+#gallery.two_columns .portfolio li {
+	width:100%;
+	margin-right:0;
+	}
+	#gallery.two_columns .portfolio li a.image-wrap {
+		width:410px;
+		height:224px;
+		}		
+			
+/* 4 columns portfolio*/
+#gallery.four_columns .portfolio li {
+	width:200px;
+	margin-right:15px;
+	}
+#gallery.four_columns .portfolio li.even {
+	margin-right:0;
+	}
+	#gallery.four_columns .portfolio li a.image-wrap {
+		width:190px;
+		height:114px;
+		}
+
+#copyright .social-networks {
+	text-align:center;
+	padding-top:10px;
+}
+
+.post-holder .featured-thumbnail {
+	float: none;
+	overflow: hidden;
+	display: block;
+	margin-right:0;
+}
+	.post-holder .featured-thumbnail img {
+		width:100%;
+		height: auto;
+	}
+
+.error404-num {
+	font-size:240px;
+}	
+	
+/* Sidebar
+---------------------------------------- */
+#searchform .searching {
+	width:355px;
+	}
+	
+#error404 #searchform .searching {
+	width:350px;
+}	
+
+}

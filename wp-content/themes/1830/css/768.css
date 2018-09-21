@@ -1,0 +1,205 @@
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+.main-box {
+	max-width:792px;
+}
+
+/* Logo */
+.logo h1,
+.logo h2 {
+	font-size:2.2em;
+	}
+
+
+/* Slider
+---------------------------------------- */
+.flexslider-holder {
+	height:315px;
+	}
+
+	
+	
+/* Flickr widget */
+.flickrImages a {
+	width:58px;
+	height:58px;
+	}
+
+.frame.alignleft img,
+.frame.alignright img,
+.frame.alignnone img	{
+	width:100% !important;
+	height:auto !important;
+	}
+
+/* SlidesJS */
+.slides_container {
+	width:236px;
+}
+.slides_container .item {
+	width:236px;
+	height:170px;
+	}
+	.slides_container .item .featured-thumbnail {
+		float:none;
+		margin-right:0;
+		overflow:hidden;
+		}
+		.slides_container .item .featured-thumbnail img {
+			width:100%;
+			height:auto;
+			}
+			
+.post-holder .featured-thumbnail {
+	float: none;
+	overflow: hidden;
+	display: block;
+	margin-right:0;
+}
+	.post-holder .featured-thumbnail img {
+		width:100%;
+		height: auto;
+	}
+	
+.slides_container .cycle_item .featured-thumbnail {
+		min-height: 234px;
+	}
+	
+.no-results #searchform .searching {
+	width:360px;
+}	
+
+
+/* Team */
+.recent-posts.team li {
+	width:134px;
+	}
+.recent-posts.team li .featured-thumbnail {
+	width:134px;
+	height:auto;
+	overflow:hidden;
+	}
+	
+.portfolio_custom_posts	li {
+	width:171px;
+}
+
+
+/* Address */
+.address dt {
+	width:145px;
+	margin-right:10px;
+	padding:0 0 0 55px;
+	}
+.address dd {
+	width:175px;
+	padding:0 0 0 43px;
+	}
+	.address dd span {
+		width:80px;
+		}
+
+/* Google Map */
+.google-map {
+	position: relative;
+	padding-bottom: 46.25%;
+	height: 0;
+	overflow: hidden;
+	margin:0 0 2% 0;
+}
+.google-map iframe,  
+.google-map object,  
+.google-map embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+
+
+/* Post Formats
+---------------------------------------- */
+
+/* Image Post Format */
+.image-post-format img {
+	width:100%;
+	overflow:hidden;
+	}	
+
+/* Gallery Post Format */
+.slides_container_gallery {
+	width:534px;
+	height:270px;
+	}
+	.slides_container_gallery .g_item {
+		width:534px;
+		}
+	
+	
+/* Portfolio
+---------------------------------------- */
+
+/* Default layout 3 columns */
+#gallery .portfolio li {
+	width:237px;
+	margin:0 14px 30px 0;
+	}
+	#gallery .portfolio li a.image-wrap {
+		width:227px;
+		height:117px;
+		}
+
+/* 1 column portfolio*/
+#gallery.one_column .portfolio li a.image-wrap {
+	width:490px;
+	height:245px;
+	float:left;
+	}
+	#gallery.one_column .folio-desc {
+		width:225px;
+		padding-top:5px;
+		}
+
+		
+/* 2 columns portfolio*/
+#gallery.two_columns .portfolio li {
+	width:365px;
+	margin-right:14px;
+	}
+	#gallery.two_columns .portfolio li a.image-wrap {
+		width:355px;
+		height:192px;
+		}
+
+/* 4 columns portfolio*/
+#gallery.four_columns .portfolio li {
+	width:173px;
+	margin-right:14px;
+	}
+	#gallery.four_columns .portfolio li a.image-wrap {
+		width:163px;
+		height:97px;
+		}
+	
+/* Comment Form */
+.commentlist ul.children {
+	margin-left:0;
+	}	
+
+	
+/* Sidebar
+---------------------------------------- */
+#searchform .searching {
+	width:170px;
+	}
+
+#error404 #searchform .searching {
+	width:172px;
+}	
+	
+}

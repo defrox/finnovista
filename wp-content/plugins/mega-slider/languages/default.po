@@ -1,0 +1,371 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPrime\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-05 09:15+0700\n"
+"PO-Revision-Date: 2013-05-05 23:14+0700\n"
+"Last-Translator: WPPrime <info@wpprime.com>\n"
+"Language-Team:  <info@wpprime.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../mega-slider.php:122
+msgid "Slider created"
+msgstr ""
+
+#: ../mega-slider.php:122
+#: ../mega-slider.php:293
+msgid "View Slider"
+msgstr ""
+
+#: ../mega-slider.php:288
+#: ../mega-slider.php:289
+msgid "Add New Slider"
+msgstr ""
+
+#: ../mega-slider.php:290
+msgid "Edit Slider"
+msgstr ""
+
+#: ../mega-slider.php:291
+msgid "New Slider"
+msgstr ""
+
+#: ../mega-slider.php:292
+msgid "All Sliders"
+msgstr ""
+
+#: ../mega-slider.php:294
+msgid "Search Sliders"
+msgstr ""
+
+#: ../mega-slider.php:295
+msgid "No sliders found"
+msgstr ""
+
+#: ../mega-slider.php:296
+msgid "No sliders found in Trash"
+msgstr ""
+
+#: ../mega-slider.php:366
+msgid "General Settings"
+msgstr ""
+
+#: ../mega-slider.php:371
+msgid "Fullwidth"
+msgstr ""
+
+#: ../mega-slider.php:375
+msgid "Width"
+msgstr ""
+
+#: ../mega-slider.php:380
+msgid "Height"
+msgstr ""
+
+#: ../mega-slider.php:386
+msgid "Auto crop image"
+msgstr ""
+
+#: ../mega-slider.php:390
+msgid "Slide animation"
+msgstr ""
+
+#: ../mega-slider.php:404
+msgid "Enable touch swipe"
+msgstr ""
+
+#: ../mega-slider.php:410
+msgid "Enable responsive"
+msgstr ""
+
+#: ../mega-slider.php:414
+msgid "Loading bar"
+msgstr ""
+
+#: ../mega-slider.php:422
+msgid "Bar position"
+msgstr ""
+
+#: ../mega-slider.php:429
+msgid "Navigation"
+msgstr ""
+
+#: ../mega-slider.php:433
+msgid "Show next previous button"
+msgstr ""
+
+#: ../mega-slider.php:438
+msgid "Auto play slides"
+msgstr ""
+
+#: ../mega-slider.php:443
+msgid "Show bullet"
+msgstr ""
+
+#: ../mega-slider.php:447
+msgid "Bullet position"
+msgstr ""
+
+#: ../mega-slider.php:460
+msgid "Show thumbnail"
+msgstr ""
+
+#: ../mega-slider.php:464
+msgid "Thumbnail width"
+msgstr ""
+
+#: ../mega-slider.php:470
+msgid "Thumbail height"
+msgstr ""
+
+#: ../mega-slider.php:476
+msgid "Thumbnail position"
+msgstr ""
+
+#: ../mega-slider.php:487
+msgid "Border style"
+msgstr ""
+
+#: ../mega-slider.php:503
+msgid "Slide delay"
+msgstr ""
+
+#: ../mega-slider.php:508
+msgid "Slide's translation time"
+msgstr ""
+
+#: ../mega-slider.php:524
+msgid "Move to Trash"
+msgstr ""
+
+#: ../mega-slider.php:529
+msgid "Initilize Slider"
+msgstr ""
+
+#: ../mega-slider.php:529
+msgid "Update Settings"
+msgstr ""
+
+#: ../mega-slider.php:548
+msgid "You can use the following shortcode for displaying the newly created slider"
+msgstr ""
+
+#: ../mega-slider.php:550
+msgid "Copy and paste it where you wish the slider will display"
+msgstr ""
+
+#: ../mega-slider.php:551
+msgid "e.g. Post, Page editor, Text widget or even directly in your PHP code by using "
+msgstr ""
+
+#: ../mega-slider.php:552
+msgid "function"
+msgstr ""
+
+#: ../mega-slider.php:612
+msgid "Slider Content"
+msgstr ""
+
+#: ../mega-slider.php:615
+msgid "Add new tab"
+msgstr ""
+
+#: ../mega-slider.php:615
+msgid "ADD"
+msgstr ""
+
+#: ../mega-slider.php:620
+msgid "Slide"
+msgstr ""
+
+#: ../mega-slider.php:621
+msgid "Remove Tab"
+msgstr ""
+
+#: ../mega-slider.php:632
+#: ../mega-slider.php:935
+msgid "Choose slide background image"
+msgstr ""
+
+#: ../mega-slider.php:633
+#: ../mega-slider.php:936
+msgid "Choose slide thumbnail image"
+msgstr ""
+
+#: ../mega-slider.php:634
+#: ../mega-slider.php:937
+msgid "Clone slide"
+msgstr ""
+
+#: ../mega-slider.php:679
+msgid "Add new text"
+msgstr ""
+
+#: ../mega-slider.php:680
+msgid "Add new image"
+msgstr ""
+
+#: ../mega-slider.php:681
+msgid "Add new video"
+msgstr ""
+
+#: ../mega-slider.php:683
+msgid "Align left edge"
+msgstr ""
+
+#: ../mega-slider.php:684
+msgid "Align horizontal center"
+msgstr ""
+
+#: ../mega-slider.php:685
+msgid "Align right edge"
+msgstr ""
+
+#: ../mega-slider.php:686
+msgid "Align top edge"
+msgstr ""
+
+#: ../mega-slider.php:687
+msgid "Align vertical center"
+msgstr ""
+
+#: ../mega-slider.php:688
+msgid "Align bottom edge"
+msgstr ""
+
+#: ../mega-slider.php:690
+msgid "Space evenly vertically"
+msgstr ""
+
+#: ../mega-slider.php:691
+msgid "Space evenly horizontally"
+msgstr ""
+
+#: ../mega-slider.php:701
+msgid "Text"
+msgstr ""
+
+#: ../mega-slider.php:703
+#: ../mega-slider.php:759
+msgid "Add link"
+msgstr ""
+
+#: ../mega-slider.php:741
+msgid "Underline"
+msgstr ""
+
+#: ../mega-slider.php:742
+msgid "All caps"
+msgstr ""
+
+#: ../mega-slider.php:744
+msgid "Left alignment"
+msgstr ""
+
+#: ../mega-slider.php:745
+msgid "Center alignment"
+msgstr ""
+
+#: ../mega-slider.php:746
+msgid "Right alignment"
+msgstr ""
+
+#: ../mega-slider.php:747
+msgid "Justified alignment"
+msgstr ""
+
+#: ../mega-slider.php:749
+msgid "Text color"
+msgstr ""
+
+#: ../mega-slider.php:760
+msgid "Image"
+msgstr ""
+
+#: ../mega-slider.php:760
+msgid "Change image"
+msgstr ""
+
+#: ../mega-slider.php:768
+msgid "Video"
+msgstr ""
+
+#: ../mega-slider.php:768
+msgid "Change"
+msgstr ""
+
+#: ../mega-slider.php:834
+msgid "Background color"
+msgstr ""
+
+#: ../mega-slider.php:839
+msgid "All borders"
+msgstr ""
+
+#: ../mega-slider.php:840
+msgid "Top borders"
+msgstr ""
+
+#: ../mega-slider.php:841
+msgid "Right borders"
+msgstr ""
+
+#: ../mega-slider.php:842
+msgid "Bottom borders"
+msgstr ""
+
+#: ../mega-slider.php:843
+msgid "Left borders"
+msgstr ""
+
+#: ../mega-slider.php:853
+msgid "Border color"
+msgstr ""
+
+#: ../mega-slider.php:870
+msgid "Hover text color"
+msgstr ""
+
+#: ../mega-slider.php:873
+msgid "Hover background color"
+msgstr ""
+
+#: ../mega-slider.php:877
+msgid "Hover border color"
+msgstr ""
+
+#: ../mega-slider.php:888
+msgid "Timeline"
+msgstr ""
+
+#: ../mega-slider.php:907
+msgid "Item setting"
+msgstr ""
+
+#: ../mega-slider.php:912
+msgid "Video URL"
+msgstr ""
+
+#: ../mega-slider.php:914
+msgid "Search"
+msgstr ""
+
+#: ../mega-slider.php:917
+msgid "Video Id"
+msgstr ""
+
+#: ../mega-slider.php:921
+msgid "Video Name"
+msgstr ""
+
+#: ../mega-slider.php:927
+msgid "Choose another thumbnail"
+msgstr ""
+

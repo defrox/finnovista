@@ -1,0 +1,155 @@
+#agenda{
+	height: auto;
+	background-color:#DADADA;  
+}   
+
+#agenda_resumen{
+	background-color: transparent;
+	padding:10px;
+	width:100%;
+	margin:0 auto;
+  	display: table;
+	max-width: 1090px;
+}
+
+#agenda_resumen #left_agenda_resumen, #agenda_resumen #right_agenda_resumen, #agenda_resumen #center_agenda_resumen, #agenda_resumen #left_agenda_titulo, #agenda_resumen #center_agenda_titulo {
+	background-color:#FFFFFF;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+	float:left;
+	width: 345px;
+	padding: 5px;
+	margin: 5px;
+  clear: right;
+  display: table-cell;  
+}
+#agenda_resumen #left_agenda_resumen, #agenda_resumen #right_agenda_resumen, #agenda_resumen #center_agenda_resumen {
+  height: 700px;
+}
+#agenda_resumen #right_agenda_resumen {clearx: both;}
+#agenda_resumen #left_agenda_titulo h4, #agenda_resumen #center_agenda_titulo h4 {
+  margin: 5px !important;
+  text-align: center;
+  
+}
+#agenda_resumen #center_agenda_titulo {
+  width: 700px;
+}
+
+#agenda_resumen .box {
+	background-color: #e9e9e9;
+	width: 285px;
+	margin-left: 40px;
+	-webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+	/*box-shadow: 2px 3px 10px;*/
+	min-height:80px;
+	margin-bottom:10px;
+	position: relative;
+}
+#agenda_resumen .box.clarita {
+  bottom: 20px;
+  position: absolute;
+  color: #fff;
+  background-color: #8D8F92;
+  background-color: #C1C3C6;
+}
+#agenda_resumen .box img {
+	float:left;
+	margin: 5px 10px 0 -70px;
+	position:absolute;
+}
+
+#agenda_resumen h5{
+	text-align: center;
+	font-size: 18px;
+	color: #737373;
+}
+	
+#agenda_resumen p {
+	word-wrap:break-word;
+	font-size:14px;
+	text-align:center;
+	padding: 8px 8px 8px 35px;
+	color: #000000;
+	width: 285px;
+}
+
+#agenda_resumen .red_text{
+	color: #df027c;
+}
+
+#agenda_resumen a{
+	color:inherit !important;
+}
+
+#agenda_resumen .logo_next_bank_madrid{
+	margin-top:14px;
+}
+
+#agenda_resumen .inner_box { 
+  /*position: absolute;*/
+  padding: 5px 5px 5px 40px; 
+  display: table; 
+  min-height:80px;
+}
+
+#agenda_resumen .inner_box p {
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+}
+
+#agenda_resumen h4 {
+  width: auto;
+  display: block;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 800px) { 
+  #agenda { height: initial; }
+  #agenda_resumen { width: initial; }
+  #left_agenda_resumen, #right_agenda_resumen { margin: 15px auto; float: none; }
+}
+
+#agenda_largo .agenda_dia, #agenda_largo .agenda_titulo {
+	background-color: #e9e9e9;
+	-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+	width: auto;
+	text-align: center; 
+}
+
+#agenda_largo .agenda_dia .box {
+  text-align: left;
+  margin: 0 10px;
+  padding-bottom: 10px;
+}
+
+#agenda_largo .agenda_dia .box .inner_box {
+  background-color: #ffffff;
+	-webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 0px 5px 5px 30px;
+  min-height: 140px;
+  padding: 10px 0;
+}
+
+#agenda_largo .agenda_dia .box img, #agenda_largo .agenda_dia .box .empty_box {
+	float:left;
+	margin: 0 10px 0 -30px;
+}
+#agenda_largo .agenda_dia .box .empty_box {  width: 128px; height: 128px;}
+
+#agenda_largo .box.clarita .inner_box{
+  color: #fff;
+  background-color: #C1C3C6;
+}
+#agenda_largo p {margin: 0 !important;}
+#agenda_largo h5 {padding-top: 10px;}
+#agenda_largo .agenda_titulo h4 {padding: 10px 0; font-size: 36px;}

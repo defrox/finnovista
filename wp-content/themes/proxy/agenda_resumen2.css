@@ -1,0 +1,79 @@
+#agenda{
+	/*height: 860px;
+	background-color:#DADADA;*/
+}
+
+#agenda_resumen{
+	background-color:#dadada;
+	padding:10px;
+	width:750px;
+	margin:0 auto;
+}
+
+#agenda_resumen #left_agenda_resumen , #agenda_resumen #right_agenda_resumen {
+	background-color:#FFFFFF;
+	border-radius:20px;
+	float:left;
+	width:350px;
+	padding:5px;
+	margin:0px 7px;
+}
+
+
+#agenda_resumen .box {
+	background-color: #e9e9e9;
+	width: 285px;
+	margin-left: 40px;
+	border-radius: 15px;
+	box-shadow: 2px 3px 10px;
+	height:80px;
+	margin-bottom:20px;
+	position: relative;
+}
+
+#agenda_resumen .box img {
+	float:left;
+	margin:10px 10px 0 -30px;
+	position:absolute;
+}
+
+#agenda_resumen h5{
+	text-align: center;
+	font-size: 18px;
+	color: #737373;
+}
+	
+#agenda_resumen p {
+	word-wrap:break-word;
+	font-size:14px;
+	text-align:center;
+	padding: 8px 8px 8px 35px;
+	color: #1e1e1e;
+	width: 285px;
+}
+
+#agenda_resumen a{
+	color:inherit !important;
+}
+
+#agenda_resumen .logo_next_bank_madrid{
+	margin-top:14px;
+}
+
+#agenda_resumen .inner_box { 
+  position: absolute; 
+  display: table; 
+  height:80px;
+}
+
+#agenda_resumen .inner_box p {
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+}
+
+@media screen and (max-width: 800px) { 
+  #agenda { height: initial; }
+  #agenda_resumen { width: initial; }
+  #left_agenda_resumen, #right_agenda_resumen { margin: 15px auto; float: none; }
+}

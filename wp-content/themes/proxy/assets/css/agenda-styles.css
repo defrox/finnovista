@@ -1,0 +1,32 @@
+body.page-template-page-bootstrap-agenda ul.nav-pills {
+    list-style: none !important;
+}
+
+body.page-template-page-bootstrap-agenda .entry-content .card p {
+    margin: 0 !important;
+}
+
+.entry-content .card .agenda-time {
+    float: left;
+    margin-right: 20px;
+    clear: both;
+}
+
+.entry-content .card .category {
+    float: left;
+    font-weight: bold;
+    clear: both;
+}
+
+.entry-content .card .title {
+    float: left;
+    font-size: 120%;
+    clear: both;
+    width: 100%;
+}
+
+.entry-content .card .excerpt {
+    float: left;
+    clear: both;
+    width: 100%;
+}

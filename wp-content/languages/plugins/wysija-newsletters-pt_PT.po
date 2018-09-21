@@ -1,0 +1,5097 @@
+# Translation of Plugins - MailPoet Newsletters - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - MailPoet Newsletters - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-20 14:19:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - MailPoet Newsletters - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "MailPoet"
+msgstr "MailPoet"
+
+#. #-#-#-#-#  tmp-wysija-newsletters.pot (MailPoet Newsletters 2.6.18) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-wysija-newsletters.pot (MailPoet Newsletters 2.6.18) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://www.mailpoet.com/"
+msgstr "http://www.mailpoet.com/"
+
+#: widgets/wysija_nl.php:151
+msgid "Select a form:"
+msgstr "Seleccionar formulário:"
+
+#: widgets/wysija_nl.php:122
+msgid "iframe version"
+msgstr "Versão iFrame"
+
+#: widgets/wysija_nl.php:117
+msgid "Success message:"
+msgstr "Mensagem de sucesso:"
+
+#: widgets/wysija_nl.php:112
+msgid "Button label:"
+msgstr "Texto no botão:"
+
+#: widgets/wysija_nl.php:107
+msgid "Display labels in inputs"
+msgstr "Mostrar texto nos inputs"
+
+#: widgets/wysija_nl.php:97
+msgid "Ask for:"
+msgstr "Pedir:"
+
+#: widgets/wysija_nl.php:92
+msgid "Let subscribers select their lists:"
+msgstr "Permitir aos subscritores seleccionar as suas listas:"
+
+#: widgets/wysija_nl.php:83
+msgid "To subscribe to our dandy newsletter simply add your email below. A confirmation email will be sent to you!"
+msgstr "Para subscrever a nossa newsletter basta escrever o seu email. Em seguida receberá um pedido de confirmação."
+
+#: widgets/wysija_nl.php:78 widgets/wysija_nl.php:146
+msgid "Title:"
+msgstr "Título:"
+
+#: widgets/wysija_nl.php:68
+msgid "You've successfully subscribed."
+msgstr "Subscrição bem sucedida."
+
+#: widgets/wysija_nl.php:67
+msgid "Check your inbox now to confirm your subscription."
+msgstr "Veja na sua caixa de correio como confirmar a subscrição."
+
+#: widgets/wysija_nl.php:42 widgets/wysija_nl.php:56
+msgid "Subscription form for your newsletters."
+msgstr "Formulário de subscrição das newsletters."
+
+#: views/front/widget_nl.php:90 widgets/wysija_nl.php:41
+#: widgets/wysija_nl.php:55
+msgid "MailPoet Subscription Form"
+msgstr "Formulário de Subscrição MailPoet"
+
+#: views/front/confirm.php:107
+msgid "Your lists"
+msgstr "As suas listas"
+
+#: views/back.php:682
+msgid "Add"
+msgstr "Adicionar"
+
+#: views/back.php:680
+msgid "Modify"
+msgstr "Modificar"
+
+#: views/back.php:315
+msgid "Subscribers to show per page:"
+msgstr "Subscritores a mostrar por página:"
+
+#: views/back.php:295
+msgid "Split subscribers into %1$s pages."
+msgstr "Dividir subscritores por %1$s páginas."
+
+#: views/back.php:257
+msgid "of %1$s"
+msgstr "de %1$s"
+
+#: views/back.php:249 views/back.php:251 views/back.php:262 views/back.php:264
+msgid "Page %1$s"
+msgstr "Página %1$s"
+
+#: views/back/tmce.php:72
+msgid "Insert form"
+msgstr "Inserir formuário"
+
+#: views/back/subscribers.php:1260
+msgid "Import the %1$s subscribers from the plugin: %2$s "
+msgstr "Importar %1$s subscritores a partir do plugin: %2$s "
+
+#: views/back/subscribers.php:1217
+msgid "subscribers will receive \"%1$s\" after import."
+msgstr "os subscritores receberão \"%1$s\" após importar."
+
+#: views/back/subscribers.php:1217
+msgid "Note:"
+msgstr "Nota:"
+
+#: views/back/subscribers.php:1209
+msgid "Type name of your new list"
+msgstr "Escreva o nome da sua nova lista"
+
+#: views/back/subscribers.php:1181
+msgid "New list"
+msgstr "Nova lista"
+
+#: views/back/subscribers.php:1173
+msgid "Pick the lists you want to import those subscribers to."
+msgstr "Escolha as listas para as quais pretende importar esses subscritores."
+
+#: views/back/subscribers.php:1172
+msgid "Pick one or many lists"
+msgstr "Escolher uma ou várias listas"
+
+#: views/back/subscribers.php:1107 views/back/subscribers.php:1146
+msgid "Error matching date."
+msgstr "Ocorreu um erro ao comparar as datas."
+
+#: views/back/subscribers.php:1107 views/back/subscribers.php:1146
+msgid "Do not match as a 'date field' if most of the rows for that column return the same error."
+msgstr "Não compare como um campo de data se a maioria das linhas desta coluna retornam o mesmo erro."
+
+#: views/back/subscribers.php:1103 views/back/subscribers.php:1142
+msgid "Verify that the date in blue matches the original one."
+msgstr "Confira se a data a azul bate com a data original"
+
+#: views/back/subscribers.php:1023
+msgid "Import \"%1$s\" as date field"
+msgstr "Importar \"%1$s\" como um campo de data"
+
+#: views/back/subscribers.php:1022
+msgid "Import as \"%1$s\""
+msgstr "Importar como \"%1$s\""
+
+#: views/back/subscribers.php:968
+msgid "Ignore column..."
+msgstr "Ignorar coluna…"
+
+#: views/back/subscribers.php:965
+msgid "Match data"
+msgstr "Dados comparados"
+
+#: views/back/subscribers.php:938
+msgid "[link]Read more on support.mailpoet.com[/link]."
+msgstr "[link]Leia mais em support.mailpoet.com[/link]."
+
+#: views/back/subscribers.php:937
+msgid "If the answer is \"no\", consider yourself a spammer."
+msgstr "Se a sua resposta é \"não\", considere-se um spammer."
+
+#: views/back/subscribers.php:935
+msgid "Did these subscribers ask to be in your list?"
+msgstr "Estes subscritores pediram para estar na sua lista?"
+
+#: views/back/subscribers.php:925
+msgid "This needs to be in CSV style. See [link]examples in our support site[/link]."
+msgstr "Deve estar em formato CSV. Ver [link]exemplos no site de apoio[/link]."
+
+#: views/back/subscribers.php:914
+msgid "This needs to be in CSV style or a simple paste from Gmail, Hotmail or Yahoo. See [link]examples in our support site[/link]."
+msgstr "Deve estar em formato CSV ou colado a partir de Gmail, Hotmail ou Yahoo. Ver [link]exemplos no site de apoio[/link]."
+
+#: views/back/subscribers.php:913
+msgid "Then paste your list here"
+msgstr "Depois colar a lista aqui"
+
+#: views/back/subscribers.php:900
+msgid "Import from %1$s"
+msgstr "Importar de %1$s"
+
+#: views/back/subscribers.php:885 views/back/subscribers.php:924
+msgid "Upload a file"
+msgstr "Carregar ficheiro"
+
+#: views/back/subscribers.php:882
+msgid "Copy paste in a text box"
+msgstr "Copiar e colar em caixa de texto"
+
+#: views/back/subscribers.php:877
+msgid "How do you want to import?"
+msgstr "Como deseja importar?"
+
+#: views/back/subscribers.php:851
+msgid "Add list"
+msgstr "Adicionar lista"
+
+#: views/back/subscribers.php:847
+msgid "Update list"
+msgstr "Actualizar lista"
+
+#: views/back/subscribers.php:836
+msgid "For your own use and never shown to your subscribers."
+msgstr "Para seu próprio uso. Nunca será visível pelos seus subscritores."
+
+#: views/back/subscribers.php:774
+msgid "Get all MS users"
+msgstr "Obter todos os utilizadores MS"
+
+#: views/back/subscribers.php:764
+msgid "Update"
+msgstr "Actualizar"
+
+#: views/back/subscribers.php:727
+msgid "Date created"
+msgstr "Data de criação"
+
+#: views/back/subscribers.php:648
+msgid "Note: Find out what this subscriber opened and clicked with our [link]Premium version.[/link]"
+msgstr "Nota: saiba quais os subscritores que abrem e clicam com a [link]versão Premium.[/link]"
+
+#: views/back/subscribers.php:587 views/front/confirm.php:140
+msgid "Unsubscribed on %1$s"
+msgstr "Cancelado em %1$s"
+
+#: views/back/subscribers.php:447
+msgid "List of fields to export"
+msgstr "Lista de campos a exportar"
+
+#: views/back/subscribers.php:427
+msgid "Export confirmed subscribers only"
+msgstr "Exportar apenas os subscritores confirmados"
+
+#: views/back/subscribers.php:419
+msgid "Excel for Windows"
+msgstr "Excel para Windows"
+
+#: views/back/subscribers.php:417
+msgid "CSV file"
+msgstr "Ficheiro CSV"
+
+#: views/back/subscribers.php:414
+msgid "Format"
+msgstr "Formato"
+
+#: views/back/subscribers.php:396
+msgid "Pick a list"
+msgstr "Escolher uma lista"
+
+#: views/back/subscribers.php:356
+msgid "Lists to which the subscriber was subscribed."
+msgstr "Listas subscritas pelo subscritor."
+
+#: views/back/subscribers.php:301
+msgid "Clear selection"
+msgstr "Limpar selecção"
+
+#: views/back/subscribers.php:300
+msgid "All %1$s subscribers are selected."
+msgstr "Todos os %1$s subscritores estão seleccionados."
+
+#: views/back/subscribers.php:297
+msgid "Select all %1$s subscribers."
+msgstr "Selecionar todos os %1$s subscritores."
+
+#: views/back/subscribers.php:296
+msgid "All subscribers on this page are selected."
+msgstr "Todos os subscritores nesta página estão selecionados."
+
+#: views/back/subscribers.php:278
+msgid "Last click"
+msgstr "Último clique"
+
+#: views/back/subscribers.php:277
+msgid "Last open"
+msgstr "Último aberto"
+
+#: views/back/subscribers.php:219
+msgid "Subscribers in no list"
+msgstr "Subscritores sem lista associada"
+
+#: views/back/subscribers.php:211
+msgid "View all lists"
+msgstr "Visualizar todas as listas"
+
+#: views/back/subscribers.php:175
+msgid "Resend confirmation email"
+msgstr "Reenviar email de confirmação"
+
+#: views/back/subscribers.php:174
+msgid "Confirm unconfirmed subscribers"
+msgstr "Confirmar subscritores não confirmados"
+
+#: views/back/subscribers.php:167
+msgid "Delete subscribers"
+msgstr "Eliminar subscritores"
+
+#: views/back/subscribers.php:165
+msgid "Remove from all lists"
+msgstr "Remover de todas as listas"
+
+#: views/back/subscribers.php:150
+msgid "Remove from list"
+msgstr "Remover da lista"
+
+#: views/back/subscribers.php:135
+msgid "Add to list"
+msgstr "Adicionar à lista"
+
+#: views/back/subscribers.php:120
+msgid "Move to list"
+msgstr "Mover para lista"
+
+#: views/back/subscribers.php:119 views/back.php:202
+msgid "Bulk Actions"
+msgstr "Acções por lotes"
+
+#: views/back/subscribers.php:113
+msgid "Delete these subscribers forever?"
+msgstr "Apagar estes subscritores para sempre?"
+
+#: views/back/subscribers.php:112
+msgid "Delete this subscriber forever?"
+msgstr "Apagar este subscritor para sempre?"
+
+#: views/back/subscribers.php:90
+msgid "Never opened or clicked"
+msgstr "Nunca aberta ou clicada"
+
+#: views/back/subscribers.php:87
+msgid "Unlisted"
+msgstr "Não listado"
+
+#: views/back/subscribers.php:34 views/back/subscribers.php:166
+#: views/back/subscribers.php:465
+msgid "Export"
+msgstr "Exportar"
+
+#: views/back/subscribers.php:34 views/back/subscribers.php:1235
+#: views/back/subscribers.php:1270
+msgid "Import"
+msgstr "Importar"
+
+#: views/back/subscribers.php:34
+msgid "Edit Lists"
+msgstr "Editar listas"
+
+#: views/back/subscribers.php:34
+msgid "Back to lists"
+msgstr "Voltar às listas"
+
+#: views/back/subscribers.php:15
+msgid "Search subscribers"
+msgstr "Procurar subscritores"
+
+#: views/back/subscribers.php:12
+msgid "Lists and Subscribers"
+msgstr "Listas e subscritores"
+
+#: views/back/statistics.php:68
+msgid "You have feedback on these stats? [link]Contact us[/link] directly to let us know."
+msgstr "Possui feedback para nós sobre estas estatísticas? [link]Entre em contacto connosco[/link] directamente e conte-nos tudo."
+
+#: views/back/statistics.php:48
+msgid "To"
+msgstr "Para"
+
+#: views/back/statistics.php:7
+msgid "Stats dashboard"
+msgstr "Dashboard de estatísticas"
+
+#: views/back/premium.php:307
+msgid "Read our simple and easy [link]terms and conditions.[/link]"
+msgstr "Ver os nossos (simples e curtos) [link]termos e condições.[/link]"
+
+#: views/back/premium.php:297
+msgid "For %s per year, get all of your sites covered with Premium."
+msgstr "Por %s por ano, obtenha a versão Premium activa em todos os seus sites."
+
+#: views/back/premium.php:291
+msgid "For %s per year, get 4 of your sites covered with Premium."
+msgstr "Fique com 4 sites com a versão Premium por %s por ano."
+
+#: views/back/premium.php:290
+msgid "Freelancer"
+msgstr "Freelancer"
+
+#: views/back/premium.php:288 views/back/premium.php:292
+#: views/back/premium.php:298
+msgid "Get it now!"
+msgstr "Obter agora!"
+
+#: views/back/premium.php:287
+msgid "For %s per year, get 1 site covered with Premium."
+msgstr "Por %s por ano, obtenha a versão Premium activa num site."
+
+#: views/back/premium.php:283
+msgid "We have 3 different licences available to fit your needs:"
+msgstr "Nós temos 3 tipos de licença disponíveis para as suas necessidades:"
+
+#: views/back/premium.php:271
+msgid "Be productive thanks to Premium!"
+msgstr "Seja produtivo com a versão Premium!"
+
+#: views/back/premium.php:261
+msgid "Still having doubts about our product and our team of 9? No stress, we're confident enough to give you 30 days to try it out. We'll refund you in an instant if you are not happy. [link]Become Premium now without stress.[/link]"
+msgstr "Ainda tem dúvidas acerca do nosso produto e da nossa equipa? Não há problema, a nossa autoconfiança permite-nos dar-lhe 30 dias para testar. Se não ficar satisfeito, devolvemos-lhe o dinheiro imediatamente. [link]Torne-se Premium sem stress.[/link]"
+
+#: views/back/premium.php:260
+msgid "30 days happiness guarantee"
+msgstr "Garantia de felicidade por 30 dias"
+
+#: views/back/premium.php:253
+msgid "Verify what your subscribers do once you drove them onto your site and improve your retention rate. [link]Track your readers with GA in Premium.[/link]"
+msgstr "Verifique o que seus subscritores fazem depois que os levou ao seu site e melhore sua taxa de retenção. [link]Analise os seus subscritores com o Google Analytics na versão Premium.[/link]"
+
+#: views/back/premium.php:252
+msgid "Track your readers within Google Analytics"
+msgstr "Siga os seus leitores com o Google Analytics"
+
+#: views/back/premium.php:246
+msgid "Not good at matching colors? Don't worry, we work with top notch designers to provide you plenty of themes, the newest are Premium exclusives. [link]Get more themes in Premium.[/link]"
+msgstr "Não é bom a combinar cores? Não se preocupe, nós trabalhamos com óptimos designers para disponibilizar óptimos temas! Os mais novos são exclusivos da versão Premium. [link]Obtenha mais temas na versão Premium.[/link]"
+
+#: views/back/premium.php:245
+msgid "Get more themes"
+msgstr "Obtenha mais temas"
+
+#: views/back/premium.php:239
+msgid "Skip the queue, go straight to our priority inbox. [link]Get faster support with Premium.[/link]"
+msgstr "Passe à frente, vá direto para a nossa caixa de entrada prioritária. [link]Obter suporte mais rápido com Premium.[/link]"
+
+#: views/back/premium.php:238
+msgid "Get faster support"
+msgstr "Obtenha suporte mais rápido"
+
+#: views/back/premium.php:232
+msgid "Discover which links are the top hits in each newsletter. Find out which subscribers are your number one fans and get advanced details about them. [link]Get more data with Premium.[/link]"
+msgstr "Descubra quais são os links com mais sucesso em cada newsletter. Saiba quais subscritores são os seus fãs número 1 e obtenha detalhes avançados sobre eles. [link]Obter mais dados com Premium.[/link]"
+
+#: views/back/premium.php:231
+msgid "Investigate your top subscribers"
+msgstr "Analise os seus subscritores"
+
+#: views/back/premium.php:225
+msgid "Remove the 2000 subscribers limit of the free version, and send to as many subscribers as you wish. [link]Get rid of that limit![/link]"
+msgstr "Remova o limite de 2000 subscritores da versão grátis e envie as newsletters sem limites. [link]Livre-se desse limite, agora![/link]"
+
+#: views/back/premium.php:224
+msgid "Forget about limits"
+msgstr "Esqueça os limites"
+
+#: views/back/premium.php:218
+msgid "Did you know? It's better to send fewer emails at higher frequencies. Become Premium and we'll ping your site each 15 minutes making sure your emails are sent smoothly at this frequency. [link]Send better with Premium.[/link]"
+msgstr "Você sabia? É melhor enviar menos e-mails em frequências mais altas. Torne-se um utilizador Premium e vamos \"pingar\" o seu site a cada 15 minutos, certificando-se que seus e-mails serão enviados sem problemas nesta frequência. [link]Enviar melhor com Premium.[/link]"
+
+#: views/back/premium.php:217
+msgid "Send at a higher frequency"
+msgstr "Envie com uma frequência maior"
+
+#: views/back/premium.php:211
+msgid "Send like a PRO and keep your server's sending reputation HIGH. Thanks to our advanced list cleaning tool, you can finally avoid sending to old or invalid email addresses. [link]Keep your list clean with Premium.[/link]"
+msgstr "Envie como um profissional e mantenha a reputação ALTA de envio do seu servidor. Graças à nossa ferramenta de limpeza avançada de listas, pode finalmente evitar o envio para endereços de email antigos ou inválidos. [link]Mantenja sua lista limpa com Premium.[/link]"
+
+#: views/back/premium.php:210
+msgid "Clean automatically your mailing list"
+msgstr "Limpar automaticamente a lista de e-mails"
+
+#: views/back/premium.php:203
+msgid "Looking for answers? Why such and such campaign worked so well? Which is your most efficient subscription form? Get a clear picture with our brand new stats dashboard! [link]Get the stats dashboard in Premium.[/link]"
+msgstr "Está à procura de respostas? Porque será que algumas campanhas funcionam tão bem? Qual é seu formulário de subscrição mais eficiente? Tenha uma visão clara com nosso novo painel de estatísticas! [link]Obtenha o painel de estatísticas na versão Premium.[/link]"
+
+#: views/back/premium.php:202
+msgid "Monitor everything with more stats"
+msgstr "Monitorize tudo com mais estatísticas"
+
+#: views/back/premium.php:189
+msgid "Got a sales question? [link]Get in touch[/link]."
+msgstr "Tem dúvidas sobre compras? [link]Entre em contacto[/link]."
+
+#: views/back/premium.php:186
+msgid "Already paid?"
+msgstr "Já pagou?"
+
+#: views/back/premium.php:182
+msgid "Buy Now"
+msgstr "Compre agora"
+
+#: views/back/premium.php:169
+msgid "Multisite ready."
+msgstr "Preparado para multisite"
+
+#: views/back/premium.php:168
+msgid "Unlimited Sites"
+msgstr "Número de sites ilimitado"
+
+#: views/back/premium.php:165
+msgid "Four Sites"
+msgstr "Quatro sites"
+
+#: views/back/premium.php:162
+msgid "Single Site"
+msgstr "Um site"
+
+#: views/back/premium.php:148 views/back/premium.php:152
+#: views/back/premium.php:156
+msgid "per year"
+msgstr "por ano"
+
+#: views/back/premium.php:135
+msgid "Freelance"
+msgstr "Freelance"
+
+#: views/back/premium.php:132 views/back/premium.php:286
+msgid "Blogger"
+msgstr "Blogger"
+
+#: views/back/premium.php:121
+msgid "Stats of clicked links for each newsletter"
+msgstr "Estatísticas de links clicados para cada newsletter"
+
+#: views/back/premium.php:120
+msgid "Detailed stats for each subscriber"
+msgstr "Estatísticas detalhadas para cada subscritor"
+
+#: views/back/premium.php:119
+msgid "Find out what happens to your subscribers once they arrive on your site, thanks to Google Analytics campaign tracking"
+msgstr "Descubra o que acontece com os seus subscritores assim que eles chegam ao seu site, graças ao rastreio de campanha do Google Analytics"
+
+#: views/back/premium.php:116
+msgid "And more..."
+msgstr "E mais..."
+
+#: views/back/premium.php:106
+msgid "The free version blocks the sending of your newsletters when you have 2000 confirmed subscribers. The Premium removes this limit."
+msgstr "A versão Free (gratuita) bloqueia o envio de newsletters quando chegar a 2000 subscritores confirmados. A versão Premium remove este limite."
+
+#: views/back/premium.php:105
+msgid "No more limits of 2000 subscribers"
+msgstr "Sem o limite de 2000 subscritores"
+
+#: views/back/premium.php:94
+msgid "The kitten is just to fill the blank space. He looks hungry, no? We love kittens."
+msgstr "O gatinho só está ali para preencher o espaço em branco. Ele parece faminto, não é? Nós adoramos gatinhos."
+
+#: views/back/premium.php:93
+msgid "A great way to try the Premium. No one should be locked in, ever."
+msgstr "Um bom modo de testar a versão premium. Ninguém deve ficar preso para sempre."
+
+#: views/back/premium.php:92
+msgid "30 day money back"
+msgstr "Devolvemos seu dinheiro de volta até 30 dias"
+
+#: views/back/premium.php:87
+msgid "Moreover, MailPoet checks every 15 minutes your site, <strong>just like a \"cron\" job</strong>, to make sure your emails are being sent on time. No setup involved!"
+msgstr "Além do mais, o MailPoet irá visitar seu site a cada 15 minutos, <strong>assim como um serviço de \"cron\"</strong>, para garantir que seus emails sejam enviados na hora. Nenhuma configuração é necessária!"
+
+#: views/back/premium.php:85
+msgid "Let the plugin remove the <strong>bounced and invalid addresses</strong> automatically. [link]See the guide.[/link]"
+msgstr "Deixe que o plugin remova automaticamente os <strong>emails devolvidos e inválidos</strong>. [link]Veja o guia.[/link]"
+
+#: views/back/premium.php:83
+msgid "Automate the boring stuff"
+msgstr "Automatize as coisas chatas"
+
+#: views/back/premium.php:79
+msgid "Our international and friendly team will help you optimize your settings in details, and make sure you're all good to go. We answer questions under 10h on average. Pretty fast!"
+msgstr "Nossa equipa simpática e internacional irá ajudar-lo a optimizar as suas opções detalhadamente. Além de garantir que está configurado correctamente. Dúvidas respondidas até 10h (em média). Somos rápidos!"
+
+#: views/back/premium.php:78
+msgid "Let us configure it"
+msgstr "Deixe-nos configurar por si"
+
+#: views/back/premium.php:63
+msgid "Add a DKIM signature to your newsletters to increase the deliverability of your newsletters. [link]Read the setup guide.[/link]"
+msgstr "Adicione uma assinatura DKIM para aumentar a entrega das suas newsletters. [link]Leia o guia de configuração.[/link]"
+
+#: views/back/premium.php:61
+msgid "Spam filters love DKIM"
+msgstr "Os filtros de spam adoram DKIM"
+
+#: views/back/premium.php:59
+msgid "Get your spam score in 1 click while you're designing your newsletter thanks to [link]mail-tester[/link], our own popular in-house tool."
+msgstr "Obtenha o seu nível de spam com 1 clique enquanto você está desenhando sua newsletter, graças ao [link]mail-tester[/link], a nossa ferramenta popular de análise de spam."
+
+#: views/back/premium.php:57
+msgid "Reach their inboxes"
+msgstr "Coloque-se na caixa de entrada dos seus subscritores"
+
+#: views/back/premium.php:47
+msgid "Are you doing better now than 3 months ago? Select a date range to reveal changes in your results."
+msgstr "Está melhor agora do que há 3 meses atrás? Escolha um intervalo de datas para revelar as mudanças nos seus resultados."
+
+#: views/back/premium.php:46
+msgid "Compare past & present"
+msgstr "Compare o presente e o passado"
+
+#: views/back/premium.php:42
+msgid "Does my sidebar form get more subscribers than the one in the footer? It's time to find out."
+msgstr "Será que o formulário da minha barra lateral (sidebar) recebe mais assinantes do que a que está no rodapé? Está na hora de saber!"
+
+#: views/back/premium.php:41
+msgid "Increase your subscribers"
+msgstr "Aumente seus subscritores"
+
+#: views/back/premium.php:37
+msgid "See your top newsletters, top subscribers, top links, top lists, and top domains on one screen. Can you beat your past newsletters?"
+msgstr "Veja as suas melhores newsletters e subscritores, links mais acedidos, e domínios mais comuns numa única janela. Será que consegue bater estas performances?"
+
+#: views/back/premium.php:36
+msgid "Have fun improving"
+msgstr "Divirta-se melhorando"
+
+#: views/back/premium.php:31
+msgid "View full screenshot"
+msgstr "Ver captura de tela completa"
+
+#: views/back/premium.php:28
+msgid "All Your Stats in a Single Dashboard"
+msgstr "Todas as suas estatísticas em um único lugar"
+
+#: views/back/premium.php:25
+msgid "The Sweeter Experience of our Premium"
+msgstr "A doce experiência da nossa versão Premium"
+
+#: views/back/config.php:2734
+msgid "Nothing"
+msgstr "Nada"
+
+#: views/back/config.php:2732
+msgid "Validate for:"
+msgstr "Validar para:"
+
+#: views/back/config.php:2725
+msgid "Alphanumerical "
+msgstr "Alfanumérico"
+
+#: views/back/config.php:2724
+msgid "Letters only"
+msgstr "Apenas letras"
+
+#: views/back/config.php:2723
+msgid "Numbers only"
+msgstr "Apenas números"
+
+#: views/back/config.php:2619
+msgid "Order:"
+msgstr "Ordem:"
+
+#: views/back/config.php:2530
+msgid "Add item"
+msgstr "Adicionar item"
+
+#: views/back/config.php:2434
+msgid "Type of date:"
+msgstr "Tipo de data:"
+
+#: views/back/config.php:2423
+msgid "Month (January, February,...)"
+msgstr "Mês (Janeiro, Fevereiro...)"
+
+#: views/back/config.php:2422
+msgid "Year, month"
+msgstr "Ano, mês"
+
+#: views/back/config.php:2421
+msgid "Year, month, day"
+msgstr "Ano, mês, dia"
+
+#: views/back/config.php:2349
+msgid "Select the list you want to add:"
+msgstr "Seleccione a lista que deseja adicionar:"
+
+#: views/back/config.php:2302
+msgid "1 line"
+msgid_plural "%d lines"
+msgstr[0] "1 linha"
+msgstr[1] "%d linhas"
+
+#: views/back/config.php:2298
+msgid "Number of lines:"
+msgstr "Número de linhas:"
+
+#: views/back/config.php:2253
+msgid "Automatically add paragraphs"
+msgstr "Adicionar parágrafos automaticamente"
+
+#: views/back/config.php:2211
+msgid "Field's name:"
+msgstr "Nome do campo:"
+
+#: views/back/config.php:2169
+msgid "Select a field type:"
+msgstr "Seleccione um tipo de campo:"
+
+#: views/back/config.php:2157
+msgid "Checkbox"
+msgstr "Caixa de selecção"
+
+#: views/back/config.php:2156
+msgid "Radio buttons"
+msgstr "Botões de opções"
+
+#: views/back/config.php:2155
+msgid "Text Area"
+msgstr "Área de texto"
+
+#: views/back/config.php:2154
+msgid "Text Input"
+msgstr "Campo de texto"
+
+#: views/back/config.php:1869
+msgid "go to page"
+msgstr "ir para página"
+
+#: views/back/config.php:1868
+msgid "show message"
+msgstr "mostrar mensagem"
+
+#: views/back/config.php:1866
+msgid "After submit..."
+msgstr "Após submeter..."
+
+#: views/back/config.php:1849
+msgid "Choose a list"
+msgstr "Escolha uma lista"
+
+#: views/back/config.php:1838
+msgid "This form adds subscribers to these lists:"
+msgstr "Este formulário adiciona subscritores a estas listas:"
+
+#: views/back/config.php:1816
+msgid "List of forms"
+msgstr "Lista de formulários"
+
+#: views/back/config.php:1815
+msgid "Edit name"
+msgstr "Editar nome"
+
+#: views/back/config.php:1806 views/back/subscribers.php:34
+msgid "Add List"
+msgstr "Adicionar lista"
+
+#: views/back/config.php:1805
+msgid "Yikes! To edit a form, you need to have at least 1 list."
+msgstr "Ups! Para editar um formulário, precisa de ter pelo menos uma lista."
+
+#: views/back/config.php:1803
+msgid "Edit form"
+msgstr "Editar formulário"
+
+#: views/back/config.php:1755
+msgid "User choice: %s"
+msgstr "Escolha do utilizador: %s"
+
+#: views/back/config.php:1750
+msgid "No list specified"
+msgstr "Nenhuma lista especificada"
+
+#: views/back/config.php:1710 widgets/wysija_nl.php:155
+msgid "Create a new form"
+msgstr "Criar novo formulário"
+
+#: views/back/config.php:1380
+msgid "Your SPF record"
+msgstr "O seu registo SPF"
+
+#: views/back/config.php:1373
+msgid "SPF and DKIM"
+msgstr "SPF e DKIM"
+
+#: views/back/config.php:1361
+msgid "Allow site admins to change the sending method"
+msgstr "Permitir que os administradores do site alterem o método de envio"
+
+#: views/back/config.php:1354
+msgid "Configuration and Permissions"
+msgstr "Configuração e permissões"
+
+#: views/back/config.php:1345
+msgid "Configure SPF and DKIM independently for each site."
+msgstr "Configure os parâmetros SPF e DKIM para cada site."
+
+#: views/back/config.php:1344
+msgid "Configure each site manually"
+msgstr "Configurar cada site manualmente"
+
+#: views/back/config.php:1330
+msgid "One configuration for all sites"
+msgstr "Uma configuração para todos os sites"
+
+#: views/back/config.php:1314
+msgid "Pick your prefered configuration?"
+msgstr "Escolher a sua configuração preferida?"
+
+#: views/back/config.php:1275
+msgid "Reinstall now..."
+msgstr "Reinstalar agora…"
+
+#: views/back/config.php:1260 views/back/statistics.php:10
+msgid "Show"
+msgstr "Mostrar"
+
+#: views/back/config.php:1260
+msgid "Hide"
+msgstr "Esconder"
+
+#: views/back/config.php:1258
+msgid "Do or do not. There is no try."
+msgstr "Faça ou não faça. Não há tentativas."
+
+#: views/back/config.php:1234
+msgid "Debug mode"
+msgstr "Modo de depuração"
+
+#: views/back/config.php:1228
+msgid "Enable MailPoet's Cron"
+msgstr "Activar o cron do MailPoet"
+
+#: views/back/config.php:1221
+msgid "Charset"
+msgstr "Conjunto de caracteres"
+
+#: views/back/config.php:1203
+msgid "Select your industry."
+msgstr "Seleccione a sua indústria."
+
+#: views/back/config.php:1202
+msgid "Industry"
+msgstr "Indústria"
+
+#: views/back/config.php:1200
+msgid "technology"
+msgstr "tecnologias"
+
+#: views/back/config.php:1199
+msgid "religious"
+msgstr "religioso"
+
+#: views/back/config.php:1198
+msgid "real estate"
+msgstr "imobiliário"
+
+#: views/back/config.php:1197
+msgid "travel"
+msgstr "viagens"
+
+#: views/back/config.php:1196
+msgid "photography"
+msgstr "fotografia"
+
+#: views/back/config.php:1195
+msgid "non profit"
+msgstr "não lucrativo"
+
+#: views/back/config.php:1192
+msgid "health and sports"
+msgstr "saúde e desportos"
+
+#: views/back/config.php:1191
+msgid "government"
+msgstr "governamental"
+
+#: views/back/config.php:1190
+msgid "insurance"
+msgstr "seguros"
+
+#: views/back/config.php:1189
+msgid "food"
+msgstr "comida"
+
+#: views/back/config.php:1188
+msgid "e-commerce"
+msgstr "e-commerce"
+
+#: views/back/config.php:1187
+msgid "education"
+msgstr "educação"
+
+#: views/back/config.php:1186
+msgid "business"
+msgstr "negócios"
+
+#: views/back/config.php:1185
+msgid "art"
+msgstr "arte"
+
+#: views/back/config.php:1184
+msgid "other"
+msgstr "outro"
+
+#: views/back/config.php:1176
+msgid "Share anonymous data and help us improve the plugin. [link]Read more[/link]."
+msgstr "Partilhe informação anónima e ajude-nos a melhorar o plugin. [link]Ler mais[/link]."
+
+#: views/back/config.php:1175
+msgid "Share anonymous data"
+msgstr "Partilhar informação anónima"
+
+#: views/back/config.php:1168
+msgid "This allows you to modify the HTML of text blocks in the visual editor."
+msgstr "Isto permite a modificação de HTML em blocos de texto no editor visual."
+
+#: views/back/config.php:1165
+msgid "Allow HTML edits"
+msgstr "Permitir edições HTML"
+
+#: views/back/config.php:1160
+msgid "Select the page to display the subscriber's profile."
+msgstr "Seleccione a página para mostrar o perfil do subscritor."
+
+#: views/back/config.php:1159
+msgid "Subscriber profile page"
+msgstr "Página de perfil do subscritor"
+
+#: views/back/config.php:1155
+msgid "Preview page"
+msgstr "Pré-visualizar página"
+
+#: views/back/config.php:1153
+msgid "Subscribers can edit their profile"
+msgstr "Os subscritores podem editar os seus perfis"
+
+#: views/back/config.php:1145
+msgid "Purchase the premium version."
+msgstr "Comprar a versão Premium."
+
+#: views/back/config.php:1143
+msgid "Bounce Email"
+msgstr "Email devolvido"
+
+#: views/back/config.php:1106
+msgid "API Key"
+msgstr "Chave de API"
+
+#: views/back/config.php:1097 views/back/config.php:1676
+msgid "We suggest you setup a cron job. [link]Read more[/link] on support.mailpoet.com"
+msgstr "Sugerimos que crie um tarefa cron. [link]Ler mais[/link] em support.mailpoet.com"
+
+#: views/back/config.php:1097 views/back/config.php:1676
+msgid "This is fast!"
+msgstr "Que rápido!"
+
+#: views/back/config.php:1089 views/back/config.php:1669
+msgid "emails"
+msgstr "emails"
+
+#: views/back/config.php:1077 views/back/config.php:1660
+msgid "Your web host has limits. We suggest 70 emails per hour to be safe. [link]Find out more[/link]."
+msgstr "O seu serviço de alojamento tem limites. Por segurança, sugerimos 70 emails a cada 15 minutos. [link]Saiba mais[/link]."
+
+#: views/back/config.php:1075 views/back/config.php:1658
+msgid "Send..."
+msgstr "Enviar…"
+
+#: views/back/config.php:1068 views/back/config.php:1650
+msgid "Send a test mail"
+msgstr "Enviar email de teste"
+
+#: views/back/config.php:1064 views/back/config.php:1646
+msgid "Test method"
+msgstr "Testar método"
+
+#: views/back/config.php:1011 views/back/config.php:1612
+msgid "Leave this option to Yes. Only a tiny portion of SMTP services ask Authentication to be turned off."
+msgstr "Deixe esta opção ligada. Poucos serviços SMTP exigem que a autenticação esteja desligada."
+
+#: views/back/config.php:1010 views/back/config.php:1611
+msgid "Authentication"
+msgstr "Autenticação"
+
+#: views/back/config.php:993 views/back/config.php:1595
+msgid "Secure connection"
+msgstr "Ligação segura"
+
+#: views/back/config.php:973 views/back/config.php:1576
+msgid "SMTP port"
+msgstr "Porta SMTP"
+
+#: views/back/config.php:951 views/back/config.php:1554
+msgid "Activate if your SMTP ports are blocked."
+msgstr "Activar se as suas portas SMTP estiverem bloqueadas."
+
+#: views/back/config.php:933 views/back/config.php:1107
+#: views/back/config.php:1535
+msgid "Password"
+msgstr "Senha"
+
+#: views/back/config.php:899 views/back/config.php:1500
+msgid "e.g.:smtp.mydomain.com"
+msgstr "p.ex.: smtp.mydomain.com"
+
+#: views/back/config.php:898 views/back/config.php:1499
+msgid "SMTP Hostname"
+msgstr "Nome do servidor SMTP"
+
+#: views/back/config.php:884 views/back/config.php:1486
+msgid "Use the same method as the one used for your WP site."
+msgstr "Utilizar o mesmo método usado no seu site WordPress."
+
+#: views/back/config.php:871
+msgid "Sendmail path"
+msgstr "Directório Sendmail"
+
+#: views/back/config.php:867
+msgid "This method works on 5&#37; of servers"
+msgstr "Este método funciona em 5&#37; dos servidores"
+
+#: views/back/config.php:855 views/back/config.php:1473
+msgid "This email engine works on 95&#37; of servers"
+msgstr "Este motor de emails funciona em 95&#37; dos servidores"
+
+#: views/back/config.php:838 views/back/config.php:1456
+msgid "Send yourself some test emails to confirm which method works with your server."
+msgstr "Envie para si alguns emails de teste para confirmar qual o método mais eficaz para o seu servidor."
+
+#: views/back/config.php:837 views/back/config.php:1455
+msgid "Delivery method"
+msgstr "Método de envio"
+
+#: views/back/config.php:828
+msgid "Send with a professional SMTP provider, a great choice for big and small lists. We've negotiated promotional offers with a few providers for you."
+msgstr "Enviar com um fornecedor profissional de SMTP - uma óptima escolha para listas pequenas e grandes. Negociámos ofertas promocionais com alguns fornecedores."
+
+#: views/back/config.php:827 views/back/config.php:1430
+msgid "Third party"
+msgstr "Terceiros"
+
+#: views/back/config.php:813
+msgid "The simplest solution for small lists. Your web host sets a daily email limit."
+msgstr "A solução mais simples para listas pequenas. O seu serviço de alojamento limita o número diário de emails."
+
+#: views/back/config.php:812 views/back/config.php:1417
+msgid "Your own website"
+msgstr "O seu próprio site"
+
+#: views/back/config.php:796
+msgid "Not Configured!"
+msgstr "Não configurado!"
+
+#: views/back/config.php:794
+msgid "Method set by the network admin."
+msgstr "Método definido pelo administrador da rede."
+
+#: views/back/config.php:793
+msgid "Network's Method"
+msgstr "Método de Rede"
+
+#: views/back/config.php:747
+msgid "When subscribers click on the activation link, they are redirected to a page of your choice."
+msgstr "Quando subscritores clicarem no link de activação, eles serão redirecionados para uma página da sua escolha."
+
+#: views/back/config.php:746
+msgid "Confirmation page"
+msgstr "Página de confirmação"
+
+#: views/back/config.php:741
+msgid "Don't forget to include: <br><br>[activation_link]Confirm your subscription.[/activation_link]. <br><br>Optional: [lists_to_confirm]."
+msgstr "Não se esqueça de incluir: <br><br>[activation_link]Confirme a sua subscrição[/activation_link]. <br>Opcional: [lists_to_confirm]."
+
+#: views/back/config.php:740
+msgid "Email content"
+msgstr "Conteúdo do email"
+
+#: views/back/config.php:735
+msgid "Email subject"
+msgstr "Assunto do email"
+
+#: views/back/config.php:727
+msgid "Learn more."
+msgstr "Saber mais."
+
+#: views/back/config.php:727
+msgid "Prevent people from being subscribed to your list unwillingly, this option ensures you to keep a clean list."
+msgstr "Previna as pessoas de subscreverem na sua lista sem o próprio consentimento, além disto garante uma lista limpa"
+
+#: views/back/config.php:726
+msgid "Enable signup confirmation"
+msgstr "Activar confirmação de subscrição"
+
+#: views/back/config.php:704
+msgid "A subscriber is directed to a page of your choice after clicking on the unsubscribe link, at the bottom of a newsletter."
+msgstr "O subscritor é direccionado para uma página da sua escolha após clicar no link de cancelamento de subscrição no rodapé da newsletter."
+
+#: views/back/config.php:703
+msgid "Unsubscribe page"
+msgstr "Página de cancelamento"
+
+#: views/back/config.php:699
+msgid "This changes the label for the unsubscribe link in the footer of your newsletters."
+msgstr "Muda o texto da ligação de cancelamento da subscrição no rodapé das newsletters."
+
+#: views/back/config.php:698
+msgid "Text of \"Unsubscribe\" link"
+msgstr "Texto da ligação \"Cancelar subscrição\""
+
+#: views/back/config.php:693
+msgid "Displays at the top of your newsletters. Don't forget to include the link tag, ie: [link]The link[/link]"
+msgstr "Aparece no topo das suas newsletters. Não se esqueça de incluir a tag de link, ie: [link]O link[/link]"
+
+#: views/back/config.php:692
+msgid "Link to browser version"
+msgstr "Link para a versão do browser"
+
+#: views/back/config.php:684
+msgid "Allow users who register to your site to subscribe on a list of your choice."
+msgstr "Permitir que os utilizadores que se registem no site possam subscrever a uma lista à sua escolha."
+
+#: views/back/config.php:683
+msgid "Subscribe in registration form"
+msgstr "Subscrever no formulário de registo"
+
+#: views/back/config.php:667
+msgid "Visitors who submit a comment on a post can click on a checkbox to subscribe."
+msgstr "Visitantes que submetem um comentário num artigo podem clicar numa checkbox para subscrever."
+
+#: views/back/config.php:666
+msgid "Subscribe in comments"
+msgstr "Subscrever nos comentários"
+
+#: views/back/config.php:662
+msgid "Choose a FROM name and email address for notifications emails."
+msgstr "Escolhe um nome de REMETENTE e o endereço de email para notificações de emails."
+
+#: views/back/config.php:661
+msgid "Sender of notifications"
+msgstr "Remetente de notificações"
+
+#: views/back/config.php:656
+msgid "Enter the email addresses that should receive notifications (separate by comma)."
+msgstr "Introduza os emails de quem deve receber todas as notificações (separados por vírgulas)"
+
+#: views/back/config.php:655
+msgid "Email notifications"
+msgstr "Notificações por email"
+
+#: views/back/config.php:649
+msgid "The address will be added to your newsletter's footer. This helps avoid spam filters."
+msgstr "A morada será adicionada ao rodapé da newsletter. Isto ajuda a evitar os filtros de spam."
+
+#: views/back/config.php:648
+msgid "Your company's address"
+msgstr "Morada da empresa"
+
+#: views/back/config.php:593 views/back/config.php:603
+#: views/back/config.php:612 views/back/config.php:623
+#: views/back/config.php:1389
+msgid "Save settings"
+msgstr "Guardar definições"
+
+#: views/back/config.php:498
+msgctxt "settings tab title"
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: views/back/config.php:497
+msgctxt "settings tab title"
+msgid "Advanced"
+msgstr "Avançado"
+
+#: views/back/config.php:496
+msgctxt "settings tab title"
+msgid "Send With..."
+msgstr "Enviar com..."
+
+#: views/back/config.php:495
+msgctxt "settings tab title"
+msgid "Signup Confirmation"
+msgstr "Confirmação de subscrição"
+
+#: views/back/config.php:494
+msgctxt "settings tab title"
+msgid "Forms"
+msgstr "Formulários"
+
+#: views/back/config.php:493
+msgctxt "settings tab title"
+msgid "Basics"
+msgstr "O essencial"
+
+#: views/back/config.php:486 views/back/config.php:725
+#: views/back/config.php:1035 views/back/config.php:1054
+#: views/back/config.php:1167 views/back/config.php:1174
+#: views/back/config.php:1635 views/back/config.php:2583
+#: views/back/config.php:2659 views/back/config.php:2678
+#: views/back/subscribers.php:1261
+msgid "Yes"
+msgstr "Sim"
+
+#: views/back/config.php:477 views/back/config.php:725
+#: views/back/config.php:1001 views/back/config.php:1026
+#: views/back/config.php:1045 views/back/config.php:1167
+#: views/back/config.php:1174 views/back/config.php:1602
+#: views/back/config.php:1626 views/back/config.php:2584
+#: views/back/config.php:2660 views/back/config.php:2679
+#: views/back/subscribers.php:1262
+msgid "No"
+msgstr "Não"
+
+#: views/back/config.php:448
+msgid "Daily summary of emails sent"
+msgstr "Relatório diário de emails enviados"
+
+#: views/back/config.php:447
+msgid "When someone unsubscribes"
+msgstr "Quando alguém cancela subscrição"
+
+#: views/back/config.php:446
+msgid "When someone subscribes"
+msgstr "Quando alguém subscreve"
+
+#: views/back/config.php:430
+msgid "View all"
+msgstr "Visualizar todos"
+
+#: views/back/config.php:375
+msgid "Roles and permissions"
+msgstr "Papés e permissões"
+
+#: views/back/config.php:345
+msgid "Domain"
+msgstr "Domínio"
+
+#: views/back/config.php:340
+msgid "Upgrade DKIM key"
+msgstr "Fazer Upgrade da chave DKIM"
+
+#: views/back/config.php:338
+msgid "You'll need to update your DNS if you upgrade."
+msgstr "Terá de actualizar o seu DNS se fizer o upgrade."
+
+#: views/back/config.php:338
+msgid "You're using an older DKIM key which is unsupported by Gmail."
+msgstr "Está a usar uma chave DKIM antiga que não é suportada pelo Gmail."
+
+#: views/back/config.php:334
+msgid "Value"
+msgstr "Valor"
+
+#: views/back/config.php:334
+msgid "Key"
+msgstr "Chave"
+
+#: views/back/config.php:331 views/back/config.php:828
+msgid "Read more"
+msgstr "Ler mais"
+
+#: views/back/config.php:331
+msgid "Configure your DNS by adding a key/value record in TXT as shown below."
+msgstr "Configure o seu DNS adicionado a chave/valor de registo em TXT como demonstrado abaixo."
+
+#: views/back/config.php:255
+msgid "If I want I can [link]create an additional cron job[/link] on my end to increase the frequency."
+msgstr "Se preferir, pode [link]criar uma tarefa agendada[/link]  - cron job - do meu lado para aumentar a frequência."
+
+#: views/back/config.php:245
+msgid "If I want I can [link]create an additional cron job[/link] on my end to increase the sending frequency."
+msgstr "Se eu quiser, eu posso [link]criar um serviço cron adicional[/link] no meu servidor para aumentar a frequência de envio."
+
+#: views/back/config.php:244
+msgid "I'm a premium user, MailPoet.com will make sure my emails get sent on time."
+msgstr "Sou um utilizador Premium, o MailPoet.com irá garantir que os meus emails sejam enviados a tempo."
+
+#: views/back/config.php:219
+msgid "No thanks! I have enough visitors on my site. Their visits will trigger MailPoet's cron automatically."
+msgstr "Não, obrigado! Eu tenho visitas suficientes no meu site, elas irão activar o cron do MailPoet automaticamente."
+
+#: views/back/config.php:216 views/back/config.php:245
+#: views/back/config.php:255
+msgid "Use this URL in your cron job: [cron_url]"
+msgstr "Use este URL na sua tarefa agendada: [cron_url]"
+
+#: views/back/config.php:216
+msgid "I'll setup a cron job on my server to execute at the frequency I want. Read about [link]setting up a cron job yourself[/link]."
+msgstr "Vou configurar uma tarefa agendada no meu servidor para executar com a frequência que eu quero. Leia sobre [link]configurar tarefa agendada[/link]."
+
+#: views/back/config.php:135
+msgid "Subscribers can choose from these lists :"
+msgstr "Os subscritores podem escolher as seguintes listas:"
+
+#: views/back/config.php:60
+msgid "Registration is disabled on this site."
+msgstr "O registo está desactivado neste site."
+
+#: views/back/config.php:38
+msgid "This feature cannot work because the \"Comments\" feature of the plugin JetPack is enabled."
+msgstr "Esta opção não pode funcionar porque a opção \"Comentários\" do plugin JetPack se encontra activada."
+
+#: views/back/config.php:19
+msgid "Confirm Reinstallation"
+msgstr "Confirmar reinstalação"
+
+#: views/back/config.php:17
+msgid "If you confirm this, all your current MailPoet data will be erased (newsletters, themes, statistics, lists, subscribers, etc.)"
+msgstr "Se confirmar isto, todos os dados actuais do seu MailPoet serão apagados (newsletters, temas, estatísticas, listas, assinantes, etc.)"
+
+#: views/back/campaigns.php:3131 views/back/campaigns.php:3135
+msgid "Hey! We have a quick question for you:"
+msgstr "Olá! Temos uma pergunta rápida para fazer:"
+
+#: views/back/campaigns.php:2992
+msgid "You've updated to %1$s"
+msgstr "Actualizou para %1$s"
+
+#: views/back/campaigns.php:2983
+msgid "Change log"
+msgstr "Registo de alterações"
+
+#: views/back/campaigns.php:2964
+msgid "Follow us and don't miss anything!"
+msgstr "Siga-nos e não perca nada!"
+
+#: views/back/campaigns.php:2961
+msgid "Each time one of our users forgets to write a review, a kitten dies. It's sad and breaks our hearts. [link]Add your own review[/link] and save a kitten today."
+msgstr "Por cada vez que um dos nossos utilizadores se esquece de escrever uma análise, um gatinho morre. É triste e parte-nos o coração. [link]Adicione a sua análise[/link] e salve um gatinho."
+
+#: views/back/campaigns.php:2959
+msgid "We love stars..."
+msgstr "Adoramos estrelas..."
+
+#: views/back/campaigns.php:2959
+msgid "Love kittens?"
+msgstr "Adora gatinhos?"
+
+#: views/back/campaigns.php:2957
+msgid "Keep this plugin essentially free"
+msgstr "Mantenha este plugin essencialmente gratuito"
+
+#: views/back/campaigns.php:2933
+msgid "Subscribe to our newsletters"
+msgstr "Subscreva as nossas newsletters"
+
+#: views/back/campaigns.php:2930
+msgid "One quick question..."
+msgstr "Uma questão rápida..."
+
+#: views/back/campaigns.php:2908
+msgid "You updated! It's like having the next gadget, but better."
+msgstr "Você actualizou! É como ter o mais recente gadget, mas melhor."
+
+#: views/back/campaigns.php:2904
+msgid "Wow! Thanks for being part of our community for so long."
+msgstr "Wow! Obrigado por pertencer à nossa comunidade por tanto tempo!"
+
+#: views/back/campaigns.php:2902
+msgid "You have been a MailPoet user for %s."
+msgstr "Utiliza o MailPoet há %s."
+
+#: views/back/campaigns.php:2875 views/back/campaigns.php:3096
+msgid "Thanks! Now take me to MailPoet."
+msgstr "Obrigado! Agora quero entrar no MailPoet."
+
+#: views/back/campaigns.php:2817
+msgid "Welcome to %1$s"
+msgstr "Bem-vindo ao %1$s"
+
+#: views/back/campaigns.php:2798
+msgid "This tab will be filled with images from your WordPress Posts."
+msgstr "Este separador será preenchido com imagens dos conteúdos do seu WordPress."
+
+#: views/back/campaigns.php:2796
+msgid "This tab will be filled with images from your current and previous newsletters."
+msgstr "Este separador vai ser preenchido com imagens desta newsletter e das anteriores."
+
+#: views/back/campaigns.php:2710
+msgid "If you want to use all capabilities of the uploader, like uploading multiple files at once, please upgrade to lighttpd 1.5."
+msgstr "Para usar a capacidade máxima do uploader, como carregar múltiplos ficheiros em simultâneo, é preciso actualizar para o lighttpd 1.5."
+
+#: views/back/campaigns.php:2691 views/back/campaigns.php:2708
+msgid "Maximum upload file size: %d%s"
+msgstr "Tamanho máximo permitido do ficheiro: %d%s"
+
+#: views/back/campaigns.php:2689
+msgid "Cancel Upload"
+msgstr "Cancelar carregamento"
+
+#: views/back/campaigns.php:2687
+msgid "Choose files to upload"
+msgstr "Escolher ficheiros a carregar"
+
+#: views/back/campaigns.php:2590
+msgid "Please update your WordPress to the latest version, in order to get the latest uploading system."
+msgstr "Por favor, actualize o WordPress para a última versão para que possa obter o último sistema de uploading."
+
+#: views/back/campaigns.php:2551
+msgid "Your browser has some limitations uploading large files with the multi-file uploader. Please use the browser uploader for files over 100MB."
+msgstr "O seu navegador tem limitações no carregamento multificheiros de ficheiros grandes. Utilize o carregamento do navegador para ficheiros superiores a 100MB."
+
+#: views/back/campaigns.php:2549
+msgid "Maximum upload file size: %d%s."
+msgstr "Tamanho máximo de carregamento: %d%s."
+
+#: views/back/campaigns.php:2544 views/back/campaigns.php:2705
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: views/back/campaigns.php:2527 views/back/campaigns.php:2640
+msgid "Select Files"
+msgstr "Escolher ficheiros"
+
+#: views/back/campaigns.php:2526
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "ou"
+
+#: views/back/campaigns.php:2525
+msgid "Drop files here"
+msgstr "Largar ficheiros aqui"
+
+#: views/back/campaigns.php:2498
+msgid "Allowed Files"
+msgstr "Ficheiros permitidos"
+
+#: views/back/campaigns.php:2471 views/back/campaigns.php:2627
+msgid "Sorry, you have filled your storage quota (%s MB)."
+msgstr "Atingiu o limite de armazenamento (%s MB)."
+
+#: views/back/campaigns.php:2436
+msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app for your device</a> instead."
+msgstr "O navegador web no seu dispositivo não pode ser usado para carregar ficheiros. Em alternativa, tente usar a <a href=\"http://wordpress.org/extend/mobile/\">app nativa para o seu aparelho</a>."
+
+#: views/back/campaigns.php:2397
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: views/back/campaigns.php:2396
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: views/back/campaigns.php:2308
+msgid "medium"
+msgstr "médio"
+
+#: views/back/campaigns.php:2307
+msgid "small"
+msgstr "pequeno"
+
+#: views/back/campaigns.php:2306
+msgid "Size:"
+msgstr "Tamanho:"
+
+#: views/back/campaigns.php:2265
+msgid "Select..."
+msgstr "Escolha..."
+
+#: views/back/campaigns.php:2262
+msgid "And taxonomies as well..."
+msgstr "E também taxonomias..."
+
+#: views/back/campaigns.php:2231
+msgid "Maximum of posts to show"
+msgstr "Máximo de conteúdos visíveis"
+
+#: views/back/campaigns.php:2222
+msgid "Post type"
+msgstr "Tipo de conteúdo"
+
+#: views/back/campaigns.php:2197 views/back/campaigns.php:2279
+#: views/back/campaigns.php:2317 views/back/campaigns.php:2352
+#: views/back/config.php:2225
+msgid "Done"
+msgstr "Feito"
+
+#: views/back/campaigns.php:2167
+msgid "Background color with alternate"
+msgstr "Cor de fundo com alternativa"
+
+#: views/back/campaigns.php:2161
+msgid "yes"
+msgstr "sim"
+
+#: views/back/campaigns.php:2160
+msgid "Show divider between posts"
+msgstr "Mostrar divisória entre conteúdos"
+
+#: views/back/campaigns.php:2155
+msgid "oldest"
+msgstr "mais antigo"
+
+#: views/back/campaigns.php:2154
+msgid "newest"
+msgstr "mais recente"
+
+#: views/back/campaigns.php:2153
+msgid "Sort by"
+msgstr "Ordenar por"
+
+#: views/back/campaigns.php:2148
+msgid "Batch insert options"
+msgstr "Opções de inserção em lote"
+
+#: views/back/campaigns.php:2142
+msgid "Background color"
+msgstr "Cor de fundo"
+
+#: views/back/campaigns.php:2134
+msgid "\"Read more\" text"
+msgstr "Texto \"Ler mais\""
+
+#: views/back/campaigns.php:2119
+msgid "Include categories"
+msgstr "Incluir categorias"
+
+#: views/back/campaigns.php:2112 views/back/campaigns.php:2127
+msgid "Preceded by:"
+msgstr "Precedido por:"
+
+#: views/back/campaigns.php:2109 views/back/campaigns.php:2124
+msgid "below content"
+msgstr "abaixo do conteúdo"
+
+#: views/back/campaigns.php:2108 views/back/campaigns.php:2123
+msgid "above content"
+msgstr "Acima do conteúdo"
+
+#: views/back/campaigns.php:2107 views/back/campaigns.php:2122
+#: views/back/campaigns.php:2162
+msgid "no"
+msgstr "não"
+
+#: views/back/campaigns.php:2104
+msgid "Include author"
+msgstr "Incluir autor"
+
+#: views/back/campaigns.php:2094
+msgid "Image width"
+msgstr "Comprimento da imagem"
+
+#: views/back/campaigns.php:2086
+msgid "no image"
+msgstr "sem imagem"
+
+#: views/back/campaigns.php:2081
+msgid "alternate left & right"
+msgstr "alternar esquerda e direita"
+
+#: views/back/campaigns.php:2075
+msgid "Image alignment"
+msgstr "Alinhamento da imagem"
+
+#: views/back/campaigns.php:2069 views/back/campaigns.php:2085
+msgid "right"
+msgstr "direita"
+
+#: views/back/campaigns.php:2068 views/back/campaigns.php:2084
+msgid "center"
+msgstr "centro"
+
+#: views/back/campaigns.php:2067 views/back/campaigns.php:2083
+msgid "left"
+msgstr "esquerda"
+
+#: views/back/campaigns.php:2066
+msgid "Title alignment"
+msgstr "Alinhamento do título"
+
+#: views/back/campaigns.php:2061
+msgid "above text block and image"
+msgstr "acima de bloco de texto e imagem"
+
+#: views/back/campaigns.php:2060
+msgid "in text block"
+msgstr "em bloco de texto"
+
+#: views/back/campaigns.php:2059
+msgid "Title position"
+msgstr "Posição do título"
+
+#: views/back/campaigns.php:2054
+msgid "show as list"
+msgstr "mostrar como lista"
+
+#: views/back/campaigns.php:2053
+msgid "heading 3"
+msgstr "Título 3"
+
+#: views/back/campaigns.php:2052
+msgid "heading 2"
+msgstr "Título 2"
+
+#: views/back/campaigns.php:2051
+msgid "heading 1"
+msgstr "Título 1"
+
+#: views/back/campaigns.php:2050
+msgid "Title format"
+msgstr "Formato do título"
+
+#: views/back/campaigns.php:2045
+msgid "title only"
+msgstr "título apenas"
+
+#: views/back/campaigns.php:2044
+msgid "full post"
+msgstr "artigo completo"
+
+#: views/back/campaigns.php:2043
+msgid "excerpt"
+msgstr "excerto"
+
+#: views/back/campaigns.php:2040
+msgid "Display..."
+msgstr "Mostrar…"
+
+#: views/back/campaigns.php:2036
+msgid "Which excerpt does it use? [link]Read more[/link]"
+msgstr "Que resumo usa? [link]Ler mais[/link]"
+
+#: views/back/campaigns.php:2020
+msgid "Insert selected"
+msgstr "Inserir selecionado"
+
+#: views/back/campaigns.php:2005
+msgid "Search"
+msgstr "Procurar"
+
+#: views/back/campaigns.php:1968
+msgid "If a theme with the same name exists, overwrite it."
+msgstr "Se existe um tema com o mesmo nome, será substituído."
+
+#: views/back/campaigns.php:1967 views/back/subscribers.php:928
+msgid "total max upload file size : %1$s"
+msgstr "tamanho máximo permitido do ficheiro: %1$s"
+
+#: views/back/campaigns.php:1944
+msgid "Free"
+msgstr "Grátis"
+
+#: views/back/campaigns.php:1942
+msgid "[link]Guide[/link] to create your own theme."
+msgstr "[link]Guia[/link] para criar o seu próprio tema."
+
+#: views/back/campaigns.php:1939
+msgid "Upload Theme (.zip)"
+msgstr "Upload de Tema (.zip)"
+
+#: views/back/campaigns.php:1919
+msgid "This text is displayed when email clients block images, which is most of the time."
+msgstr "Este texto é apresentado quando os clientes de email bloqueiam as imagens, ou seja, quase sempre."
+
+#: views/back/campaigns.php:1916
+msgid "Alternative text:"
+msgstr "Texto alternativo:"
+
+#: views/back/campaigns.php:1912
+msgid "Address:"
+msgstr "Endereço:"
+
+#: views/back/campaigns.php:1882
+msgid "Added"
+msgstr "Adicionado"
+
+#: views/back/campaigns.php:1761
+msgid "Automatic newsletter"
+msgstr "Newsletter automática"
+
+#: views/back/campaigns.php:1756
+msgid "Standard newsletter"
+msgstr "Newsletter Standard"
+
+#: views/back/campaigns.php:1745
+msgid "Local time is <code>%1$s</code>"
+msgstr "A hora local é <code>%1$s</code>"
+
+#: views/back/campaigns.php:1623
+msgid "or simply [link]go back to design[/link]."
+msgstr "ou [link]voltar ao design[/link]."
+
+#: views/back/campaigns.php:1593 views/back/campaigns.php:1600
+msgid "Save as draft and close"
+msgstr "Guardar como rascunho e fechar"
+
+#: views/back/campaigns.php:1563
+msgid "Don't send to existing subscribers, only to future ones."
+msgstr "Não enviar a actuais subscritores, só a futuros."
+
+#: views/back/campaigns.php:1562
+msgid "Ignore current subscribers"
+msgstr "Ignorar actuais subscritores"
+
+#: views/back/campaigns.php:1554
+msgid "Schedule it"
+msgstr "Agendar"
+
+#: views/back/campaigns.php:1544
+msgid "When the subscribers hit \"reply\" this is who will receive their email."
+msgstr "Quando os subscritores carregam em \"responder\" este é quem receberá o seu email."
+
+#: views/back/campaigns.php:1543 views/back/config.php:1136
+msgid "Reply-to name & email"
+msgstr "Nome e email para resposta"
+
+#: views/back/campaigns.php:1536
+msgid "Name & email of yourself or your company."
+msgstr "O seu nome e email ou da sua companhia."
+
+#: views/back/campaigns.php:1535
+msgid "Sender"
+msgstr "Remetente"
+
+#: views/back/campaigns.php:1529
+msgid "The subscriber list that will be used for this campaign."
+msgstr "A lista de subscritores que será utilizada para esta campanha."
+
+#: views/back/campaigns.php:1505
+msgid "When..."
+msgstr "Quando…"
+
+#: views/back/campaigns.php:1500
+msgid "Be creative! It's the first thing your subscribers see. Tempt them to open your email."
+msgstr "Seja criativo! É a primeira coisa que os subscritores verão. Tente-os a abrir o seu email."
+
+#: views/back/campaigns.php:1344
+msgid "If you confirm the theme switch, it will override your header, footer, dividers and styles"
+msgstr "Ao confirmar a troca de temas, o cabeçalho, o rodapé, as divisórias e os estilos serão substituídos"
+
+#: views/back/campaigns.php:1320
+msgid "go back to Step 1"
+msgstr "voltar ao Passo 1"
+
+#: views/back/campaigns.php:1312
+msgid "Save changes"
+msgstr "Guardar alterações"
+
+#: views/back/campaigns.php:1302 views/back/campaigns.php:1581
+msgid "Send preview"
+msgstr "Enviar pré-visualização"
+
+#: views/back/campaigns.php:1290
+msgid "There must be an active 3rd party plugin or theme breaking our interface. [link]Read more.[/link]"
+msgstr "Deve haver um outro plugin ou tema a interferir no nosso interface.[link]Ler mais.[/link]"
+
+#: views/back/campaigns.php:1290
+msgid "Conflict"
+msgstr "Conflito"
+
+#: views/back/campaigns.php:1287
+msgid "Our toolbar doesn't load?"
+msgstr "A nossa barra de ferramentas não carrega?"
+
+#: views/back/campaigns.php:1273
+msgid "Add more themes"
+msgstr "Adicionar mais temas"
+
+#: views/back/campaigns.php:1230
+msgid "Add Images"
+msgstr "Adicionar imagens"
+
+#: views/back/campaigns.php:1217
+msgid "Social bookmarks"
+msgstr "Redes sociais"
+
+#: views/back/campaigns.php:1212
+msgid "Automatic latest content"
+msgstr "Últimos artigos automáticos"
+
+#: views/back/campaigns.php:1209
+msgid "Drag the widgets below into your newsletter."
+msgstr "Arraste os módulos abaixo para a newsletter."
+
+#: views/back/campaigns.php:1203
+msgid "Themes"
+msgstr "Temas"
+
+#: views/back/campaigns.php:1200
+msgid "Styles"
+msgstr "Estilos"
+
+#: views/back/campaigns.php:1198
+msgid "Images"
+msgstr "Imagens"
+
+#: views/back/campaigns.php:1196 views/back/config.php:1900
+msgid "Content"
+msgstr "Conteúdo"
+
+#: views/back/campaigns.php:1127 views/back/campaigns.php:1313
+#: views/back/subscribers.php:948
+msgid "Next step"
+msgstr "Próximo passo"
+
+#: views/back/campaigns.php:1125 views/back/campaigns.php:1317
+msgid "Save and reactivate"
+msgstr "Guardar e reactivar"
+
+#: views/back/campaigns.php:1103
+msgid "Yikes! Your browser might not be supported. Get the latest [linkchrome]Chrome[/linkchrome], [linkff]Firefox[/linkff], [linkie]Internet Explorer[/linkie] or [linksafari]Safari[/linksafari]. It seems to work?[link_ignore]Dismiss[/link_ignore]."
+msgstr "Ups! O seu navegador pode não ser compatível. Obtenha o último [linkchrome]Chrome[/linkchrome], [linkff]Firefox[/linkff], [linkie]Internet Explorer[/linkie] ou [linksafari]Safari[/linksafari]. Funciona?[link_ignore]Ignore esta mensagem[/link_ignore]."
+
+#: views/back/campaigns.php:1081
+msgid "This is the subject of the email. Be creative since it's the first thing your subscribers will see."
+msgstr "É o assunto do email. Ser criativo ajuda, é a primeira coisa que os subscritores vão ler."
+
+#: views/back/campaigns.php:1079 views/back/campaigns.php:1498
+msgid "Subject line"
+msgstr "Assunto"
+
+#: views/back/campaigns.php:1071
+msgid "Automatically sent..."
+msgstr "Enviado automaticamente..."
+
+#: views/back/campaigns.php:1065 views/back/campaigns.php:1514
+msgid "What type of newsletter is this?"
+msgstr "Que tipo de newsletter é?"
+
+#: views/back/campaigns.php:1000 views/back/subscribers.php:343
+msgid "View stats or edit"
+msgstr "Ver estatísticas ou editar"
+
+#: views/back/campaigns.php:959 views/back/subscribers.php:276
+msgid "Subscribed on"
+msgstr "Subscrito em"
+
+#: views/back/campaigns.php:949 views/back/campaigns.php:954
+msgid "Clicked on"
+msgstr "Clicado em "
+
+#: views/back/campaigns.php:941
+msgid "Subscriber Status"
+msgstr "Estado das subscrições"
+
+#: views/back/campaigns.php:939
+msgid "Email Status"
+msgstr "Estado do email"
+
+#: views/back/campaigns.php:898
+msgid "Search recipients"
+msgstr "Procurar destinatários"
+
+#: views/back/campaigns.php:876
+msgid "see links with a [link]Premium licence[/link]."
+msgstr "ver links com a [link]versão premium![/link]"
+
+#: views/back/campaigns.php:859
+msgid "To resume send [link]Go premium now![/link]"
+msgstr "Para retomar envio, [link]subscreva conta premium agora![/link]"
+
+#: views/back/campaigns.php:850
+msgid "Don't wait & send right now."
+msgstr "Não esperar, enviar já."
+
+#: views/back/campaigns.php:847
+msgid "Latest batch was sent %1$s ago."
+msgstr "Último lote enviado há %1$s."
+
+#: views/back/campaigns.php:843
+msgid " %1$s email(s) scheduled."
+msgstr "%1$s email(s) agendados."
+
+#: views/back/campaigns.php:810
+msgid "Time remaining: %1$s"
+msgstr "Tempo que falta: %1$s"
+
+#: views/back/campaigns.php:808
+msgid "The last batch of emails should start sending automatically in the next few minutes."
+msgstr "O último lote de emails deve começar a ser enviado automaticamente em alguns minutos."
+
+#: views/back/campaigns.php:788
+msgid "Sent to %1$s subscribers."
+msgstr "Enviar a %1$s subscritores."
+
+#: views/back/campaigns.php:760
+msgid "Sending per event"
+msgstr "A enviar por evento"
+
+#: views/back/campaigns.php:751
+msgid "Sent %2$s after a new user is added to your site as %1$s."
+msgstr "Enviar %2$s após um novo utilizador ser adicionado ao seu site como %1$s."
+
+#: views/back/campaigns.php:748
+msgid "Sent immediately after a new user is added to your site as %1$s."
+msgstr "Enviar imediatamente após um novo utilizador ser adicionado ao seu site como  %1$s."
+
+#: views/back/campaigns.php:744
+msgid "any role"
+msgstr "qualquer papel"
+
+#: views/back/campaigns.php:737
+msgid "Sent %2$s after someone subscribes to the mailing list %1$s"
+msgstr "Enviar %2$s após alguém subscrever a lista %1$s"
+
+#: views/back/campaigns.php:735
+msgid "Sending immediately after someone subscribes to the mailing list %1$s"
+msgstr "Enviar de imediato quando alguém subscreve a lista %1$s"
+
+#: views/back/campaigns.php:727
+msgid "Send immediately."
+msgstr "Enviar imediatamente."
+
+#: views/back/campaigns.php:674
+msgid "Not sent yet."
+msgstr "Por enviar."
+
+#: views/back/campaigns.php:660
+msgid "Resume"
+msgstr "Retomar"
+
+#: views/back/campaigns.php:657 views/back/campaigns.php:672
+msgid "Not active."
+msgstr "Inactivo."
+
+#: views/back/campaigns.php:649
+msgid "Pause"
+msgstr "Suspender"
+
+#: views/back/campaigns.php:620
+msgid "if there's new content"
+msgstr "se existir novo conteúdo"
+
+#: views/back/campaigns.php:614
+msgid "Sent monthly on the %1$s %2$s at %3$s"
+msgstr "Envio mensal na %1$s %2$s às %3$s"
+
+#: views/back/campaigns.php:611
+msgid "Sent monthly on the %1$s at %2$s"
+msgstr "Envio mensal a/em %1$s às %2$s"
+
+#: views/back/campaigns.php:608
+msgid "Sent weekly on %1$s at %2$s"
+msgstr "Envio semanal à %1$s às %2$s"
+
+#: views/back/campaigns.php:605
+msgid "Sent daily at %1$s."
+msgstr "Envio diário às %1$s."
+
+#: views/back/campaigns.php:598
+msgid "Next send out on %1$s"
+msgstr "Próximo envio a/em %1$s"
+
+#: views/back/campaigns.php:595
+msgid "Next send out in %1$s"
+msgstr "Próximo envio a/em %1$s"
+
+#: views/back/campaigns.php:497 views/back/campaigns.php:520
+#: views/back/campaigns.php:544
+msgid "Stats"
+msgstr "Estatísticas"
+
+#: views/back/campaigns.php:478 views/back/config.php:189
+msgid "Preview"
+msgstr "Pré-visualização"
+
+#: views/back/campaigns.php:430
+msgid "Scheduled to be sent on %1$s"
+msgstr "Envio agendado em/para %1$s"
+
+#: views/back/campaigns.php:427
+msgid "Scheduled to be sent in %1$s"
+msgstr "Envio agendado em/para %1$s"
+
+#: views/back/campaigns.php:365
+msgid "%1$s out of %2$s sent."
+msgstr "%1$s de %2$s enviadas."
+
+#: views/back/campaigns.php:365
+msgid "Sent to %1$s out of %2$s"
+msgstr "Enviada a %1$s de %2$s"
+
+#: views/back/campaigns.php:348
+msgid "Sent On"
+msgstr "Enviada em"
+
+#: views/back/campaigns.php:347
+msgid "Modified On"
+msgstr "Modificado em"
+
+#: views/back/campaigns.php:341
+msgid "Open, clicks, unsubscribed"
+msgstr "Abertas, cliques, cancelado"
+
+#: views/back/campaigns.php:290 views/back/subscribers.php:178
+#: views/back.php:209
+msgid "Apply"
+msgstr "Aplicar"
+
+#: views/back/campaigns.php:286
+msgid "Export to CSV"
+msgstr "Exportar para CSV"
+
+#: views/back/campaigns.php:282
+msgid "Unsubscribe from list: %1$s"
+msgstr "Cancelar subscrição da lista: %1$s"
+
+#: views/back/campaigns.php:278
+msgid "Unsubscribe from all lists"
+msgstr "Cancelar subscrição de todas as listas"
+
+#: views/back/campaigns.php:277
+msgid "Create a new list"
+msgstr "Criar nova lista"
+
+#: views/back/campaigns.php:273
+msgid "Remove from the queue"
+msgstr "Retirar da fila"
+
+#: views/back/campaigns.php:268
+msgid "With this segment"
+msgstr "Com este subgrupo"
+
+#: views/back/campaigns.php:225
+msgid "Clicked"
+msgstr "Clicado"
+
+#: views/back/campaigns.php:219
+msgid "Opened"
+msgstr "Aberto"
+
+#: views/back/campaigns.php:216
+msgid "Unopened"
+msgstr "Por abrir"
+
+#: views/back/campaigns.php:213
+msgid "Failed Send"
+msgstr "Falhou ao enviar"
+
+#: views/back/campaigns.php:210
+msgid "In Queue"
+msgstr "Na fila"
+
+#: views/back/campaigns.php:207
+msgid "All Sent"
+msgstr "Tudo enviado"
+
+#: views/back/campaigns.php:192 views/back/statistics.php:49
+#: views/back/subscribers.php:224
+msgid "Filter"
+msgstr "Filtro"
+
+#: views/back/campaigns.php:181
+msgid "View by lists"
+msgstr "Ver por listas"
+
+#: views/back/campaigns.php:165
+msgid "Show all months"
+msgstr "Mostrar todos os meses"
+
+#: views/back/campaigns.php:127
+msgid "Auto Newsletters"
+msgstr "Newsletters automáticas"
+
+#: views/back/campaigns.php:124
+msgid "Standard Newsletters"
+msgstr "Newsletters normais"
+
+#: views/back/campaigns.php:118 views/back/campaigns.php:442
+msgid "Paused"
+msgstr "Suspender"
+
+#: views/back/campaigns.php:115 views/back/campaigns.php:365
+#: views/back/campaigns.php:444
+msgid "Draft"
+msgstr "Rascunho"
+
+#: views/back/campaigns.php:112
+msgid "Sending"
+msgstr "A enviar"
+
+#: views/back/campaigns.php:106 views/back/campaigns.php:204
+#: views/back/subscribers.php:75
+msgid "All"
+msgstr "Tudo"
+
+#: views/back/campaigns.php:81
+msgid "... or duplicate one below to copy its design."
+msgstr "... ou duplicar uma destas para copiar o design."
+
+#: views/back/campaigns.php:55
+msgid "Create a new email"
+msgstr "Criar um novo email"
+
+#: views/back/campaigns.php:54 views/back/subscribers.php:34
+msgid "Back"
+msgstr "Voltar"
+
+#: views/back/campaigns.php:15 views/back/campaigns.php:507
+#: views/back/campaigns.php:529 views/back/campaigns.php:554
+#: views/back/config.php:1774 views/back/subscribers.php:16
+#: views/back/subscribers.php:756 views/back.php:18 views/back.php:20
+msgid "Delete"
+msgstr "Eliminar"
+
+#: views/back/campaigns.php:14
+msgid "Search newsletters"
+msgstr "Procurar newsletters"
+
+#: views/back/campaigns.php:11
+msgid "All Newsletters"
+msgstr "Todas as newsletters"
+
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:57
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:89
+msgid "N/A"
+msgstr "N/D"
+
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:31
+msgid "Date sent"
+msgstr "Data de envio"
+
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:30
+#: views/back/campaigns.php:952
+msgid "Opened date"
+msgstr "Data de abertura"
+
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:29
+msgid "Device"
+msgstr "Dispositivo"
+
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:28
+msgid "Clicks"
+msgstr "Cliques"
+
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:16
+msgid "Subscriber opened %1$s of %2$s email"
+msgstr "Subscritor abriu %1$s de %2$s email"
+
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:14
+msgid "Subscriber opened %1$s of %2$s emails"
+msgstr "Subscritor abriu %1$s de %2$s emails"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:209
+msgid "Bounce"
+msgstr "Rejeitado"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:203
+msgid "Reply-to"
+msgstr "Responder"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:188
+#: views/back/statistics.php:47
+msgid "From"
+msgstr "De"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:174
+#: views/back/campaigns.php:340 views/back/campaigns.php:940
+#: views/back/campaigns.php:1088 views/back/campaigns.php:1526
+#: views/back/config.php:1702 views/back/subscribers.php:274
+#: views/back/subscribers.php:550
+msgid "Lists"
+msgstr "Listas"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:168
+msgid "Sent on"
+msgstr "Enviado em"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:162
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:155
+#: views/back/campaigns.php:15 views/back/campaigns.php:504
+#: views/back/campaigns.php:526 views/back/campaigns.php:551
+#: views/back/config.php:1771 views/back/subscribers.php:16
+#: views/back/subscribers.php:751
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:106
+#: views/back/subscribers.php:781
+msgid "View subscribers"
+msgstr "Visualizar subscritores"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:104
+msgid "Currently viewing"
+msgstr "A ver actualmente"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:77
+msgid "Total clicks"
+msgstr "Total de cliques"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:76
+msgid "Unique clicks"
+msgstr "Cliques únicos"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:70
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:27
+msgid "Link"
+msgstr "Ligação"
+
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:62
+msgid "Top links"
+msgstr "Principais ligações"
+
+#: modules/stats_newsletter_std/stats_newsletter_std.php:218
+#: modules/stats_newsletter_std/stats_newsletter_std.php:222
+msgid "Rate"
+msgstr "Taxa"
+
+#: modules/stats_newsletter_std/stats_newsletter_std.php:35
+msgid "Opened & Unsubscribed"
+msgstr "Abertos e Cancelados"
+
+#: modules/stats_newsletter_std/stats_newsletter_std.php:34
+msgid "Opened & Clicked"
+msgstr "Abertas e Clicadas"
+
+#: modules/stats_newsletter_std/stats_newsletter_std.php:33
+msgid "Opened only"
+msgstr "Abertas apenas"
+
+#: modules/stats_newsletter_std/stats_newsletter_std.php:32
+#: views/back/campaigns.php:109
+msgid "Sent"
+msgstr "Enviadas"
+
+#: modules/stats_newsletter_std/stats_newsletter_std.php:31
+#: views/back/campaigns.php:222
+msgid "Bounced"
+msgstr "Devolvido"
+
+#: modules/stats_newsletter_std/stats_newsletter_std.php:30
+msgid "Not sent"
+msgstr "Não enviado"
+
+#: modules/stats_newsletter_std/stats_newsletter_std.php:29
+msgid "In queue"
+msgstr "Na fila"
+
+#: modules/archive_std/archive_std_view.php:163
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:51
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:83
+#: views/back/campaigns.php:478
+msgid "Preview in new tab"
+msgstr "Pré-visualizar num novo separador"
+
+#: modules/archive_std/archive_std_view.php:106
+msgid "Oops! There are no newsletters to display."
+msgstr "Ups! Não há newsletters para mostrar."
+
+#: modules/archive_std/archive_std_view.php:11
+msgid "Paste this shortcode in a page to display a list of past newsletters."
+msgstr "Copie este código para uma página para mostrar a lista de newsletters anteriores."
+
+#: modules/archive_std/archive_std_view.php:10
+msgid "Archive page shortcode"
+msgstr "Código (\"shortcode\") da página de arquivo"
+
+#: models/user_field.php:24
+msgid "Subscription date"
+msgstr "Data de subscrição"
+
+#: models/user_field.php:22 views/back/subscribers.php:972
+msgid "IP address"
+msgstr "Endereço IP"
+
+#: models/user.php:219
+msgid "Click here to subscribe"
+msgstr "Clique para subscrever"
+
+#: models/user.php:214
+msgid "Click here to unsubscribe"
+msgstr "Clique aqui para cancelar a subscrição"
+
+#: models/user.php:26
+msgid "Created on"
+msgstr "Criado em"
+
+#: models/user.php:25 models/user_field.php:23 views/back/campaigns.php:339
+#: views/back/subscribers.php:275 views/back/subscribers.php:514
+#: views/back/subscribers.php:973 views/front/confirm.php:83
+msgid "Status"
+msgstr "Estado"
+
+#: models/queue.php:82
+msgid "There are no list to send to."
+msgstr "Não há listas para enviar."
+
+#: models/list.php:26
+msgid "Ordering"
+msgstr "Ordenar"
+
+#: models/list.php:25
+msgid "Enabled"
+msgstr "Activo"
+
+#: models/list.php:24 views/back/subscribers.php:835
+msgid "Description"
+msgstr "Descrição"
+
+#: models/list.php:23 views/back/campaigns.php:336 views/back/config.php:1701
+#: views/back/subscribers.php:715 views/back/subscribers.php:827
+msgid "Name"
+msgstr "Nome"
+
+#: models/email.php:175
+msgid "Your auto newsletter has been activated."
+msgstr "Newsletter automática foi activada."
+
+#: models/email.php:173
+msgid "Your latest newsletter is being sent."
+msgstr "A última newsletter está a ser enviada."
+
+#: models/email.php:126
+#: modules/stats_newsletter_std/stats_newsletter_std_view.php:143
+#: views/back.php:18
+msgid "View"
+msgstr "Ver"
+
+#: models/config.php:740
+msgid "Use `view_in_browser_link` instead."
+msgstr "Use `view_in_browser_link` em alternativa."
+
+#: models/config.php:545
+msgid "Your settings are saved."
+msgstr "As suas definições foram guardadas."
+
+#: models/config.php:323
+msgid "The <strong>reply to</strong> email value you have entered (%1$s) is not a valid email address."
+msgstr "O <strong>email de resposta (replyto)</strong> introduzido (%1$s) é inválido."
+
+#: models/config.php:314
+msgid "The <strong>from email</strong> value you have entered (%1$s) is not a valid email address."
+msgstr "O <strong>email do remetente</strong> introduzido (%1$s) é inválido."
+
+#: models/config.php:312 models/config.php:321
+msgid "empty"
+msgstr "vazio"
+
+#: models/config.php:237
+msgid "Who can see the styles tab in the visual editor?"
+msgstr "Quem pode ver a barra de estilos no editor visual?"
+
+#: models/config.php:234
+msgid "Who can see the themes tab in the visual editor?"
+msgstr "Quem pode visualizar a barra de temas no editor visual?"
+
+#: models/config.php:231
+msgid "Who can change MailPoet's settings?"
+msgstr "Quem pode alterar as definições do MailPoet?"
+
+#: models/config.php:228
+msgid "Who can manage subscribers?"
+msgstr "Quem pode gerir subscritores?"
+
+#: models/config.php:225
+msgid "Who can create newsletters?"
+msgstr "Quem pode criar newsletters?"
+
+#: models/config.php:222
+msgid "Yes, add me to your mailing list."
+msgstr "Sim, adicione-me à lista de endereços."
+
+#: models/config.php:221 models/config.php:704
+msgid "Display problems? [link]View this newsletter in your browser.[/link]"
+msgstr "Problemas de visualização? [link]Veja esta newsletter no seu browser.[/link]"
+
+#: models/config.php:214
+msgid ""
+"Hello!\n"
+"\n"
+"Hurray! You've subscribed to our site.\n"
+"We need you to activate your subscription to the list(s): [lists_to_confirm] by clicking the link below: \n"
+"\n"
+"[activation_link]Click here to confirm your subscription.[/activation_link]\n"
+"\n"
+"Thank you,\n"
+"\n"
+" The team!\n"
+msgstr ""
+"Olá!\n"
+"\n"
+"Parabéns, subscreveu o nosso site.\n"
+"Para activar a subscrição, siga a ligação abaixo: \n"
+"\n"
+"[activation_link]Clique para confirmar a subscrição.[/activation_link]\n"
+"\n"
+"Obrigado!\n"
+
+#: models/config.php:213
+msgid "Confirm your subscription to %1$s"
+msgstr "Confirme a sua subscrição de %1$s"
+
+#: helpers/wp_tools.php:259 views/back/campaigns.php:121
+#: views/back/campaigns.php:438
+msgid "Scheduled"
+msgstr "Agendadas"
+
+#: helpers/wj_engine.php:124
+msgid "Insert block here"
+msgstr "Inserir um bloco aqui"
+
+#: helpers/wj_engine.php:122
+msgid "Set as default style."
+msgstr "Definir como estilo por omissão."
+
+#: helpers/wj_engine.php:121
+msgid "Default style saved."
+msgstr "Estilo por omissão guardado."
+
+#: helpers/wj_engine.php:120
+msgid "Saving default style..."
+msgstr "A guardar o estilo por omissão..."
+
+#: helpers/wj_engine.php:117
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+#: helpers/wj_engine.php:116
+msgid "View in browser link"
+msgstr "Ligação de visualização no navegador"
+
+#: helpers/wj_engine.php:115
+msgid "Edit subscription page link"
+msgstr "Ligação da página de edição da subscrição"
+
+#: helpers/wj_engine.php:114
+msgid "Unsubscribe link"
+msgstr "Ligação de cancelamento"
+
+#: helpers/wj_engine.php:111
+msgid "Full name of current month"
+msgstr "Nome completo do mês actual"
+
+#: helpers/wj_engine.php:110
+msgid "Current month number"
+msgstr "Número do mês actual"
+
+#: helpers/wj_engine.php:109
+msgid "Full name of current day"
+msgstr "Nome completo do dia actual"
+
+#: helpers/wj_engine.php:108
+msgid "Current day of the month in ordinal, ie. 2nd, 3rd, etc."
+msgstr "Dia actual do mês em número ordinal, ex: 1º, 2º, 3º, etc."
+
+#: helpers/wj_engine.php:107
+msgid "Current day of the month number"
+msgstr "Dia actual do número de mês"
+
+#: helpers/wj_engine.php:106 views/back/config.php:2159
+msgid "Date"
+msgstr "Data"
+
+#: helpers/wj_engine.php:105
+msgid "Issue number"
+msgstr "Número de edição"
+
+#: helpers/wj_engine.php:104
+msgid "Latest post title"
+msgstr "Título do último artigo"
+
+#: helpers/wj_engine.php:103
+msgid "Total number of posts or pages"
+msgstr "Número total de conteúdos ou páginas"
+
+#: helpers/wj_engine.php:102
+msgid "Post Notifications"
+msgstr "Publicar Notificações"
+
+#: helpers/wj_engine.php:101
+msgid "Newsletter Subject"
+msgstr "Assunto da newsletter"
+
+#: helpers/wj_engine.php:99
+msgid "Total of subscribers"
+msgstr "Total de subscritores"
+
+#: helpers/wj_engine.php:98
+msgid "WordPress user display name"
+msgstr "Nome de utilizador do WordPress"
+
+#: helpers/wj_engine.php:97
+msgid "Email Address"
+msgstr "Endereço de email"
+
+#: helpers/wj_engine.php:96
+msgid "Last Name"
+msgstr "Apelido"
+
+#: helpers/wj_engine.php:95
+msgid "First Name"
+msgstr "Nome"
+
+#: helpers/wj_engine.php:94
+msgid "Subscriber"
+msgstr "Subscritor"
+
+#: helpers/wj_engine.php:92
+msgid "Preview without images"
+msgstr "Pré-visualizar sem imagens"
+
+#: helpers/wj_engine.php:91
+msgid "You can only add one widget when designing a post notification sent immediately after an article is published"
+msgstr "Só pode adicionar um widget ao design de uma notificação para envio imediato após publicação de um artigo."
+
+#: helpers/wj_engine.php:90
+msgid "Edit Automatic latest content"
+msgstr "Editar Últimos artigos automáticos"
+
+#: helpers/wj_engine.php:89
+msgid "Selection options"
+msgstr "Opções de selecção"
+
+#: helpers/wj_engine.php:88
+msgid "Insert dynamic data about your subscribers, the newsletter, today's date, etc..."
+msgstr "Inserir dados dinâmicos sobre os seus subscritores, a newsletter, data actual, etc..."
+
+#: helpers/wj_engine.php:86
+msgid "Check this box if you want transparency"
+msgstr "Marque esta caixa se quer transparência"
+
+#: helpers/wj_engine.php:85
+msgid "Add Link & Alternative text"
+msgstr "Adicionar ligação e texto alternativo"
+
+#: helpers/wj_engine.php:84
+msgid "You are about to delete the theme : %1$s. Do you really want to do that?"
+msgstr "Está prestes a eliminar o tema: %1$s. Tem a certeza que quer fazer isto?"
+
+#: helpers/wj_engine.php:83
+msgid "Divider Selection"
+msgstr "Selecção de divisórias"
+
+#: helpers/wj_engine.php:82
+msgid "Social Bookmark Selection"
+msgstr "Selecção de redes sociais"
+
+#: helpers/wj_engine.php:78
+msgid "Header background"
+msgstr "Fundo do cabeçalho"
+
+#: helpers/wj_engine.php:77
+msgid "Background"
+msgstr "Fundo"
+
+#: helpers/wj_engine.php:76 helpers/wj_engine.php:100
+#: modules/stats_subscribers_std/stats_subscribers_std_view.php:26
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: helpers/wj_engine.php:75
+msgid "Footer background"
+msgstr "Fundo do rodapé"
+
+#: helpers/wj_engine.php:74
+msgid "Footer text"
+msgstr "Texto de rodapé"
+
+#: helpers/wj_engine.php:73
+msgid "underline"
+msgstr "sublinhar"
+
+#: helpers/wj_engine.php:72 helpers/wj_engine.php:113
+msgid "Links"
+msgstr "Ligações"
+
+#: helpers/wj_engine.php:71
+msgid "Heading 3"
+msgstr "Título 3"
+
+#: helpers/wj_engine.php:70
+msgid "Heading 2"
+msgstr "Título 2"
+
+#: helpers/wj_engine.php:69
+msgid "Heading 1"
+msgstr "Título 1"
+
+#: helpers/wj_engine.php:68
+msgid "\"View in browser\""
+msgstr "\"Ver no navegador\""
+
+#: helpers/wj_engine.php:67
+msgid "Text"
+msgstr "Texto"
+
+#: helpers/wj_engine.php:66 views/back/campaigns.php:1211
+msgid "WordPress post"
+msgstr "Conteúdo do WordPress"
+
+#: helpers/wj_engine.php:65
+msgid "Custom horizontal line"
+msgstr "Linha horizontal personalizada"
+
+#: helpers/wj_engine.php:64 helpers/wj_engine.php:79
+msgid "Horizontal line"
+msgstr "Linha horizontal"
+
+#: helpers/wj_engine.php:63 views/back/campaigns.php:1210
+msgid "Titles & text"
+msgstr "Títulos e texto"
+
+#: helpers/wj_engine.php:62
+msgid "Remove text"
+msgstr "Remover texto"
+
+#: helpers/wj_engine.php:61
+msgid "Edit text"
+msgstr "Editar texto"
+
+#: helpers/wj_engine.php:60
+msgid "Remove"
+msgstr "Remover"
+
+#: helpers/wj_engine.php:59
+msgid "Remove image"
+msgstr "Remover imagem"
+
+#: helpers/wj_engine.php:58
+msgid "Remove link"
+msgstr "Remover ligação"
+
+#: helpers/wj_engine.php:57
+msgid "Add link / Alternative text"
+msgstr "Adicionar ligação/texto alternativo"
+
+#: helpers/wj_engine.php:56
+msgid "Align right"
+msgstr "Alinhar à direita"
+
+#: helpers/wj_engine.php:55
+msgid "Align center"
+msgstr "Alinhar ao centro"
+
+#: helpers/wj_engine.php:54
+msgid "Align left"
+msgstr "Alinhar à esquerda"
+
+#: helpers/wj_engine.php:53
+msgid "Click here to add a title or text."
+msgstr "Clique para adicionar um título ou texto."
+
+#: helpers/wj_engine.php:52
+msgid "If you leave this area empty, it will not display once you send your email"
+msgstr "Se deixar esta área em branco, não será visível no email enviado"
+
+#: helpers/wj_engine.php:51
+msgid "Drop your footer image here."
+msgstr "Largue a imagem do rodapé aqui."
+
+#: helpers/wj_engine.php:50
+msgid "Drop your logo in this header."
+msgstr "Largue o logótipo neste cabeçalho."
+
+#: helpers/user.php:1211
+msgid "You are already subscribed."
+msgstr "Já está inscrito."
+
+#: helpers/user.php:1208
+msgid "You are already subscribed to : %1$s"
+msgstr "Já se encontra subscrito para: %1$s"
+
+#: helpers/user.php:1169 models/config.php:216
+msgid "Yup, we've added you to our list. You'll hear from us shortly."
+msgstr "Óptimo, agora faz parte da nossa lista. Vai ter notícias em breve."
+
+#: helpers/user.php:1161 models/config.php:215
+msgid "You've subscribed to: %1$s"
+msgstr "Encontra-se subscrito para: %1$s"
+
+#: helpers/user.php:1145
+msgid "Your confirmation link expired, please subscribe again."
+msgstr "A sua ligação de confirmação expirou, por favor subscreva de novo."
+
+#: helpers/user.php:1105 helpers/user.php:1109
+msgid "Page is not accessible."
+msgstr "Página inacessível."
+
+#: helpers/user.php:995
+msgid "The list does not exists or cannot be synched."
+msgstr "Essa lista não existe ou não pode ser sincronizada."
+
+#: helpers/user.php:992
+msgid "List \"%1$s\" has been synchronised."
+msgstr "A lista \"%1$s\" foi sincronizada."
+
+#: helpers/user.php:876
+msgid ""
+"Howdy,\n"
+"\n"
+" The subscriber %1$s has just unsubscribed to your list '%2$s' \n"
+"\n"
+" Cheers,\n"
+"\n"
+" The MailPoet Plugin"
+msgstr ""
+"Olá,\n"
+"\n"
+"O utilizador %1$s cancelou a subscrição da sua lista '%2$s'\n"
+"\n"
+"Obrigado,\n"
+"\n"
+"O plugin MailPoet"
+
+#: helpers/user.php:875
+msgid "One less subscriber to %1$s"
+msgstr "Um subscritor a menos de %1$s"
+
+#: helpers/user.php:873
+msgid ""
+"Howdy,\n"
+"\n"
+" The subscriber %1$s has just subscribed to your list '%2$s' \n"
+"\n"
+" Cheers,\n"
+"\n"
+" The MailPoet Plugin"
+msgstr ""
+"Olá,\n"
+"\n"
+"O utilizador %1$s subscreveu à sua lista '%2$s'\n"
+"\n"
+"Obrigado,\n"
+"\n"
+"O plugin MailPoet"
+
+#: helpers/user.php:872
+msgid "New subscriber to %1$s"
+msgstr "Novo subscritor da lista %1$s"
+
+#: helpers/user.php:335
+msgid "Oops! We could not add you!"
+msgstr "Oops! Não foi possível adiciona-lo!"
+
+#: helpers/user.php:289
+msgid "Oops! You're already subscribed."
+msgstr "Ups! Já está inscrito."
+
+#: helpers/user.php:176
+msgid "Subscriber already exists. [link]Click to edit[/link]."
+msgstr "O subscritor já existe. [link]Clique para editar[/link]."
+
+#: helpers/user.php:126 helpers/user.php:133
+msgid "The email is not valid!"
+msgstr "O endereço de email é inválido!"
+
+#: helpers/uninstall.php:47
+msgid "MailPoet has been uninstalled. Your site is now cleared of MailPoet."
+msgstr "O MailPoet foi desinstalado por completo. "
+
+#: helpers/uninstall.php:39
+msgid "MailPoet cannot be reinstalled because your folder <em>wp-content/uploads/wysija</em> needs to be writable. Change your permissions and reinstall."
+msgstr "Não é possível reinstalar o MailPoet porque a sua pasta <em>wp-content/uploads/wysija</em> necessita de permissões de escrita. Mude as permissões e reinstale."
+
+#: helpers/uninstall.php:37
+msgid "MailPoet has been reinstalled successfully using the same version. Settings and data have been deleted."
+msgstr "O MailPoet foi reinstalado com sucesso usando a mesma versão. As definições e os dados foram eliminados."
+
+#: helpers/toolbox.php:337
+msgid "%1$sth"
+msgstr "%1$sº"
+
+#: helpers/toolbox.php:311
+msgid "Last"
+msgstr "última"
+
+#: helpers/toolbox.php:310 helpers/toolbox.php:334
+msgid "3rd"
+msgstr "terceira"
+
+#: helpers/toolbox.php:309 helpers/toolbox.php:331
+msgid "2nd"
+msgstr "segunda"
+
+#: helpers/toolbox.php:308 helpers/toolbox.php:328
+msgid "1st"
+msgstr "primeira"
+
+#: helpers/toolbox.php:296
+msgid "Sunday"
+msgstr "Domingo"
+
+#: helpers/toolbox.php:295
+msgid "Saturday"
+msgstr "Sábado"
+
+#: helpers/toolbox.php:294
+msgid "Friday"
+msgstr "Sexta-feira"
+
+#: helpers/toolbox.php:293
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#: helpers/toolbox.php:292
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+#: helpers/toolbox.php:291
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: helpers/toolbox.php:290
+msgid "Monday"
+msgstr "Segunda-feira"
+
+#: helpers/toolbox.php:133
+msgid "%1$s second"
+msgid_plural "%1$s seconds"
+msgstr[0] "%1$s segundo"
+msgstr[1] "%1$s segundos"
+
+#: helpers/toolbox.php:132
+msgid "%1$s minute"
+msgid_plural "%1$s minutes"
+msgstr[0] "%1$s minuto"
+msgstr[1] "%1$s minutos"
+
+#: helpers/toolbox.php:131
+msgid "%1$s hour"
+msgid_plural "%1$s hours"
+msgstr[0] "%1$s hora"
+msgstr[1] "%1$s horas"
+
+#: helpers/toolbox.php:130
+msgid "%1$s day"
+msgid_plural "%1$s days"
+msgstr[0] "%1$s dia"
+msgstr[1] "%1$s dias"
+
+#: helpers/toolbox.php:129
+msgid "%1$s week"
+msgid_plural "%1$s weeks"
+msgstr[0] "%1$s semana"
+msgstr[1] "%1$s semanas"
+
+#: helpers/toolbox.php:128
+msgid "%1$s year"
+msgid_plural "%1$s years"
+msgstr[0] "%1$s ano"
+msgstr[1] "%1$s anos"
+
+#: helpers/themes.php:362
+msgid "Theme %1$s could not be deleted."
+msgstr "Não foi possível eliminar o tema %1$s."
+
+#: helpers/themes.php:359
+msgid "Theme %1$s has been deleted."
+msgstr "O tema %1$s foi eliminado."
+
+#: helpers/themes.php:342
+msgid "We could not install your theme. It appears it's not in the valid format."
+msgstr "Não foi possível instalar o tema. O formato parece inválido."
+
+#: helpers/themes.php:340
+msgid "The theme %1$s has been installed on your site."
+msgstr "O tema %1$s foi instalado no seu site."
+
+#: helpers/themes.php:309
+msgid "A theme called %1$s exists already. To overwrite it, tick the corresponding checkbox before uploading."
+msgstr "Já existe um tema chamado %1$s. Para substituir um tema existente, marque a caixa de opção ao carregar o tema."
+
+#: helpers/themes.php:256
+msgid "The folder \"%1$s\" is not writable, please change the access rights to this folder so that Mailpoet can setup itself properly."
+msgstr "A pasta \"%1$s\" não tem permissões de escrita, modifique as permissões de acesso desta pasta para que possa configurar o MailPoet com sucesso."
+
+#: helpers/themes.php:156
+msgid "Footer"
+msgstr "Rodapé"
+
+#: helpers/themes.php:125
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: helpers/server.php:149 helpers/server.php:172
+msgid "The MySQL user you have setup on your WordPress site (wp-config.php) doesn't have enough privileges to CREATE MySQL tables. Please change this user yourself or contact the administrator of your site in order to complete MailPoet's installation. mysql errors:(%1$s)"
+msgstr "O usuário do MySQL que tem configurado no seu site WordPress (wp-config.php) não tem privilégios suficientes para criar tabelas no MySQL. Por favor, altere este utilizador ou entre em contacto com o administrador do seu site para poder completar a instalação do MailPoet. Erros mysql: (%1$s)"
+
+#: helpers/server.php:104 helpers/themes.php:256
+msgid "Read documentation"
+msgstr "Ler a documentação"
+
+#: helpers/server.php:104
+msgid "The folder \"%1$s\" is not writable, please change the access rights to this folder so that MailPoet can setup itself properly."
+msgstr "A pasta \"%1$s\" não é editável. Altere os privilégios de acesso para que o MailPoet possa instalar-se corretamente."
+
+#: helpers/rules.php:129
+msgid "When the bounce is weird and we're not sure what to do, forward to:"
+msgstr "Quando a devolução for esquisita e não souber o que fazer, reencaminhar para:"
+
+#: helpers/rules.php:116
+msgid "When you are flagged as a spammer forward the bounced message to"
+msgstr "Se for marcado como spammer, reencaminhe a mensagem devolvida para"
+
+#: helpers/rules.php:114
+msgid "Blocked IP"
+msgstr "IP bloqueado"
+
+#: helpers/rules.php:103
+msgid "When you need to confirm you're a human being, forward to:"
+msgstr "Quando precisar de confirmar que é humano, reencaminhe para:"
+
+#: helpers/rules.php:102
+msgid "Action Required"
+msgstr "Acção necessária."
+
+#: helpers/rules.php:73
+msgid "When failed permanently"
+msgstr "Quando falhou permanentemente"
+
+#: helpers/rules.php:72
+msgid "Failed Permanently"
+msgstr "Falhou permanentemente"
+
+#: helpers/rules.php:57
+msgid "When message is delayed"
+msgstr "Quando a mensagem está atrasada"
+
+#: helpers/rules.php:56
+msgid "Message delayed"
+msgstr "Mensagem atrasada"
+
+#: helpers/rules.php:42
+msgid "When mailbox is not available"
+msgstr "Quando a caixa de correio está indisponível"
+
+#: helpers/rules.php:41
+msgid "Mailbox not available"
+msgstr "Caixa de correio indisponível"
+
+#: helpers/rules.php:29
+msgid "When mailbox is full"
+msgstr "Quando a caixa de correio está cheia"
+
+#: helpers/rules.php:28
+msgid "Mailbox Full"
+msgstr "Caixa de correio cheia"
+
+#: helpers/queue.php:387
+msgid "Your server apparently refuses to send more emails."
+msgstr "O servidor parece recusar-se a enviar mais emails."
+
+#: helpers/queue.php:385
+msgid "If you recently, successfully, sent a lot of emails, those errors may also be due to your server limitations."
+msgstr "Se enviou muitos emails recentemente, os erros podem originar de limites impostos pelo próprio servidor."
+
+#: helpers/queue.php:383
+msgid "Please verify your mail configuration and make sure you can send a test of this email."
+msgstr "Verifique a configuração do email. Veja se consegue enviar um email de teste com esta conta."
+
+#: helpers/queue.php:379
+msgid "We kept all non delivered emails in the queue, so you will be able to resume the send process later."
+msgstr "Todos os emails que não puderam ser entregues ficam em fila de espera. Pode retomar o envio mais tarde."
+
+#: helpers/queue.php:377
+msgid "The Send Process stopped because there are too many errors."
+msgstr "O processo de envio parou devido a existirem demasiados erros."
+
+#: helpers/queue.php:314
+msgid "Newsletters are already being sent. Your latest newsletter will be sent afterwards."
+msgstr "As newsletters estão a ser enviadas. A última newsletter será enviada logo a seguir."
+
+#: helpers/queue.php:250
+msgid "Process refreshed to avoid a possible loss of connection."
+msgstr "O processo reiniciou-se para evitar possível perda de ligação."
+
+#: helpers/queue.php:243
+msgid "Process refreshed to avoid a time limit."
+msgstr "O processo reiniciou-se para evitar o limite de tempo."
+
+#: helpers/queue.php:203
+msgid "Next try in %s minutes."
+msgstr "Próxima tentativa em %s minutos."
+
+#: helpers/queue.php:118
+msgid "Total of batch"
+msgstr "Total do lote"
+
+#: helpers/queue.php:114
+msgid "Send Process"
+msgstr "Processo de envio"
+
+#: helpers/queue.php:97
+msgid "Email will be sent to %1$s at %2$s"
+msgstr "Email a enviar a %1$s às %2$s"
+
+#: helpers/queue.php:91
+msgid "There are %1$s pending email(s)"
+msgstr "Existe(m) %1$s email(s) pendente(s)"
+
+#: helpers/plugins_import.php:337
+msgid "The list existed in \"%1$s\" and has been imported automatically."
+msgstr "A lista existia em \"%1$s\" e foi importada automaticamente."
+
+#: helpers/plugins_import.php:336
+msgid "\"%2$s\" imported from %1$s"
+msgstr "\"%2$s\" importados de %1$s"
+
+#: helpers/plugins_import.php:230
+msgid "The list created automatically on import of the plugin's subscribers : \"%1$s"
+msgstr "A lista criada automaticamente por importação dos subscritores do plugin: \"%1$s"
+
+#: helpers/plugins_import.php:229
+msgid "%1$s's import list"
+msgstr "%1$s's lista importada"
+
+#: helpers/plugins_import.php:228
+msgid "WordPress Users"
+msgstr "Utilizadores WordPress"
+
+#: helpers/plugins_import.php:105
+msgid "Newsletters (by Tribulant)"
+msgstr "Newsletters (por Tribulant)"
+
+#: helpers/plugins_import.php:14
+msgid "Newsletter Pro (by Satollo)"
+msgstr "Newsletter Pro (por Satollo)"
+
+#: helpers/notifications.php:100
+msgid "Your daily newsletter stats"
+msgstr "Estatísticas diárias da newsletter"
+
+#: helpers/notifications.php:89
+msgid "Cheers, your MailPoet Newsletter Plugin"
+msgstr "O seu plugin MailPoet Newsletter"
+
+#: helpers/notifications.php:83
+msgid "Here is the list of bounced emails."
+msgstr "Aqui tem a lista de emails devolvidos."
+
+#: helpers/notifications.php:79
+msgid ", %1$s of which were %2$s"
+msgstr ", %1$s dos quais foram %2$s"
+
+#: helpers/notifications.php:77
+msgid "Today you have sent %1$s emails"
+msgstr "Hoje enviou %1$s emails"
+
+#: helpers/notifications.php:76
+msgid "Today's statistics"
+msgstr "Estatísticas de hoje"
+
+#: helpers/notifications.php:68
+msgid "unsubscribed"
+msgstr "cancelado"
+
+#: helpers/notifications.php:65
+msgid "clicked"
+msgstr "clicada"
+
+#: helpers/notifications.php:62
+msgid "opened"
+msgstr "aberta(s)"
+
+#: helpers/notifications.php:59
+msgid "unopened"
+msgstr "por abrir"
+
+#: helpers/notifications.php:56
+msgid "bounced"
+msgstr "devolvida(s)"
+
+#: helpers/notifications.php:53
+msgid "undelivered"
+msgstr "não entregue"
+
+#: helpers/mailer.php:827 helpers/wj_engine.php:80 models/config.php:219
+#: models/config.php:648 views/back/campaigns.php:228
+msgid "Unsubscribe"
+msgstr "Cancelar subscrição"
+
+#: helpers/mailer.php:546
+msgid "Subscriber not found : <b><i>%s</i></b>"
+msgstr "Subscritor não encontrado: <b><i>%s</i></b>"
+
+#: helpers/mailer.php:502
+msgid "The email ID %s is not published"
+msgstr "O email ID %s não é publicado"
+
+#: helpers/mailer.php:268
+msgid "Successfully sent to <b><i>%s</i></b>"
+msgstr "Enviado com sucesso para <b><i>%s</i></b>"
+
+#: helpers/mailer.php:250
+msgid "Error Sending Message <b><i>%s</i></b> to <b><i>%s</i></b>"
+msgstr "Erro a enviar mensagem <b><i>%s</i></b> para <b><i>%s</i></b>"
+
+#: helpers/mailer.php:213
+msgid "There is no subject or body in this email"
+msgstr "Não tem texto no assunto nem no corpo do email "
+
+#: helpers/mailer.php:172
+msgid "You cannot use the DKIM signature option..."
+msgstr "Não pode utilizar a opção da assinatura DKIM..."
+
+#: helpers/links.php:24
+msgid "Get [link]MailPoet Premium[/link] to see the link."
+msgstr "Adira ao [link]MailPoet Premium[/link] para ver a ligação."
+
+#: helpers/licence.php:131
+msgid "Your licence doesn't allow more domains. Upgrade from your [link]account manager[/link]."
+msgstr "A sua licença não permite mais domínios. Faça Upgrade a partir do seu [link]gestor de contas[/links]."
+
+#: helpers/licence.php:128
+msgid "You can add this domain to your [link]account manager[/link]."
+msgstr "Pode adicionar este domínio ao seu [link]gestor de contas[/link]."
+
+#: helpers/licence.php:124
+msgid "Your Premium licence has expired."
+msgstr "A sua licença Premium expirou."
+
+#: helpers/licence.php:123
+msgid "Renew now."
+msgstr "Renovar agora."
+
+#: helpers/licence.php:118
+msgid "There's no license for \"%1$s\". If you're Premium, add this domain in your [link]account manager[/link]."
+msgstr "Não existe nenhuma licença para \"%1$s\". Caso seja Premium, adicione este domínio ao [link]gestor de contas[/link]."
+
+#: helpers/licence.php:115
+msgid "Your website doesn't seem to have a license! Log into your [link]account manager[/link] to add a license for this website."
+msgstr "Parece que o seu site não tem uma licença! Aceda à sua [link]conta[/link] para adicionar uma licença para este site."
+
+#: helpers/install.php:664 widgets/wysija_nl.php:79 widgets/wysija_nl.php:147
+msgid "Subscribe to our Newsletter"
+msgstr "Subscrever newsletter"
+
+#: helpers/install.php:622
+msgid "Subscription confirmation"
+msgstr "Confirmação da subscrição"
+
+#: helpers/install.php:593
+msgid "Please enter last name"
+msgstr "Por favor introduza o apelido"
+
+#: helpers/install.php:592
+msgid "Please enter first name"
+msgstr "Por favor introduza o nome"
+
+#: helpers/install.php:505
+msgid "These tables could not be created on installation: %1$s"
+msgstr "Estas tabelas não puderam ser criadas na instalação: %1$s"
+
+#: helpers/install.php:205 helpers/install.php:215
+msgid "5 Minute User Guide"
+msgstr "Guia de Utilizador de 5 Minutos"
+
+#: helpers/install.php:188
+msgid "The list created automatically on install of the MailPoet."
+msgstr "Lista criada automaticamente com a instalação do MailPoet."
+
+#: helpers/install.php:185
+msgid "My first list"
+msgstr "A minha primeira lista"
+
+#: helpers/install.php:25
+msgid "Please contact your host or server administrator to fix this."
+msgstr "Por favor contacte o administrador do site ou do servidor para corrigir o erro."
+
+#: helpers/install.php:25
+msgid "Your server is missing one or many important PHP functions to run properly :  %1$s"
+msgstr "Falta no seu servidor uma ou várias funções PHP para funcionar correctamente: %1$s"
+
+#: helpers/install.php:22
+msgid "Your server cannot run MailPoet."
+msgstr "O seu servidor não suporta o MailPoet."
+
+#: helpers/http.php:32 helpers/http.php:80
+msgid "Contact your administrator to modify that, it should be configurable."
+msgstr "Contacte o administrador para corrigir. A configuração deveria ser possível."
+
+#: helpers/http.php:31 helpers/http.php:79
+msgid "Your server doesn't support remote exchanges."
+msgstr "O servidor não suporta modificações remotas."
+
+#: helpers/forms.php:150 helpers/forms.php:155
+msgid "Visual"
+msgstr "Visual"
+
+#: helpers/forms.php:149 helpers/forms.php:154
+msgid "HTML"
+msgstr "HTML"
+
+#: helpers/forms.php:20
+msgid "every 2 hours"
+msgstr "a cada 2 horas"
+
+#: helpers/forms.php:19
+msgid "every hour"
+msgstr "a cada hora"
+
+#: helpers/forms.php:18
+msgid "every 30 minutes"
+msgstr "a cada 30 minutos"
+
+#: helpers/forms.php:17
+msgid "every 15 minutes"
+msgstr "a cada 15 minutos"
+
+#: helpers/forms.php:16
+msgid "every 10 minutes"
+msgstr "a cada 10 minutos"
+
+#: helpers/forms.php:15
+msgid "every 5 minutes"
+msgstr "a cada 5 minutos"
+
+#: helpers/forms.php:14
+msgid "every 2 minutes"
+msgstr "a cada 2 minutos"
+
+#: helpers/forms.php:13
+msgid "every minute"
+msgstr "a cada minuto"
+
+#: helpers/form_engine.php:797
+msgid "Subscription MailPoet"
+msgstr "Subscrição MailPoet"
+
+#: helpers/form_engine.php:379
+msgid "Delete field"
+msgstr "Eliminar campo"
+
+#: helpers/form_engine.php:378 views/back/config.php:2230
+msgid "Edit field"
+msgstr "Editar campo"
+
+#: helpers/form_engine.php:363
+msgid "Add New Field"
+msgstr "Adicionar novo campo"
+
+#: helpers/form_engine.php:344
+msgid "Subscribe to our newsletter and join our [total_subscribers] subscribers."
+msgstr "Subscreva a nossa newsletter e faça parte dos nossos [total_subscribers] subscritores."
+
+#: helpers/form_engine.php:340
+msgid "Random text or HTML"
+msgstr "Texto aleatório ou HTML"
+
+#: helpers/form_engine.php:335 helpers/update.php:763 widgets/wysija_nl.php:87
+msgid "Select list(s):"
+msgstr "Seleccionar lista(s):"
+
+#: helpers/form_engine.php:331 helpers/update.php:759
+msgid "List selection"
+msgstr "Selecção de lista"
+
+#: helpers/form_engine.php:326 helpers/install.php:593 helpers/update.php:712
+#: models/user_field.php:21 views/back/subscribers.php:506
+#: views/back/subscribers.php:971 views/front/confirm.php:74
+#: views/front/widget_nl.php:257 views/front/widget_nl.php:327
+msgid "Last name"
+msgstr "Apelido"
+
+#: helpers/form_engine.php:321 helpers/install.php:592 helpers/update.php:709
+#: models/user_field.php:20 views/back/subscribers.php:497
+#: views/back/subscribers.php:970 views/front/confirm.php:65
+#: views/front/widget_nl.php:256 views/front/widget_nl.php:326
+msgid "First name"
+msgstr "Nome"
+
+#: helpers/form_engine.php:316 views/back/campaigns.php:1214
+msgid "Divider"
+msgstr "Divisória"
+
+#: helpers/form_engine.php:253 helpers/update.php:770 widgets/wysija_nl.php:113
+msgid "Subscribe!"
+msgstr "Subscrever!"
+
+#: helpers/form_engine.php:249 helpers/update.php:775
+msgid "Submit"
+msgstr "Submeter"
+
+#: helpers/form_engine.php:240 helpers/form_engine.php:244
+#: helpers/update.php:716 helpers/update.php:736 helpers/update.php:740
+#: models/user_field.php:19 views/back/campaigns.php:936
+#: views/back/subscribers.php:273 views/back/subscribers.php:488
+#: views/back/subscribers.php:969 views/front/confirm.php:54
+#: views/front/widget_nl.php:255 views/front/widget_nl.php:328
+#: widgets/wysija_nl.php:100
+msgid "Email"
+msgstr "Email"
+
+#: helpers/form_engine.php:234
+msgid "Check your inbox or spam folder now to confirm your subscription."
+msgstr "Enviámos-lhe um email! Veja na sua caixa de correio ou na pasta de spam como confirmar a sua subscrição."
+
+#: helpers/form_engine.php:76
+msgid "December"
+msgstr "Dezembro"
+
+#: helpers/form_engine.php:75
+msgid "November"
+msgstr "Novembro"
+
+#: helpers/form_engine.php:74
+msgid "October"
+msgstr "Outubro"
+
+#: helpers/form_engine.php:73
+msgid "September"
+msgstr "Setembro"
+
+#: helpers/form_engine.php:72
+msgid "August"
+msgstr "Agosto"
+
+#: helpers/form_engine.php:71
+msgid "July"
+msgstr "Julho"
+
+#: helpers/form_engine.php:70
+msgid "June"
+msgstr "Junho"
+
+#: helpers/form_engine.php:69
+msgid "May"
+msgstr "Maio"
+
+#: helpers/form_engine.php:68
+msgid "April"
+msgstr "Abril"
+
+#: helpers/form_engine.php:67
+msgid "March"
+msgstr "Março"
+
+#: helpers/form_engine.php:66
+msgid "February"
+msgstr "Fevereiro"
+
+#: helpers/form_engine.php:65
+msgid "January"
+msgstr "Janeiro"
+
+#: helpers/form_engine.php:44
+msgid "Are you sure you want to delete this custom field?"
+msgstr "Tem certeza que deseja excluir este campo personalizado?"
+
+#: helpers/form_engine.php:43
+msgid "Edit custom field"
+msgstr "Editar campo customizado"
+
+#: helpers/form_engine.php:42
+msgid "Add new field"
+msgstr "Adicionar novo campo"
+
+#: helpers/form_engine.php:41
+msgid "You need to specify a value for your checkbox"
+msgstr "Tem que especificar um valor para a sua caixa de selecção."
+
+#: helpers/form_engine.php:40
+msgid "Your subscriber needs at least 2 options to select from"
+msgstr "O seu subscritor precisa de pelo menos 2 opções de escolha"
+
+#: helpers/form_engine.php:39
+msgid "You have to select at least 1 list"
+msgstr "Tem de seleccionar pelo menos 1 lista"
+
+#: helpers/form_engine.php:38
+msgid "Edit display"
+msgstr "Editar modo de exibição"
+
+#: helpers/form_engine.php:37 views/back/campaigns.php:1902
+#: views/back/campaigns.php:1920 views/back/config.php:1877
+#: views/back/subscribers.php:473 views/back.php:794
+#: views/front/confirm.php:157
+msgid "Save"
+msgstr "Guardar"
+
+#: helpers/form_engine.php:36
+msgid "Saving form..."
+msgstr "A guardar formulário..."
+
+#: helpers/email.php:116
+msgid "Your localhost may not have a mail server. To verify, please log out and click on the \"Lost your password?\" link on the login page. Do you receive the reset password email from your WordPress?"
+msgstr "O localhost pode não ter servidor de email. Para verificar, faça logout e escolha a opção \"Esqueceu-se da senha?\" na página de login. Recebeu o email de reset da senha do WordPress?"
+
+#: helpers/email.php:113
+msgid "You specified an SMTP password but you don't require an authentication, you might want to turn the SMTP authentication ON."
+msgstr "Especificou uma palavra-passe de SMTP mas não exigiu uma autenticação, poderá querer activar a Autenticação SMTP."
+
+#: helpers/email.php:110
+msgid "The bounce email address \"%1$s\" might actually cause the problem. Leave the field empty and try again."
+msgstr "O endereço de email devolvido \"%1$s\" pode estar a causar o problema. Deixe o campo em branco e tente de novo."
+
+#: helpers/email.php:108 helpers/mailer.php:172
+msgid "The PHP Extension openssl is not enabled on your server. Ask your host to enable it if you want to use an SSL connection."
+msgstr "Extensão PHP openssl inactiva no servidor. Peça ao serviço de alojamento que active se pretender usar uma ligação SSL."
+
+#: helpers/email.php:102
+msgid "Test email successfully sent to %s"
+msgstr "Email de teste enviado com sucesso para %s"
+
+#: helpers/email.php:99
+msgid "[send_method] works with MailPoet"
+msgstr "[send_method] compatível com o MailPoet"
+
+#: helpers/email.php:84
+msgid "Looking for a faster method to send? [link]Read more[/link] on sending with a professional SMTP."
+msgstr "Procura um método mais rápido? [link]Leia mais[/link] sobre o envio com SMTP profissional."
+
+#: helpers/email.php:80
+msgid "You're all setup! You've successfully sent with Gmail."
+msgstr "Está tudo instalado. Conseguiu enviar com o GMail."
+
+#: helpers/email.php:35
+msgid "Yup, it works. You can start blasting away emails to the moon."
+msgstr "Boa, funciona! Desate a mandar emails até mais não…"
+
+#: helpers/bounce.php:894
+msgid "There are no messages"
+msgstr "Não há mensagens"
+
+#: helpers/bounce.php:583
+msgid "Actions will be executed after %1$s messages"
+msgstr "As acções serão executadas após %1$s mensagens"
+
+#: helpers/bounce.php:583
+msgid "We received %1$s messages from the user %2$s"
+msgstr "Recebemos %1$s mensagens do utilizador %2$s"
+
+#: helpers/bounce.php:355
+msgid "Subject"
+msgstr "Assunto"
+
+#: helpers/bounce.php:316 helpers/bounce.php:319
+msgid "Bounce Handling"
+msgstr "Gestão de devoluções"
+
+#: helpers/backloader.php:289
+msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
+msgstr "Esta funcionalidade necessita de iFrames. Não tem as iFrames activas ou o seu navegador não suporta iFrames."
+
+#: helpers/backloader.php:288
+msgid "Close"
+msgstr "Fechar"
+
+#: helpers/backloader.php:287
+msgid "of"
+msgstr "de"
+
+#: helpers/backloader.php:286
+msgid "Image"
+msgstr "Imagem"
+
+#: helpers/backloader.php:285
+msgid "&lt; Prev"
+msgstr "&lt; Anterior"
+
+#: helpers/backloader.php:284
+msgid "Next &gt;"
+msgstr "Seguinte &gt;"
+
+#: helpers/backloader.php:234
+msgid "Searching..."
+msgstr "A procurar..."
+
+#: helpers/backloader.php:233
+msgid "Loading more Results..."
+msgstr "A carregar mais resultados..."
+
+#: helpers/backloader.php:232
+msgid "You can only select <%= chars %> item<%= plural %>"
+msgstr "Só pode seleccionar <%= chars %> item<%= plural %>"
+
+#: helpers/backloader.php:231
+msgid "Please delete <%= chars %> character<%= plural %>"
+msgstr "Por favor apague <%= chars %> caractere<%= plural %>"
+
+#: helpers/backloader.php:230
+msgid "Please enter <%= chars %> more character<%= plural %>"
+msgstr "Por favor introduza <%= chars %> mais caractere <%= plural %>"
+
+#: helpers/backloader.php:229
+msgid "No Results were found"
+msgstr "Nenhum resultado encontrado"
+
+#: helpers/backloader.php:32
+msgid "Do you want to install that version?"
+msgstr "Deseja instalar esta versão?"
+
+#: helpers/backloader.php:29
+msgid "Deleting a list will not delete any subscribers."
+msgstr "Eliminar uma lista não elimina os subscritores."
+
+#: helpers/backloader.php:28
+msgid "Please make a selection first!"
+msgstr "Por favor, faça uma escolha primeiro!"
+
+#: helpers/back.php:610
+msgid "MailPoet Version"
+msgstr "Versão MailPoet: "
+
+#: helpers/back.php:590
+msgid "Add your [stars] on [link]wordpress.org[/link] and keep this plugin essentially free."
+msgstr "Adicionem as vossas [stars] em [link]wordpress.org[/link] e mantenham este plugin essencialmente gratuito."
+
+#: helpers/back.php:585
+msgid "Contact Support"
+msgstr "Contacte o suporte"
+
+#: helpers/back.php:513
+msgid "Go Premium!"
+msgstr "Obter versão premium!"
+
+#: helpers/back.php:473
+msgid "Get Help!"
+msgstr "Obter ajuda!"
+
+#: helpers/back.php:451
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: helpers/back.php:358 views/back/campaigns.php:2967
+#: views/back/campaigns.php:3180
+msgid "Hide!"
+msgstr "Esconder!"
+
+#: helpers/back.php:348 helpers/back.php:455
+msgid "Settings"
+msgstr "Definições"
+
+#: helpers/back.php:347 helpers/back.php:447
+msgid "Subscribers"
+msgstr "Subscritores"
+
+#: helpers/back.php:343
+msgid "MailPoet Version: "
+msgstr "Versão do MailPoet: "
+
+#: helpers/back.php:339
+msgid "It doesn't always work the way we want it to, doesn't it? We have a [link]dedicated support website[/link] with documentation and a ticketing system."
+msgstr "Nem sempre corre como gostaríamos, não é? Temos um [link]website de apoio técnico[/link] com documentação e um sistema de ticketing."
+
+#: helpers/back.php:231
+msgid "Download the Premium plugin."
+msgstr "Faça o download do plugin Premium"
+
+#: helpers/back.php:231
+msgid "Installing MailPoet Premium Version"
+msgstr "A instalar a versão MailPoet Premium"
+
+#: helpers/back.php:231
+msgid "Confirm installing the MailPoet Premium Plugin?"
+msgstr "Confirma a instalação do Plugin MailPoet Premium?"
+
+#: helpers/back.php:231
+msgid "Congrats, your Premium license is active. One last step..."
+msgstr "Parabéns, a sua licença Premium está activada. Um último passo..."
+
+#: helpers/back.php:216
+msgid "Activate MailPoet Premium Version"
+msgstr "Activar a versão Premium do MailPoet"
+
+#: helpers/back.php:216
+msgid "Confirm activating the MailPoet Premium Plugin?"
+msgstr "Confirma a activação do Plugin MailPoet Premium?"
+
+#: helpers/back.php:216
+msgid "You need to activate the MailPoet Premium plugin."
+msgstr "Precisa de activar o plugin MailPoet Premium."
+
+#: helpers/articles.php:407
+msgid "Filter by status"
+msgstr "Filtrar por estado"
+
+#: helpers/articles.php:397 views/back/campaigns.php:2262
+msgid "Categories and tags"
+msgstr "Categorias e etiquetas"
+
+#: helpers/articles.php:386
+msgid "Pages"
+msgstr "Páginas"
+
+#: helpers/articles.php:385
+msgid "Posts"
+msgstr "Conteúdos"
+
+#: helpers/articles.php:383 views/back/campaigns.php:1998
+msgid "Filter by type"
+msgstr "Filtrar por tipo"
+
+#: helpers/articles.php:358
+msgid "Click here to view media."
+msgstr "Clique para ver media."
+
+#: helpers/articles.php:31
+msgid "Read online."
+msgstr "Ler online."
+
+#: core/view.php:135
+msgid "Your server's configuration doesn't allow us to complete MailPoet's Installation!"
+msgstr "A configuração do servidor não é compatível com a instalação do MailPoet."
+
+#: core/module/statistics.php:30
+msgid "There's no stats to load!"
+msgstr "Não existem estatísticas para carregar!"
+
+#: core/model.php:753
+msgid "Field \"%1$s\" needs to be a valid Email."
+msgstr "O campo \"%1$s\" tem de ser um email válido."
+
+#: core/model.php:745
+msgid "Field \"%1$s\" is required in table \"%2$s\"."
+msgstr "O campo \"%1$s\" é necessário na tabela \"%2$s\"."
+
+#: core/model.php:645
+msgid "Error Validating the fields"
+msgstr "Erro ao validar os campos"
+
+#: core/base.php:1631
+msgid "[link]Dismiss[/link] this notice."
+msgstr "[link]Descartar[/link] esta notificação."
+
+#: core/base.php:1629
+msgid "[link]Read how to update your version of PHP.[/link]"
+msgstr "[link]Leia sobre como actualizar a sua versão do PHP.[/link]"
+
+#: core/base.php:903 core/base.php:904 views/back/config.php:174
+msgid "MailPoet page"
+msgstr "Página do MailPoet"
+
+#: core/base.php:747
+msgid "Once every 28 days"
+msgstr "Uma vez a cada 28 dias"
+
+#: core/base.php:743
+msgid "Once a week"
+msgstr "Uma vez por semana"
+
+#: core/base.php:739
+msgid "Once every two hours"
+msgstr "Uma vez a cada duas horas"
+
+#: core/base.php:735
+msgid "Once every thirty minutes"
+msgstr "Uma vez a cada 30 minutos"
+
+#: core/base.php:731
+msgid "Once every fifteen minutes"
+msgstr "Uma vez a cada 15 minutos"
+
+#: core/base.php:727
+msgid "Once every ten minutes"
+msgstr "Uma vez a cada 10 minutos"
+
+#: core/base.php:723
+msgid "Once every five minutes"
+msgstr "Uma vez a cada 5 minutos"
+
+#: core/base.php:719
+msgid "Once every two minutes"
+msgstr "Uma vez a cada 2 minutos"
+
+#: core/base.php:715
+msgid "Once every minute"
+msgstr "Uma vez a cada minuto"
+
+#: core/base.php:208
+msgid "[link]Show more details.[/link]"
+msgstr "[link]Ver mais detalhes.[/link]"
+
+#: core/base.php:204
+msgid "An error occurred. [link]Show more details.[/link]"
+msgstr "Ocorreu um erro. [link]Mostrar mais detalhes.[/link]"
+
+#: controllers/front/subscribers.php:132 helpers/backloader.php:188
+#: helpers/form_engine.php:823 helpers/wj_engine.php:87
+#: widgets/wysija_nl.php:60
+msgid "Loading..."
+msgstr "A carregar…"
+
+#: controllers/front/subscribers.php:115
+msgid "It seems your widget has been deleted from the WordPress' [link]widgets area[/link]."
+msgstr "Parece que o seu widget foi eliminado da [link]área de widgets[/link] do WordPress."
+
+#: controllers/front/subscribers.php:25
+msgid "Subscription without JavaScript is disabled."
+msgstr "A subscrição sem JavaScript está desativada."
+
+#: controllers/front/confirm.php:286
+msgid "Newsletter profile has been updated."
+msgstr "O perfil da newsletter foi actualizado."
+
+#: controllers/front/confirm.php:180
+msgid "Email %1$s already exists."
+msgstr "O email %1$s já existe."
+
+#: controllers/front/confirm.php:138
+msgid "Edit your subscriber profile: %1$s"
+msgstr "Edite o seu perfil de subscritor: %1$s"
+
+#: controllers/front/confirm.php:120 models/config.php:220
+#: models/config.php:654
+msgid "Edit your subscription"
+msgstr "Editar a sua subscrição"
+
+#: controllers/front/confirm.php:106
+msgid "You've been subscribed!"
+msgstr "Foi subscrito!"
+
+#: controllers/front/confirm.php:96
+msgid "You made a mistake? [link]Undo unsubscribe[/link]."
+msgstr "Enganou-se? [link]Anular cancelamento[/link]."
+
+#: controllers/front/confirm.php:82
+msgid "You are already unsubscribed."
+msgstr "Já cancelou a sua subscrição."
+
+#: controllers/front/confirm.php:61 models/config.php:218
+msgid "Great, you'll never hear from us again!"
+msgstr "Concluído, vai deixar de receber notícias nossas!"
+
+#: controllers/front/confirm.php:58 models/config.php:217
+msgid "You've unsubscribed!"
+msgstr "Cancelamento confirmado!"
+
+#: controllers/front/confirm.php:21
+msgid "Please verify your link to this page."
+msgstr "Por favor verifique a ligação à página."
+
+#: controllers/front/confirm.php:20
+msgid "Page does not exist."
+msgstr "Página não existe."
+
+#: controllers/back.php:570
+msgid "WordPress Posts' Images"
+msgstr "Imagens dos artigos do WordPress"
+
+#: controllers/back.php:569
+msgid "Newsletter Images"
+msgstr "Imagens da newsletter"
+
+#: controllers/back.php:563 controllers/back.php:566
+#: views/back/campaigns.php:1970 views/back/campaigns.php:2536
+#: views/back/campaigns.php:2538 views/back/campaigns.php:2699
+#: views/back/campaigns.php:2700
+msgid "Upload"
+msgstr "Carregar"
+
+#: controllers/back.php:492
+msgid "Element has been deleted."
+msgstr "O elemento foi apagado."
+
+#: controllers/back.php:480
+msgid "Elements deleted"
+msgstr "Elementos apagados"
+
+#: controllers/back.php:355
+msgid "Yikes! You're near the limit of %1$s subscribers for MailPoet's free version. Upgrade to [link]Premium[/link] to send without limits, and more."
+msgstr "Ups! Está quase nos %1$s subscritores permitidos na versão grátis do MailPoet. Actualize para a versão [link]premium[/link] para enviar sem limites."
+
+#: controllers/back.php:348
+msgid "Yikes. You're over the limit of 2000 subscribers for the free version of MailPoet (%1$s in total). Sending is disabled now. Please upgrade your version to [link]premium[/link] to send without limits."
+msgstr "Ups! Ultrapassou os 2000 subscritores permitidos na versão grátis do MailPoet (%1$s no total). O envio foi desativado. Use a versão [link]premium[/link] para enviar sem limites."
+
+#: controllers/back/subscribers.php:1027
+msgid "Exporting %1$s subscribers"
+msgstr "A exportar %1$s subscritores"
+
+#: controllers/back/subscribers.php:1000
+msgid "%1$s subscribers were exported. Get the exported file [link]here[/link]."
+msgstr "%1$s subscritores exportados. Aceda [link]aqui[/link] ao ficheiro exportado."
+
+#: controllers/back/subscribers.php:975
+msgid " %1$s subscriber have been deleted."
+msgstr "%1$s subscritor eliminado."
+
+#: controllers/back/subscribers.php:973
+msgid " %1$s subscribers have been deleted."
+msgstr "%1$s subscritores eliminados."
+
+#: controllers/back/subscribers.php:926
+msgid "Export Subscribers"
+msgstr "Exportar subscritores"
+
+#: controllers/back/subscribers.php:915
+msgid "%1$s emails are not valid : %2$s."
+msgstr "%1$s emails inválidos: %2$s."
+
+#: controllers/back/subscribers.php:911
+msgid "%1$s emails appear more than once in your file : %2$s."
+msgstr "%1$s emails constam mais do que uma vez no seu ficheiro: %2$s."
+
+#: controllers/back/subscribers.php:897
+msgid "%1$s subscribers added to %2$s."
+msgstr "%1$s subscritores adicionados a %2$s."
+
+#: controllers/back/subscribers.php:876 helpers/user.php:139
+msgid "You need to select at least one list."
+msgstr "Deve escolher no mínimo uma lista."
+
+#: controllers/back/subscribers.php:850 controllers/back/subscribers.php:851
+#: views/back/campaigns.php:977 views/back/subscribers.php:84
+#: views/back/subscribers.php:316 views/back/subscribers.php:523
+#: views/back/subscribers.php:528 views/back/subscribers.php:716
+#: views/front/confirm.php:88
+msgid "Subscribed"
+msgstr "Subscrito"
+
+#: controllers/back/subscribers.php:850 views/back/campaigns.php:977
+#: views/back/subscribers.php:78 views/back/subscribers.php:316
+#: views/back/subscribers.php:523 views/back/subscribers.php:721
+msgid "Unconfirmed"
+msgstr "A confirmar"
+
+#: controllers/back/subscribers.php:849 views/back/campaigns.php:977
+#: views/back/subscribers.php:81 views/back/subscribers.php:316
+#: views/back/subscribers.php:523 views/back/subscribers.php:528
+#: views/back/subscribers.php:725 views/front/confirm.php:88
+msgid "Unsubscribed"
+msgstr "Cancelado"
+
+#: controllers/back/subscribers.php:832
+msgid "which you have pasted"
+msgstr "que colou"
+
+#: controllers/back/subscribers.php:823
+msgid "Can you confirm that this column is corresponding to that field?"
+msgstr "Pode confirmar que esta coluna corresponde a este campo?"
+
+#: controllers/back/subscribers.php:822
+msgid "The selected value is already matched to another column."
+msgstr "O valor seleccionado já está associado a outra coluna."
+
+#: controllers/back/subscribers.php:816 controllers/back/subscribers.php:854
+msgid "Import Subscribers"
+msgstr "Importar subscritores"
+
+#: controllers/back/subscribers.php:807
+msgid "There is no plugin to import from."
+msgstr "Não há plugin para fazer importação."
+
+#: controllers/back/subscribers.php:791
+msgid "Import subscribers from plugins"
+msgstr "Importar subscritores a partir dos plugins"
+
+#: controllers/back/subscribers.php:778
+msgid "Import from plugin %1$s has been cancelled."
+msgstr "A importação a partir do plugin %1$s foi cancelada."
+
+#: controllers/back/subscribers.php:776
+msgid "Import from plugin %1$s has been completed."
+msgstr "A importação a partir do plugin %1$s está completa."
+
+#: controllers/back/subscribers.php:752
+msgid "Your brand-new list awaits its first subscriber."
+msgstr "A lista recém-criada aguarda por subscritores."
+
+#: controllers/back/subscribers.php:746
+msgid "List has been updated."
+msgstr "A lista foi actualizada."
+
+#: controllers/back/subscribers.php:694
+msgid "The list does not exists or cannot be deleted."
+msgstr "Essa lista não existe ou não pode ser eliminada."
+
+#: controllers/back/subscribers.php:692
+msgid "List \"%1$s\" has been deleted."
+msgstr "A lista \"%1$s\" foi eliminada."
+
+#: controllers/back/subscribers.php:653 views/back/campaigns.php:15
+#: views/back/campaigns.php:490 views/back/campaigns.php:514
+#: views/back/campaigns.php:536 views/back/campaigns.php:1215
+#: views/back/config.php:190 views/back/config.php:1768
+#: views/back/config.php:1810 views/back/subscribers.php:16
+#: views/back/subscribers.php:748 views/back.php:18
+msgid "Edit"
+msgstr "Editar"
+
+#: controllers/back/subscribers.php:644
+msgid "No subscriber found, most probably because he was deleted."
+msgstr "Subscritor não encontrado. Provavelmente foi eliminado."
+
+#: controllers/back/subscribers.php:613 views/back/subscribers.php:34
+#: views/back/subscribers.php:477
+msgid "Add Subscriber"
+msgstr "Adicionar subscritor"
+
+#: controllers/back/subscribers.php:604
+msgid "List \"%1$s\" has been duplicated."
+msgstr "A lista \"%1$s\" foi duplicada."
+
+#: controllers/back/subscribers.php:577
+msgid "How about a new list?"
+msgstr "Que tal uma nova lista?"
+
+#: controllers/back/subscribers.php:572
+msgid "Editing list %1$s"
+msgstr "A editar lista %1$s"
+
+#: controllers/back/subscribers.php:561
+msgid "Edit lists"
+msgstr "Editar listas"
+
+#: controllers/back/subscribers.php:550 helpers/user.php:608
+msgid "One email has been sent."
+msgid_plural "%d emails have been sent to unconfirmed subscribers."
+msgstr[0] "Foi enviado um email."
+msgstr[1] "Foram enviados %d emails para subscritores não confirmados."
+
+#: controllers/back/subscribers.php:548 helpers/user.php:606
+msgid "No email sent."
+msgstr "Nenhum email enviado."
+
+#: controllers/back/subscribers.php:509
+msgid "%1$s subscriber have been confirmed."
+msgstr "%1$s subscritor confirmado."
+
+#: controllers/back/subscribers.php:507
+msgid "%1$s subscribers have been confirmed."
+msgstr "%1$s subscritores confirmados."
+
+#: controllers/back/subscribers.php:488
+msgid "%1$s subscriber have been removed from \"%2$s\"."
+msgstr "%1$s subscritor removido de \"%2$s\"."
+
+#: controllers/back/subscribers.php:486
+msgid "%1$s subscribers have been removed from \"%2$s\"."
+msgstr "%1$s subscritores removidos de \"%2$s\"."
+
+#: controllers/back/subscribers.php:465
+msgid "%1$s subscriber have been removed from all existing lists."
+msgstr "%1$s subscritor removido de todas as listas existentes."
+
+#: controllers/back/subscribers.php:463
+msgid "%1$s subscribers have been removed from all existing lists."
+msgstr "%1$s subscritores removidos de todas as listas existentes."
+
+#: controllers/back/subscribers.php:430
+msgid "%1$s subscriber have been moved to \"%2$s\"."
+msgstr "%1$s subscritor movido para \"%2$s\"."
+
+#: controllers/back/subscribers.php:428
+msgid "%1$s subscribers have been moved to \"%2$s\"."
+msgstr "%1$s subscritores movidos para \"%2$s\"."
+
+#: controllers/back/subscribers.php:405
+msgid "%1$s subscriber have been added to \"%2$s\"."
+msgstr "%1$s subscritor adicionado a \"%2$s\"."
+
+#: controllers/back/subscribers.php:403
+msgid "%1$s subscribers have been added to \"%2$s\"."
+msgstr "%1$s subscritores adicionados a \"%2$s\"."
+
+#: controllers/back/subscribers.php:359
+msgid "Subscriber has not been modified."
+msgstr "Subscritor não alterado."
+
+#: controllers/back/subscribers.php:358
+msgid "Subscriber has been modified. [link]Edit again[/link]."
+msgstr "Subscritor alterado. [link]Editar de novo[/link]."
+
+#: controllers/back/subscribers.php:357 helpers/user.php:333
+msgid "Subscriber has not been saved."
+msgstr "Subscritor não guardado."
+
+#: controllers/back/subscribers.php:350
+msgid "Yikes! Couldn't find any subscribers."
+msgstr "Ups! Não foi possível encontrar subscritores."
+
+#: controllers/back/subscribers.php:237 views/back/campaigns.php:13
+msgid "Select at least 1 subscriber!"
+msgstr "Seleccione pelo menos 1 subscritor!"
+
+#: controllers/back/subscribers.php:235
+msgid "Subscribers per page:"
+msgstr "Subscritores por página:"
+
+#: controllers/back/subscribers.php:215 controllers/back/subscribers.php:356
+msgid "Subscriber has been saved."
+msgstr "Subscritor guardado."
+
+#: controllers/back/statistics.php:164
+msgid "Custom dates"
+msgstr "Datas personalizadas"
+
+#: controllers/back/statistics.php:157
+msgid "Last 365 days"
+msgstr "Últimos 365 dias"
+
+#: controllers/back/statistics.php:150
+msgid "Last 180 days"
+msgstr "Últimos 180 dias"
+
+#: controllers/back/statistics.php:143
+msgid "Last 90 days"
+msgstr "Últimos 90 dias"
+
+#: controllers/back/statistics.php:136
+msgid "Last 30 days"
+msgstr "Últimos 30 dias"
+
+#: controllers/back/statistics.php:129
+msgid "Last month"
+msgstr "Último mês"
+
+#: controllers/back/statistics.php:122
+msgid "Last 7 days"
+msgstr "Últimos 7 dias"
+
+#: controllers/back/premium.php:24 controllers/back/premium.php:29
+#: controllers/back/premium.php:34 helpers/back.php:532
+msgid "Checking license"
+msgstr "A verificar licença"
+
+#: controllers/back/premium.php:23 controllers/back/premium.php:28
+#: controllers/back/premium.php:33 views/back/premium.php:308
+msgid "Already paid? Click here to activate"
+msgstr "Já pagou? Clique aqui para activar."
+
+#: controllers/back/config.php:300
+msgid "Widget Settings"
+msgstr "Definições de Widgets"
+
+#: controllers/back/config.php:270
+msgid "This form does not exist."
+msgstr "Este formulário não existe."
+
+#: controllers/back/config.php:259
+msgid "New form"
+msgstr "Novo formulário"
+
+#: controllers/back/config.php:235
+msgid "The form named \"%1$s\" has been deleted."
+msgstr "O formulário chamado \"%1$s\" foi apagado."
+
+#: controllers/back/config.php:228
+msgid "This form has already been deleted."
+msgstr "Este formulário já foi eliminado."
+
+#: controllers/back/config.php:208
+msgid "The form named \"%1$s\" has been created."
+msgstr "O formulário chamado \"%1$s\" foi criado."
+
+#: controllers/back/config.php:202
+msgid "Copy"
+msgstr "Copiar"
+
+#: controllers/back/config.php:196
+msgid "This form does not exist"
+msgstr "Este formulário não existe"
+
+#: controllers/back/config.php:163 helpers/update.php:789
+msgid "New Form"
+msgstr "Novo formulário"
+
+#: controllers/back/config.php:123
+msgid "Reinstall MailPoet?"
+msgstr "Reinstalar o MailPoet?"
+
+#: controllers/back/config.php:81
+msgid "You're almost there. Click this [link]link[/link] to activate the licence you have just purchased."
+msgstr "Está quase. Siga esta [link]ligação[/link] para activar a licença que acabou de adquirir."
+
+#: controllers/back/config.php:80 controllers/back.php:347
+#: controllers/back.php:354 helpers/links.php:23 views/back/campaigns.php:859
+#: views/back/subscribers.php:648
+msgid "Get Premium now"
+msgstr "Obter versão Premium agora"
+
+#: controllers/back/config.php:26
+msgid "Are you sure you want to delete this form?"
+msgstr "Tem a certeza que deseja eliminar este formulário?"
+
+#: controllers/back/config.php:23
+msgid "When setting up the bounce system, you need to have a different address for the bounce email and the forward to address"
+msgstr "Ao definir o sistema de devoluções tem de ter endereços diferentes para o email devolvido e para o remetente"
+
+#: controllers/back/config.php:22
+msgid "Process bounce handling now!"
+msgstr "Processar as devoluções agora!"
+
+#: controllers/back/config.php:21
+msgid "Unconfirmed subscribers will receive your newsletters from now on without the need to activate their subscriptions."
+msgstr "Subscritores não confirmados receberão suas newsletters daqui para frente sem a necessidade de activarem as suas subscrições."
+
+#: controllers/back/config.php:20
+msgid "Subscribers will now need to activate their subscription by email in order to receive your newsletters. This is recommended."
+msgstr "Os subscritores têm de activar a subscrição por email para receberem newsletters. É a forma mais correta."
+
+#: controllers/back/config.php:19
+msgid "Bounce handling processing"
+msgstr "A processar a gestão de devoluções"
+
+#: controllers/back/config.php:18
+msgid "Bounce handling connection test"
+msgstr "A testar ligação da gestão de devoluções"
+
+#: controllers/back/config.php:17
+msgid "Sending a test email"
+msgstr "A enviar email de teste"
+
+#: controllers/back/campaigns.php:2727
+msgid "The newsletter doesn't exist."
+msgstr "A newsletter não existe."
+
+#: controllers/back/campaigns.php:2710
+msgid "Saved."
+msgstr "Guardado."
+
+#: controllers/back/campaigns.php:2649
+msgid "%d file(s) have been successfully uploaded."
+msgstr "%d ficheiro(s) foram carregados com sucesso."
+
+#: controllers/back/campaigns.php:2648
+msgid "&#8220;%s&#8221; has failed to upload."
+msgstr "Falhou ao carregar &#8220;%s&#8221;."
+
+#: controllers/back/campaigns.php:2647
+msgid "moved to the trash."
+msgstr "movido para o lixo."
+
+#: controllers/back/campaigns.php:2645
+msgid "Dismiss"
+msgstr "Descartar"
+
+#: controllers/back/campaigns.php:2644
+msgid "Upload stopped."
+msgstr "Carregamento interrompido."
+
+#: controllers/back/campaigns.php:2643
+msgid "File canceled."
+msgstr "Ficheiro cancelado."
+
+#: controllers/back/campaigns.php:2642
+msgid "Security error."
+msgstr "Erro de segurança."
+
+#: controllers/back/campaigns.php:2641
+msgid "IO error."
+msgstr "Erro IO."
+
+#: controllers/back/campaigns.php:2640
+msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
+msgstr "%s excede o tamanho máximo do carregamento multificheiro no seu browser."
+
+#: controllers/back/campaigns.php:2639
+msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
+msgstr "Tente carregar este ficheiro com o %1$scarregador do navegador%2$s."
+
+#: controllers/back/campaigns.php:2638
+msgid "Upload failed."
+msgstr "Falhou ao carregar."
+
+#: controllers/back/campaigns.php:2637
+msgid "HTTP error."
+msgstr "Erro HTTP."
+
+#: controllers/back/campaigns.php:2636
+msgid "You may only upload 1 file."
+msgstr "Apenas pode carregar 1 ficheiro."
+
+#: controllers/back/campaigns.php:2635
+msgid "There was a configuration error. Please contact the server administrator."
+msgstr "Ocorreu um erro de configuração. Contacte o administrador do servidor. "
+
+#: controllers/back/campaigns.php:2634
+msgid "An error occurred in the upload. Please try again later."
+msgstr "Ocorreu um erro a carregar. Tente de novo mais tarde."
+
+#: controllers/back/campaigns.php:2633
+msgid "This is larger than the maximum size. Please try another."
+msgstr "Superior ao tamanho máximo. Tente com um ficheiro menor."
+
+#: controllers/back/campaigns.php:2632
+msgid "Memory exceeded. Please try another smaller file."
+msgstr "Memória insuficiente. Tente com um ficheiro menor."
+
+#: controllers/back/campaigns.php:2631
+msgid "This file is not an image. Please try another."
+msgstr "Este ficheiro não é uma imagem. Tente outro."
+
+#: controllers/back/campaigns.php:2630
+msgid "This file type is not allowed. Please try another."
+msgstr "Este tipo de ficheiro não é permitido. Tente outro."
+
+#: controllers/back/campaigns.php:2629
+msgid "This file is empty. Please try another."
+msgstr "Este ficheiro está vazio. Tente outro."
+
+#: controllers/back/campaigns.php:2628
+msgid "%s exceeds the maximum upload size for this site."
+msgstr "%s excede o tamanho máximo que é permitido carregar neste site."
+
+#: controllers/back/campaigns.php:2627
+msgid "You have attempted to queue too many files."
+msgstr "Tentou colocar demasiados ficheiros na fila de espera."
+
+#: controllers/back/campaigns.php:2619
+msgid "This image might be in an article. Delete anyway?"
+msgstr "Esta imagem pode estar num conteúdo. Eliminar?"
+
+#: controllers/back/campaigns.php:2613
+msgid "Delete image for all newsletters?"
+msgstr "Eliminar imagem para todas as newsletters?"
+
+#: controllers/back/campaigns.php:2602
+msgid "Image Parameters"
+msgstr "Parâmetros de imagem"
+
+#: controllers/back/campaigns.php:2522
+msgid "Hide display options"
+msgstr "Esconder opções de exibição"
+
+#: controllers/back/campaigns.php:2521 views/back/campaigns.php:2274
+msgid "Show display options"
+msgstr "Mostrar opções de exibição"
+
+#: controllers/back/campaigns.php:2512
+msgid "Add / Edit group of posts"
+msgstr "Adicionar/editar grupo de conteúdos"
+
+#: controllers/back/campaigns.php:2465
+msgid "Dividers Selection"
+msgstr "Selecção de divisórias"
+
+#: controllers/back/campaigns.php:2401
+msgid "Includes: %1$s"
+msgstr "Inclui: %1$s"
+
+#: controllers/back/campaigns.php:2400
+msgid "Last updated: %1$s"
+msgstr "Última actualização: %1$s"
+
+#: controllers/back/campaigns.php:2399
+msgid "Tags: %1$s"
+msgstr "Etiquetas: %1$s"
+
+#: controllers/back/campaigns.php:2398
+msgid "Downloads: %1$s"
+msgstr "Descarregamentos: %1$s"
+
+#: controllers/back/campaigns.php:2397
+msgid "My rating: %1$s"
+msgstr "A minha classificação: %1$s"
+
+#: controllers/back/campaigns.php:2396
+msgid "Average rating: %1$s"
+msgstr "Classificação média: %1$s"
+
+#: controllers/back/campaigns.php:2395
+msgid "View author's website"
+msgstr "Ver site do autor"
+
+#: controllers/back/campaigns.php:2394
+msgid "Download as .zip"
+msgstr "Descarregar como .zip"
+
+#: controllers/back/campaigns.php:2393
+msgid "Download original Photoshop file"
+msgstr "Descarregar ficheiro Photoshop original"
+
+#: controllers/back/campaigns.php:2392
+msgid "View all themes by %1$s"
+msgstr "Ver todos os temas de %1$s"
+
+#: controllers/back/campaigns.php:2388
+msgid "Your vote could not be recorded."
+msgstr "Não foi possível registar o seu voto."
+
+#: controllers/back/campaigns.php:2387
+msgid "Your vote has been recorded."
+msgstr "O seu voto foi registado."
+
+#: controllers/back/campaigns.php:2386
+msgid "(%1$s votes)"
+msgstr "(%1$s votos)"
+
+#: controllers/back/campaigns.php:2385
+msgid "Show all themes"
+msgstr "Mostrar todos os temas"
+
+#: controllers/back/campaigns.php:2379
+msgid "Photoshop file available as part of [link]Premium features[/link]."
+msgstr "Ficheiro Photoshop disponível como parte das [link]funcionalidades Premium[/link]."
+
+#: controllers/back/campaigns.php:2370 helpers/back.php:349
+#: views/back/campaigns.php:1945
+msgid "Premium"
+msgstr "Premium"
+
+#: controllers/back/campaigns.php:2369
+msgid "Reinstall"
+msgstr "Reinstalar"
+
+#: controllers/back/campaigns.php:2368
+msgid "Download"
+msgstr "Transferir"
+
+#: controllers/back/campaigns.php:2367 views/back/campaigns.php:1955
+msgid "<< Back"
+msgstr "<< Voltar"
+
+#: controllers/back/campaigns.php:2366
+msgid "Details & PSD"
+msgstr "Detalhes e PSD"
+
+#: controllers/back/campaigns.php:2363
+msgid "Install Themes"
+msgstr "Instalar temas"
+
+#: controllers/back/campaigns.php:2346 controllers/back/subscribers.php:835
+msgid "Upload error, file %1$s is too large! (MAX:%2$s)"
+msgstr "Erro ao carregar, o ficheiro %1$s é demasiado grande! (MÁX.:%2$s)"
+
+#: controllers/back/campaigns.php:2251
+msgid "Inserting selected articles..."
+msgstr "A inserir os conteúdos seleccionados..."
+
+#: controllers/back/campaigns.php:2250
+msgid "Loading results..."
+msgstr "A carregar resultados..."
+
+#: controllers/back/campaigns.php:2249 views/back/campaigns.php:2021
+msgid "Back to selection"
+msgstr "Voltar à selecção"
+
+#: controllers/back/campaigns.php:2248 views/back/campaigns.php:2019
+msgid "Display and insert options"
+msgstr "Mostrar e inserir opções"
+
+#: controllers/back/campaigns.php:2236 helpers/wj_engine.php:81
+msgid "Post Selection"
+msgstr "Selecção de conteúdos"
+
+#: controllers/back/campaigns.php:2149
+msgid "Segment of %1$s"
+msgstr "Subgrupo de %1$s"
+
+#: controllers/back/campaigns.php:1832
+msgid "There are no newsletters."
+msgstr "Não há newsletters."
+
+#: controllers/back/campaigns.php:1826
+msgid "Sending suspended."
+msgstr "Envio suspenso."
+
+#: controllers/back/campaigns.php:1825
+msgid "The list has been deleted."
+msgstr "A lista foi eliminada."
+
+#: controllers/back/campaigns.php:1562
+msgid "View newsletter"
+msgstr "Ver newsletter"
+
+#: controllers/back/campaigns.php:1561
+msgid "Sending batch of emails..."
+msgstr "A enviar lote de emails…"
+
+#: controllers/back/campaigns.php:1560 views/back/campaigns.php:151
+msgid "Delete these newsletters for ever?"
+msgstr "Eliminar permanentemente estas newsletters?"
+
+#: controllers/back/campaigns.php:1559 views/back/campaigns.php:150
+msgid "Delete this newsletter for ever?"
+msgstr "Eliminar permanentemente esta newsletter?"
+
+#: controllers/back/campaigns.php:1558
+msgid "Please select a newsletter."
+msgstr "Por favor, seleccione um boletim informativo."
+
+#: controllers/back/campaigns.php:1555 helpers/back.php:460
+#: helpers/back.php:530
+msgid "Newsletters"
+msgstr "Newsletters"
+
+#: controllers/back/campaigns.php:1245
+msgid "Newsletter has been saved as a draft."
+msgstr "Newsletter guardada como rascunho."
+
+#: controllers/back/campaigns.php:1243 models/email.php:172
+msgid "Newsletter has been scheduled."
+msgstr "Newsletter agendada."
+
+#: controllers/back/campaigns.php:1212
+msgid "Information is missing."
+msgstr "A informação está em falta."
+
+#: controllers/back/campaigns.php:1174
+msgid "Newsletter successfully created."
+msgstr "Boletim informativo criado com sucesso."
+
+#: controllers/back/campaigns.php:1126 helpers/install.php:338
+msgid "Change the footer's content in MailPoet's %1$sSettings%2$s page."
+msgstr "Altere o conteúdo do rodapé na página de %1$sDefinições%2$s do MailPoet."
+
+#: controllers/back/campaigns.php:1125 helpers/install.php:337
+msgid "and the footer?"
+msgstr "e o rodapé?"
+
+#: controllers/back/campaigns.php:1125 helpers/install.php:337
+msgid "Step 4:"
+msgstr "Passo 4:"
+
+#: controllers/back/campaigns.php:1084 helpers/install.php:296
+msgid "You can even %1$ssocial bookmarks%2$s like these:"
+msgstr "Pode ainda %1$sbookmarks sociais%2$s como estes:"
+
+#: controllers/back/campaigns.php:1083 helpers/install.php:295
+msgid "Drag and drop %1$stext, posts, dividers.%2$s Look on the right!"
+msgstr "Arraste e largue %1$stexto, artigos, divisórias.%2$s Olhe para a direita!"
+
+#: controllers/back/campaigns.php:1082 helpers/install.php:294
+msgid "drop content here"
+msgstr "largue conteúdo aqui"
+
+#: controllers/back/campaigns.php:1082 helpers/install.php:294
+msgid "Step 3:"
+msgstr "Passo 3:"
+
+#: controllers/back/campaigns.php:1061 helpers/install.php:273
+msgid "Position your mouse over the image to the left."
+msgstr "Posicione o seu rato sobre a imagem à esquerda."
+
+#: controllers/back/campaigns.php:1051 helpers/install.php:263
+msgid "play with this image"
+msgstr "brinque com esta imagem"
+
+#: controllers/back/campaigns.php:1051 helpers/install.php:263
+msgid "Step 2:"
+msgstr "Passo 2:"
+
+#: controllers/back/campaigns.php:1035 helpers/install.php:248
+msgid "To edit, simply click on this block of text."
+msgstr "Para editar, clique simplesmente neste bloco de texto."
+
+#: controllers/back/campaigns.php:1035 helpers/install.php:248
+msgid "hey, click on this text!"
+msgstr "clique neste texto!"
+
+#: controllers/back/campaigns.php:1035 helpers/install.php:248
+msgid "Step 1:"
+msgstr "Passo 1:"
+
+#: controllers/back/campaigns.php:950
+msgid "%sTo edit%s, mouse over to show edit button below."
+msgstr "%sPara editar%s, passe com o rato para revelar o botão de edição."
+
+#: controllers/back/campaigns.php:886 controllers/back/campaigns.php:908
+#: controllers/back/campaigns.php:2275 controllers/back/campaigns.php:2544
+#: helpers/wj_engine.php:449
+msgid "Latest content already sent."
+msgstr "Último conteúdo já enviado."
+
+#: controllers/back/campaigns.php:885 controllers/back/campaigns.php:907
+#: controllers/back/campaigns.php:2274 controllers/back/campaigns.php:2543
+msgid "Categories:"
+msgstr "Categorias:"
+
+#: controllers/back/campaigns.php:883 controllers/back/campaigns.php:905
+#: controllers/back/campaigns.php:2272 controllers/back/campaigns.php:2541
+msgid "Author:"
+msgstr "Autor:"
+
+#: controllers/back/campaigns.php:878 controllers/back/campaigns.php:900
+#: controllers/back/campaigns.php:2267 controllers/back/campaigns.php:2536
+msgid "Read more."
+msgstr "Ler mais."
+
+#: controllers/back/campaigns.php:775
+msgid "Newsletter deleted."
+msgstr "Newsletter eliminada."
+
+#: controllers/back/campaigns.php:748 controllers/back/campaigns.php:777
+msgid "Newsletter can't be deleted."
+msgstr "Não é possível eliminar a newsletter."
+
+#: controllers/back/campaigns.php:697
+msgid "You are about to send this newsletter. Please confirm."
+msgstr "Está prestes a enviar esta newsletter. Por favor, confirme."
+
+#: controllers/back/campaigns.php:693 views/back/campaigns.php:1597
+#: views/back/campaigns.php:1598
+msgid "Send"
+msgstr "Enviar"
+
+#: controllers/back/campaigns.php:689 helpers/back.php:216
+#: views/back/campaigns.php:1591 views/back/campaigns.php:1592
+#: views/back/premium.php:186
+msgid "Activate now"
+msgstr "Activar agora"
+
+#: controllers/back/campaigns.php:661
+msgid "Schedule"
+msgstr "Agendar"
+
+#: controllers/back/campaigns.php:659
+msgid "Send later"
+msgstr "Enviar mais tarde"
+
+#: controllers/back/campaigns.php:658 views/back/campaigns.php:1599
+msgid "Save & close"
+msgstr "Guardar e fechar"
+
+#: controllers/back/campaigns.php:657
+msgid "Pick a date"
+msgstr "Escolha uma data"
+
+#: controllers/back/campaigns.php:653
+msgid "Final step: last details"
+msgstr "Passo final: últimos detalhes"
+
+#: controllers/back/campaigns.php:630
+msgid "%1$s emails every %2$s"
+msgstr "%1$s emails enviados a cada %2$s"
+
+#: controllers/back/campaigns.php:606
+msgid "The newsletter has been duplicated."
+msgstr "A newsletter foi duplicada."
+
+#: controllers/back/campaigns.php:550 controllers/back/campaigns.php:556
+#: controllers/back/subscribers.php:593
+msgid "Copy of "
+msgstr "Cópia de "
+
+#: controllers/back/campaigns.php:539
+msgid "Sending has resumed."
+msgstr "O envio foi retomado."
+
+#: controllers/back/campaigns.php:496
+msgid "Second step:  \"%1$s\""
+msgstr "Segundo passo: \"%1$s\""
+
+#: controllers/back/campaigns.php:480 controllers/back/campaigns.php:656
+msgid "Sending preview..."
+msgstr "A enviar pré-visualização..."
+
+#: controllers/back/campaigns.php:479
+msgid "Newsletter has been saved."
+msgstr "Newsletter guardada."
+
+#: controllers/back/campaigns.php:478
+msgid "Error Saving newsletter..."
+msgstr "Erro ao guardar newsletter..."
+
+#: controllers/back/campaigns.php:477
+msgid "Saving newsletter..."
+msgstr "A guardar newsletter..."
+
+#: controllers/back/campaigns.php:404
+msgid "week(s)"
+msgstr "semana(s)"
+
+#: controllers/back/campaigns.php:403
+msgid "day(s)"
+msgstr "dia(s)"
+
+#: controllers/back/campaigns.php:402
+msgid "hour(s)"
+msgstr "hora(s)"
+
+#: controllers/back/campaigns.php:401
+msgid "immediately"
+msgstr "de imediato"
+
+#: controllers/back/campaigns.php:398
+msgid "week(s) after."
+msgstr "semana(s) depois."
+
+#: controllers/back/campaigns.php:397
+msgid "day(s) after."
+msgstr "dia(s) depois."
+
+#: controllers/back/campaigns.php:396
+msgid "hour(s) after."
+msgstr "hora(s) depois."
+
+#: controllers/back/campaigns.php:361
+msgid "When there's new content..."
+msgstr "Quando existir novo conteúdo..."
+
+#: controllers/back/campaigns.php:353
+msgid "in any WordPress role"
+msgstr "em qualquer papel do WordPress"
+
+#: controllers/back/campaigns.php:322 controllers/back/campaigns.php:395
+msgid "immediately."
+msgstr "de imediato."
+
+#: controllers/back/campaigns.php:321
+msgid "monthly every..."
+msgstr "mensalmente todos…"
+
+#: controllers/back/campaigns.php:320
+msgid "monthly on the..."
+msgstr "mensalmente a…"
+
+#: controllers/back/campaigns.php:319
+msgid "weekly on..."
+msgstr "semanalmente à…"
+
+#: controllers/back/campaigns.php:318
+msgid "once a day at..."
+msgstr "diariamente às…"
+
+#: controllers/back/campaigns.php:302
+msgid "First step: main details"
+msgstr "Primeiro passo: detalhes principais"
+
+#: controllers/back/campaigns.php:299 views/back/campaigns.php:1518
+msgid "Insert [newsletter:total] to show number of posts, [newsletter:post_title] to show the latest post's title & [newsletter:number] to display the issue number."
+msgstr "Insira [newsletter:total] para mostrar o número de artigos, [newsletter:post_title] para mostrar os títulos dos últimos artigos e [newsletter:number] para mostrar o número da edição."
+
+#: controllers/back/campaigns.php:294 controllers/back/campaigns.php:454
+#: controllers/back/campaigns.php:497 controllers/back/campaigns.php:713
+msgid "Step %1$s"
+msgstr "Passo %1$s"
+
+#: controllers/back/campaigns.php:260
+msgid "Queue is empty!"
+msgstr "Fila de envio vazia!"
+
+#: controllers/back/campaigns.php:216 helpers/licence.php:102
+msgid "Premium version is valid for your site."
+msgstr "Licença Premium válida para este site."
+
+#: controllers/back/campaigns.php:193
+msgid "What's new?"
+msgstr "O que há de novo?"
+
+#: controllers/back/campaigns.php:176
+msgid "We got documentation and a ticket system on [link]support.mailpoet.com[/link]. We answer within 24h."
+msgstr "Temos documentação e um sistema de tickets em [link]support.mailpoet.com[/link]. Respondemos em 24h."
+
+#: controllers/back/campaigns.php:174
+msgid "Help yourself. Or let us help you."
+msgstr "Ajude-se a si mesmo. Ou deixe-nos ajudá-lo."
+
+#: controllers/back/campaigns.php:170
+msgid "Your MailPoet comes with an example newsletter. You'll see it when you close this welcome page. Edit it to start playing with it."
+msgstr "O seu MailPoet vem com um exemplo de newsletter. Irá vê-lo quando fechar esta janela de boas-vindas. Edite-o para começar."
+
+#: controllers/back/campaigns.php:169
+msgid "5 minute newbie guide"
+msgstr "Guia de Novatos de 5 Minutos"
+
+#: controllers/back/campaigns.php:166
+msgid "What You Can Do"
+msgstr "O que pode fazer"
+
+#: controllers/back/campaigns.php:161
+msgid "We know too little about our users. We're looking for [link]anonymous data[/link] to build a better plugin. Thanks, you're already sharing!"
+msgstr "Nós sabemos muito pouco a respeito dos nossos utilizadores. Procuramos quem nos forneça [link]dados anónimos[/link] para construir um plugin melhor. Obrigado, já partilha informação anónima connosco!"
+
+#: controllers/back/campaigns.php:155
+msgid "We know too little about our users. We're looking for [link]anonymous data[/link] to build a better plugin. [ajaxlink]Yes, count me in![/ajaxlink]"
+msgstr "Sabemos muito pouco acerca dos nossos utilizadores. Estamos à procura de [link]informação anónima[/link] para que possamos fazer um plugin melhor. [ajaxlink]Sim, contem comigo![/ajaxlink]"
+
+#: controllers/back/campaigns.php:153 controllers/back/campaigns.php:159
+msgid "Share your data"
+msgstr "Partilhe a sua informação"
+
+#: controllers/back/campaigns.php:145
+msgid "You can start by watching this video by one of our users."
+msgstr "Pode começar por visualizar este vídeo feito por um dos nossos utilizadores."
+
+#: controllers/back/campaigns.php:142
+msgid "First Time? See it in Action"
+msgstr "É a Primeira Vez? Veja-o em Acção"
+
+#: controllers/back/campaigns.php:127 views/back/campaigns.php:2939
+msgid "News from us, the team"
+msgstr "Notícias da nossa equipa"
+
+#: controllers/back/campaigns.php:126 views/back/campaigns.php:2938
+msgid "What we’re working on"
+msgstr "No que estamos a trabalhar"
+
+#: controllers/back/campaigns.php:125 views/back/campaigns.php:2937
+msgid "Tips for you, or your customers"
+msgstr "Dicas para si ou para seus clientes"
+
+#: controllers/back/campaigns.php:124 views/back/campaigns.php:2936
+msgid "Coupons"
+msgstr "Cupões"
+
+#: controllers/back/campaigns.php:123 views/back/campaigns.php:2935
+msgid "Important plugin updates"
+msgstr "Actualizações importantes do plugin"
+
+#: controllers/back/campaigns.php:121 views/back/campaigns.php:2933
+msgid "We send a monthly newsletter with the following:"
+msgstr "Nós enviamos uma newsletter mensal com o seguinte:"
+
+#: controllers/back/campaigns.php:96
+msgid "A Brand New MailPoet. Let the Fun Begin."
+msgstr "O novíssimo MailPoet. Que comece a diversão!"
+
+#: controllers/back/campaigns.php:92 controllers/back/campaigns.php:194
+msgid "Installing MailPoet Newsletter Premium plugin"
+msgstr "Instalar o plugin MailPoet Newsletter Premium"
+
+#: controllers/back/campaigns.php:91
+msgid "Welcome Page!"
+msgstr "Página de boas-vindas!"
+
+#: controllers/back/campaigns.php:39 core/controller.php:64
+#: core/controller.php:73
+msgid "Security Problem"
+msgstr "Falha de segurança"
+
+#: controllers/back/campaigns.php:39 core/controller.php:64
+#: core/controller.php:73
+msgid "Security failure during request"
+msgstr "Falha de segurança no pedido"
+
+#: controllers/ajax/tmce.php:11
+msgid "Insert Subscription Form"
+msgstr "Inserir Formulário de Subscrição"
+
+#: controllers/ajax/subscribers.php:22 controllers/front/subscribers.php:18
+msgid "User has not been updated."
+msgstr "Utilizador não actualizado."
+
+#: controllers/ajax/subscribers.php:21 controllers/front/subscribers.php:17
+msgid "User has been updated."
+msgstr "Utilizador actualizado."
+
+#: controllers/ajax/subscribers.php:20 controllers/front/subscribers.php:16
+msgid "User has not been inserted."
+msgstr "Utilizador não adicionado."
+
+#: controllers/ajax/subscribers.php:17 controllers/front/subscribers.php:13
+msgid "User has been inserted."
+msgstr "Utilizador adicionado."
+
+#: controllers/ajax/config.php:456
+msgid "Your form has been saved."
+msgstr "O formulário foi guardado."
+
+#: controllers/ajax/config.php:453
+msgid "Your form could not be saved."
+msgstr "Não foi possível guardar o formulário."
+
+#: controllers/ajax/config.php:438
+msgid "Saved! Add this form to [link_widget]a widget[/link_widget]."
+msgstr "Guardado! Adicione este formulário [link_widget]num widget[/link_widget]."
+
+#: controllers/ajax/config.php:429
+msgid "Saved! The changes are already active in your widget."
+msgstr "Gravado! As alterações já se encontram activas no seu widget."
+
+#: controllers/ajax/config.php:216
+msgid "This field does not exist"
+msgstr "Este campo não existe"
+
+#: controllers/ajax/config.php:194
+msgid "You need to specify a name for this field"
+msgstr "É necessário a escolha de um nome para este campo"
+
+#: controllers/ajax/config.php:190
+msgid "You need to select a type for this field"
+msgstr "É necessário a escolha de um tipo para este campo"
+
+#: controllers/ajax/config.php:87
+msgid "Are you sure you selected the right port? You can leave it empty if you do not know what to specify"
+msgstr "Tem certeza que escolheu a porta correta? Deixe em branco se não souber"
+
+#: controllers/ajax/config.php:85
+msgid "You may need to turn ON the option <i>Self-signed certificates</i>"
+msgstr "Poderá ter que activar a opção <i>Certificados auto-assinados</i>"
+
+#: controllers/ajax/config.php:74
+msgid "There are no bounced messages to process right now!"
+msgstr "Não existem mensagens devolvidas (bounced) para processar!"
+
+#: controllers/ajax/config.php:71 helpers/bounce.php:898
+msgid "There are %1$s messages in your mailbox"
+msgstr "Há %1$s mensagens na caixa de entrada"
+
+#: controllers/ajax/config.php:70 helpers/bounce.php:889
+msgid "Successfully connected to %1$s"
+msgstr "Ligação a %1$s bem sucedida"
+
+#: controllers/ajax/campaigns.php:856
+msgid "Request successful"
+msgstr "Pedido bem sucedido"
+
+#: controllers/ajax/campaigns.php:832
+msgid "Your request has failed"
+msgstr "O seu pedido falhou"
+
+#: controllers/ajax/campaigns.php:641 controllers/back/campaigns.php:2390
+msgid "We were unable to contact the API, the site may be down. Please try again later."
+msgstr "Não foi possível contactar a API, o site pode estar offline. Por favor, tente mais tarde."
+
+#: controllers/ajax/campaigns.php:427
+msgid "Your email preview has been sent to %1$s"
+msgstr "Email de teste enviado para %1$s"
+
+#: controllers/ajax/campaigns.php:316 controllers/ajax/campaigns.php:972
+msgid "There are no posts corresponding to that search."
+msgstr "Nenhum artigo corresponde à sua pesquisa."
+
+#: controllers/ajax/campaigns.php:273
+msgid "Please select an article."
+msgstr "Por favor, selecione um artigo"
+
+#: controllers/ajax/campaigns.php:240
+msgid "Image selection has been saved."
+msgstr "Selecção de imagens guardada."
+
+#: controllers/ajax/campaigns.php:237
+msgid "Image selection has not been saved."
+msgstr "A selecção de imagens não foi guardada."
+
+#: controllers/ajax/campaigns.php:173 controllers/back/campaigns.php:29
+msgid "Image has been deleted."
+msgstr "Imagem apagada."
+
+#: controllers/ajax/campaigns.php:158
+msgid "Styles have been saved"
+msgstr "Estilos guardados"
+
+#: controllers/ajax/campaigns.php:155
+msgid "Styles could not be saved"
+msgstr "Os estilos não foram guardados"
+
+#: controllers/ajax/campaigns.php:113
+msgid "Your email has been saved"
+msgstr "Email guardado"
+
+#: controllers/ajax/campaigns.php:110
+msgid "Your email could not be saved"
+msgstr "O seu email não pode ser guardado"
+
+#: controllers/ajax/campaigns.php:61
+msgid "The theme you selected could not be loaded."
+msgstr "O tema escolhido não pode ser carregado."
+
+#: controllers/ajax/campaigns.php:23
+msgid "Thanks!"
+msgstr "Obrigado!"
+
+#: classes/WJ_Utils.php:61
+msgid "If you want to use a Gmail address, you need to send with Gmail. Check <a id=\"tip-send-with\" href=\"%s\">sending settings</a>."
+msgstr "Se quiser usar um endereço do Gmail, precisa enviar via Gmail. Verifique as <a id=\"tip-send-with\" href=\"%s\">configurações de envio</a>."
+
+#: classes/WJ_Utils.php:60
+msgid "Use an email from your domain, like <strong>info@%s</strong> to avoid the spam folder, or even be blocked."
+msgstr "Use um email do seu domínio, como <strong>info@%s</strong> para evitar a pasta de SPAM, ou até mesmo ser bloqueado."
+
+#: classes/WJ_Upgrade.php:393
+msgid "Update Plugin"
+msgstr "Actualizar o plugin"
+
+#: classes/WJ_Upgrade.php:82
+msgid "Return to MailPoet"
+msgstr "Voltar ao MailPoet"
+
+#: classes/WJ_Upgrade.php:82
+msgid "Refresh the page you current are!"
+msgstr "Actualize esta página!"
+
+#: classes/WJ_Upgrade.php:64
+msgid "Hey! %1$s has an update (version %2$s), <a href=\"%3$s\">click here to update</a>."
+msgstr "Olá! %1$s tem uma actualização (versão %2$s), <a href=\"%3$s\">clique aqui para actualizar</a>."
+
+#: classes/WJ_Import.php:794
+msgid "You're import file is not valid."
+msgstr "O ficheiro importado é inválido."
+
+#: classes/WJ_Import.php:790
+msgid "We couldn't find any valid addresses in the first 10 rows."
+msgstr "Não conseguimos encontrar nenhum endereço válido nas primeiras 10 linhas."
+
+#: classes/WJ_Import.php:788
+msgid "Check again what you're trying to import."
+msgstr "Verifique novamente o que está a tentar importar."
+
+#: classes/WJ_Import.php:726 classes/WJ_Import.php:732
+msgid "Line is empty"
+msgstr "Linha em branco"
+
+#: classes/WJ_Import.php:721
+msgid "The two first lines of the file you've uploaded are as follow:"
+msgstr "As duas primeiras linhas do ficheiro que carregou contêm:"
+
+#: classes/WJ_Import.php:719
+msgid "The second line of a CSV file should be a set of values : \"joeeg@example.com\",\"Average\",\"Joe\"."
+msgstr "A segunda linha do ficheiro CSV deve conter um conjunto de valores: \"mariasilva@email.com\",\"Silva\",\"Maria\"."
+
+#: classes/WJ_Import.php:718
+msgid "The first line of a CSV file should be the column headers : \"email\",\"lastname\",\"firstname\"."
+msgstr "A primeira linha do ficheiro CSV deve conter os cabeçalhos das colunas: \"email\",\"lastname\",\"firstname\"."
+
+#: classes/WJ_Import.php:716
+msgid "Read More"
+msgstr "Ler mais"
+
+#: classes/WJ_Import.php:715
+msgid "The data you are trying to import doesn't appear to be in the CSV format (Comma Separated Values)."
+msgstr "Os dados que está a tentar importar não aparentam estar no formato CSV (Comma Separated Values)."
+
+#: classes/WJ_Import.php:652
+msgid "The list you've pasted is too big for the browser. <strong>Upload the file</strong> instead."
+msgstr "A lista que colou é demasiado extensa para o navegador. Em opção, <strong>carregue o ficheiro.</strong>"
+
+#: classes/WJ_Import.php:488
+msgid "Error when inserting list."
+msgstr "Erro ao inserir lista."
+
+#: classes/WJ_Import.php:479
+msgid "Error when inserting emails."
+msgstr "Erro ao inserir emails."
+
+#: classes/WJ_Import.php:276
+msgid "There seems to be an error with the list you're trying to import."
+msgstr "Pode haver um problema com a lista que tentou importar."
+
+#: classes/WJ_Import.php:77
+msgid "Cannot access CSV file. Verify access rights to this directory \"%1$s\""
+msgstr "Impossível aceder ao ficheiro CSV. Verifique as permissões de acesso à pasta \"%1$s\""
+
+#: classes/WJ_FieldRender.php:223 helpers/form_engine.php:47
+msgid "Day"
+msgstr "Diariamente"
+
+#: classes/WJ_FieldRender.php:204 helpers/form_engine.php:46
+msgid "Month"
+msgstr "Mês"
+
+#: classes/WJ_FieldRender.php:185 helpers/form_engine.php:45
+#: helpers/wj_engine.php:112 views/back/config.php:2424
+msgid "Year"
+msgstr "Ano"
+
+#: classes/WJ_FieldRender.php:88 classes/WJ_FieldRender.php:113
+#: classes/WJ_FieldRender.php:134
+msgid "This field contains no values"
+msgstr "Este campo não contém qualquer valor"
+
+#: add-ons/add-ons.php:246
+msgid "Don't see the add-on you're looking for? <a href=\"%s\">Submit it</a> in our contact form."
+msgstr "Não encontra o add-on que procura? <a href=\"%s\">Submeta-o</a> no nosso formulário de contacto."
+
+#: add-ons/add-ons.php:233
+msgid "Configure"
+msgstr "Configurar"
+
+#: add-ons/add-ons.php:230 views/back/campaigns.php:657
+msgid "Activate"
+msgstr "Activar"
+
+#: add-ons/add-ons.php:219
+msgid "Install from WordPress.org"
+msgstr "Instalar a partir de WordPress.org"
+
+#: add-ons/add-ons.php:212
+msgid "Purchase"
+msgstr "Comprar"
+
+#: add-ons/add-ons.php:207
+msgid "Website"
+msgstr "Site"
+
+#: add-ons/add-ons.php:194
+msgid "MailPoet says: "
+msgstr "MailPoet indica:"
+
+#: add-ons/add-ons.php:130
+msgid "has been de-activated."
+msgstr "foi desactivado."
+
+#: add-ons/add-ons.php:101
+msgid "has been activated."
+msgstr "foi activado."
+
+#: add-ons/add-ons.php:94
+msgid "Hide this message"
+msgstr "Esconder esta mensagem"
+
+#: add-ons/add-ons.php:90
+msgid "was not activated as it requires <strong><a href=\"%s\">%s</a></strong> to be installed and active first."
+msgstr "não foi activado, pois requer que <strong><a href=\"%s\">%s</a></strong> esteja instalado e activado."
+
+#: add-ons/add-ons-list.php:342
+msgid "We recommend this plugin as the good alternative to WPML for multilingual sites. It's lean, straightforward, and leaves your site's core largely untouched. Each language has its own site in your WordPress Multisite install. Works great with MailPoet."
+msgstr "Nós recomendamos este plugin como uma boa alternativa ao WPML para sites multi lingua. É leve, simples e não toca no core do seu site. Cada linguagem tem o seu próprio site na sua instalação multisite do WordPress. Funciona muito bem com MailPoet."
+
+#: add-ons/add-ons-list.php:323
+msgid "Quickly create newsletter signup forms for your MailPoet mailing lists using the power and flexibility that Ninja Forms provides."
+msgstr "Crie formulários de registo rapidamente para as suas listas de envio do MailPoet usando o poder e flexibilidade que só o Ninja Forms disponibiliza."
+
+#: add-ons/add-ons-list.php:304
+msgid "A checkbox is added as option for your customers to signup for your newsletter while purchasing from your digital store."
+msgstr "Os seus clientes possuem a opção de assinar a sua newsletter enquanto compram na sua loja virtual."
+
+#: add-ons/add-ons-list.php:287
+msgid "This Premium plugin allows you to put a pretty form right below the header. Nothing more, nothing less."
+msgstr "Este plugin Premium permite-lhe adicionar um formulário logo abaixo do cabeçalho. Nada mais que isto."
+
+#: add-ons/add-ons-list.php:280
+msgid "Premium users save 20% with this coupon: MAILPOET20"
+msgstr "Os utilizadores Premium têm um desconto de 20% com este cupão: MAILPOET20."
+
+#: add-ons/add-ons-list.php:271
+msgid "A well designed plugin for a simple idea."
+msgstr "Um plugin bem desenvolvido para uma ideia simples."
+
+#: add-ons/add-ons-list.php:270
+msgid "Your new site is not yet launched? Put a coming soon page with a form to capture emails with this Premium plugin."
+msgstr "O seu novo site ainda não foi lançado? Coloque uma página \"em breve\" junto com um formulário, para capturar emails, com este plugin Premium."
+
+#: add-ons/add-ons-list.php:254
+msgid "This is the free version of a more powerful Premium version."
+msgstr "Esta é a versão gratuita de uma versão paga mais avançada"
+
+#: add-ons/add-ons-list.php:253
+msgid "This free plugin allows you to put a form in a popup, that's it."
+msgstr "Este plugin gratuito permite colocar um formulário numa janela popup."
+
+#: add-ons/add-ons-list.php:239
+msgid "Exit popup will appear when your cursor leaves the window."
+msgstr "O popup irá aparecer quando o cursor deixar a janela."
+
+#: add-ons/add-ons-list.php:238
+msgid "Exit popups are not only \"in vogue\", they are provably increasing conversions and therefore boost marketing, signups and sales. wBounce displays an inline popup before the user leaves your site."
+msgstr "Os popups de saída não só estão \"na moda\" como estão a aumentar as conversões, dando um boost no marketing, registos e vendas. wBounce coloca um popup antes do utilizador sair do seu site."
+
+#: add-ons/add-ons-list.php:222
+msgid "It's free, and has proven popular with our users."
+msgstr "É gratuito, e é popular com os nossos utilizadores"
+
+#: add-ons/add-ons-list.php:221
+msgid "This free plugin allows you to design and position a form at the beginning or bottom of a post."
+msgstr "Este plugin gratuito permite desenhar e posicionar o formulário no início ou fim de um post."
+
+#: add-ons/add-ons-list.php:205
+msgid "Very powerful, if not a quirky user interface."
+msgstr "Muito poderoso"
+
+#: add-ons/add-ons-list.php:204
+msgid "This Premium plugin allows you to add MailPoet's forms in many places, and in Facebook."
+msgstr "Este plugin Premium permite-lhe adicionar formulários do MailPoet em vários locais e também no Facebook."
+
+#: add-ons/add-ons-list.php:196
+msgid "Premium users save 25% with this coupon: mailpoet25"
+msgstr "Os utilizadores Premium têm um desconto de 25% com este cupão: mailpoet25"
+
+#: add-ons/add-ons-list.php:187
+msgid "You'll need to know CSS to design it to your taste."
+msgstr "Vai precisar de ter conhecimentos de CSS para desenhar ao seu gosto."
+
+#: add-ons/add-ons-list.php:186
+msgid "This Premium plugin allows you to add a MailPoet form in a popup."
+msgstr "Este plugin Premiun permite adicionar um formulário MailPoet numa popup."
+
+#: add-ons/add-ons-list.php:179
+msgid "Premium users save 20% with this coupon: MP20"
+msgstr "Os utilizadores Premium têm um desconto de 20% com este cupão: MP20."
+
+#: add-ons/add-ons-list.php:170
+msgid "The authors have done a pretty awesome job."
+msgstr "Os autores fizeram um trabalho muito bom."
+
+#: add-ons/add-ons-list.php:169
+msgid "Put a subscription form in a popup, footer bar or slide-in to add subscribers with this Premium plugin."
+msgstr "Insira um formulário de subscrição numa janela pop-up, numa barra de rodapé ou num slide-in para adicionar subscritores com este plugin Premium."
+
+#: add-ons/add-ons-list.php:153
+msgid "Try it yourself, we were impressed by the free versions."
+msgstr "Teste você mesmo, nós ficamos impressionados com as versões gratuitas."
+
+#: add-ons/add-ons-list.php:152
+msgid "Put a form in a top or bottom bar of your site, or in a nice box within your posts with GetConversion's free plugins. Connect them to MailPoet with this add-on.<br/></br>Get 30% off the Premium version of their add-on by clicking <a href=\"http://getconversion.com/products/gc-mailpoet-ex-pro/?coupon=MAILPOET\">here</a>."
+msgstr "Coloque um formulário na barra superior ou inferior do seu site, ou então numa caixa dentro dos seus posts com os plugins gratuitos da GetConversion. Conecte-os com o MailPoet com este add-on.<br/></br>Ganhe 30% de desconto na versão Premium dos add-ons clicando <a href=\"http://getconversion.com/products/gc-mailpoet-ex-pro/?coupon=MAILPOET\">aqui</a>."
+
+#: add-ons/add-ons-list.php:138
+msgid "Leaky Paywall is a Premium plugin to put content behind a paywall. This add-on manages your customers' customers subscriptions."
+msgstr "Leaky Paywall é um plugin Premium para proteger conteúdo por pagamento. Este add-on gere as assinaturas dos seus clientes."
+
+#: add-ons/add-ons-list.php:123
+msgid "If you have this problem, then this is your solution. Totally free too."
+msgstr "Se tiver este problema, então esta é a solução. E totalmente gratuita!"
+
+#: add-ons/add-ons-list.php:122
+msgid "Stop fake signups by robots with WangGuard, a free white listing service, and plugin."
+msgstr "Pare os falsos registos com o robots do WanGuard, um serviço grátis e plugin. "
+
+#: add-ons/add-ons-list.php:106
+msgid "Add a checkbox in your forms, and choose which lists the user gets added to."
+msgstr "Adicione uma caixa de selecção aos seus formulários, e escolha quais as listas a que cada utilizador é adicionado."
+
+#: add-ons/add-ons-list.php:91
+msgid "Add a checkbox on the registration form of this plugin so your new users join a list of your choice."
+msgstr "Adicione uma caixa de selecção ao formulário de registo deste plugin para que os novos utilizadores tenham a opção de escolher a lista a que querem subscrever."
+
+#: add-ons/add-ons-list.php:60
+msgid "Add a new field to add to your forms so your visitors can subscribe to your MailPoet newsletters."
+msgstr "Adicione um novo campo aos seus formulários para que os seus visitantes possam subscrever às suas newsletters criadas com o MailPoet."
+
+#: add-ons/add-ons-list.php:28
+msgid "Decide which emails a new customer gets automatically, based on the product he just purchased. This a Premium add-on for WooCommerce."
+msgstr ""
+"Decida quais os emails que um novo cliente recebe automaticamente, baseado no produto que comprou. \n"
+"Este é um add-on Premiun para o plugin WooCommerce."
+
+#: add-ons/add-ons-list.php:12 add-ons/add-ons-list.php:44
+#: add-ons/add-ons-list.php:75
+msgid "Add a checkbox on checkout page for your customers to subscribe to your MailPoet newsletters."
+msgstr "Adicione uma caixa de selecção à página de checkout para os seus clientes subscreverem as suas newsletters criadas com o MailPoet."
