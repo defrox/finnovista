@@ -44,9 +44,15 @@ $campaign = $_REQUEST['utm_campaign'] ? $_REQUEST['utm_campaign'] : rawurldecode
             <h2 class="entry-title" style="display:block; padding-left: 0 !important;"><?php the_title(); ?></h2>
 
             <div class="entry-content clearfix" style="margin-top: 50px;">
+                <?php if (!$file || $file=='' || $file=='null') : ;?>
+                <div class="stag-alert red">
+                    <strong><?php _e('Oops!'); ?></strong> <?php _e('Something wrong happened. Please start the registration process again.'); ?>
+                </div>
+                <?php else: ;?>
                 <span style="font-size: 28px; font-weight: bold;"><?php _e('Download your file'); ?> <a href="<?= rawurldecode($file);?>" onClick="analyticsEvent(event, '<?= $campaign; ?>');" download><?php _e('here'); ?></a></span>
                 <br />
                 <?php the_content(); ?>
+                <?php endif; ?>
             </div>
         </article>
     </div>
