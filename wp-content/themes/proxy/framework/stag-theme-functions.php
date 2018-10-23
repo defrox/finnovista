@@ -28,6 +28,17 @@ function stag_add_version_meta(){
 }
 add_action('stag_meta_head', 'stag_add_version_meta');
 
+// Add Google Tag Manager in head
+function stag_add_google_tag_manager_head(){
+    echo "<!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5LHXHTZ');</script><!-- End Google Tag Manager -->"."\n";
+}
+add_action('stag_meta_head', 'stag_add_google_tag_manager_head');
+
+// Add Google Tag Manager after body
+function stag_add_google_tag_manager_body(){
+    echo '<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LHXHTZ"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->'."\n";
+}
+add_action('stag_body_start', 'stag_add_google_tag_manager_body');
 
 // Add featured image to RSS feed
 function stag_add_featured_image_to_rss($content){
