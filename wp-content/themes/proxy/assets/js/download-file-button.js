@@ -18,9 +18,9 @@ jQuery(function ($) {
             var self = this; // Needed to retrieve our variable in the anonymous function below
             this.window.on('select', function () {
                 var data = self.window.state().get('selection').first().toJSON();
-                console.log(data)
-                var url = encodeURI(data.url);
-                var obj = self.window.state().get('selection').first().changed.compat.item;
+                console.log(data);
+                // var obj = self.window.state().get('selection').first().changed.compat.item;
+                var obj = data.compat.item;
                 console.log(obj);
                 var page = $(obj).find("[id$='download-url']").val();
                 if (page == '') page = 'download';
@@ -28,10 +28,11 @@ jQuery(function ($) {
                 if (returnUrl == '') returnUrl = 'thank-you';
                 var campaign_string = '';
                 var campaign = $(obj).find("[id$='campaign']").val();
-                if (campaign && campaign != '') var campaign_string = '&utm_campaign=' + encodeURIComponent(campaign);
+                if (campaign && campaign != '') campaign_string = '&utm_campaign=' + encodeURIComponent(campaign);
                 var lang_string = '';
                 var lang = $(obj).find("[id$='language']").val();
-                if (lang && lang != '') var lang_string = '&lang=' + encodeURIComponent(lang);
+                if (lang && lang != '') lang_string = '&lang=' + encodeURIComponent(lang);
+                console.log("page: " + page + "\n" + "returnUrl: " + returnUrl + "\n" + "campaign: " + campaign + "\n" + "lang: " + lang);
                 wp.media.editor.insert('<a href="/' + page + '?file=' + encodeURIComponent(data.url) + '&return=' + encodeURIComponent(returnUrl) + campaign_string + lang_string + '" title="' + data.title + '">' + data.filename + '</a>');
             });
         }
