@@ -21,7 +21,7 @@ jQuery(function ($) {
                 console.log(data);
                 // var obj = self.window.state().get('selection').first().changed.compat.item;
                 var obj = data.compat.item;
-                // console.log(obj);
+                console.log(obj);
                 var page = $(obj).find("[id$='download-url']").val();
                 if (page == '') page = 'download';
                 var returnUrl = $(obj).find("[id$='thankyou-url']").val();
@@ -32,7 +32,7 @@ jQuery(function ($) {
                 var lang_string = '';
                 var lang = $(obj).find("[id$='language']").val();
                 if (lang && lang != '') lang_string = '&lang=' + encodeURIComponent(lang);
-                // console.log("page: " + page + "\n" + "returnUrl: " + returnUrl + "\n" + "campaign: " + campaign + "\n" + "lang: " + lang);
+                console.log("page: " + page + "\n" + "returnUrl: " + returnUrl + "\n" + "campaign: " + campaign + "\n" + "lang: " + lang);
                 wp.media.editor.insert('<a href="/' + page + '?file=' + encodeURIComponent(data.url) + '&return=' + encodeURIComponent(returnUrl) + campaign_string + lang_string + '" title="' + data.title + '">' + data.filename + '</a>');
             });
         }
