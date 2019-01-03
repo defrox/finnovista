@@ -37,6 +37,7 @@ function create_post_type_event_agenda()
 function event_agenda_build_taxonomies()
 {
     register_taxonomy(__("event_agenda_category", 'stag'), array(__("event_agenda", 'stag')), array("hierarchical" => true, "label" => __("Event Agenda Categories", 'stag'), "singular_label" => __("Event Agenda Category", 'stag'), "rewrite" => array('slug' => 'event_agenda_category', 'hierarchical' => true)));
+    register_taxonomy(__("event_agenda_topic", 'stag'), array(__("event_agenda", 'stag')), array("hierarchical" => true, "label" => __("Event Agenda Topics", 'stag'), "singular_label" => __("Event Agenda Topic", 'stag'), "rewrite" => array('slug' => 'event_agenda_topic', 'hierarchical' => true)));
 }
 
 function event_agenda_create_categories(){
@@ -81,6 +82,7 @@ function event_agenda_edit_columns($columns)
     $columns = array(
         "cb" => "<input type=\"checkbox\" />",
         "title" => __('Title', 'stag'),
+        "topic" => __('Topic', 'stag'),
         "category" => __('Category', 'stag'),
         "start" => __('Start', 'stag'),
         "end" => __('End', 'stag'),
@@ -96,6 +98,9 @@ function event_agenda_custom_columns($column)
 {
     global $post;
     switch ($column) {
+        case __('topic', 'stag'):
+            echo get_the_term_list($post->ID, __('event_agenda_topic', 'stag'), '', ', ', '');
+            break;
         case __('category', 'stag'):
             echo get_the_term_list($post->ID, __('event_agenda_category', 'stag'), '', ', ', '');
             break;

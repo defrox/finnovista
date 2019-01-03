@@ -64,6 +64,7 @@ class stag_section_bootstrap_agenda extends WP_Widget
                     // The 2nd Loop
                     $agenda_items = array();
                     $agenda_terms = array();
+                    $agenda_topics = array();
                     while ($query2->have_posts()) {
                         $query2->the_post();
                         $agenda_item = array();
@@ -71,6 +72,7 @@ class stag_section_bootstrap_agenda extends WP_Widget
                         $agenda_item['title'] = get_the_title($query2->post->ID);
                         $agenda_item['content'] = get_the_content($query2->post->ID);
                         $agenda_item['category'] = get_the_terms($query2->post->ID, 'event_agenda_category');
+                        $agenda_item['topic'] = get_the_terms($query2->post->ID, 'event_agenda_topic');
                         $agenda_item['date'] = get_post_meta($query2->post->ID, '_stag_event_agenda_date', true);
                         $agenda_item['start'] = get_post_meta($query2->post->ID, '_stag_event_agenda_start', true);
                         $agenda_item['end'] = get_post_meta($query2->post->ID, '_stag_event_agenda_end', true);
@@ -91,6 +93,18 @@ class stag_section_bootstrap_agenda extends WP_Widget
                                 }
                             }
                         }
+                        if (is_array($agenda_item['topic'])) {
+                            foreach ($agenda_item['topic'] as $term) {
+                                if (!array_key_exists($term->term_id, $agenda_topics)) {
+                                    $term_meta = get_term_meta($term->term_id);
+                                    $agenda_topics[$term->term_id] = array(
+                                        'name'  => $term->name,
+                                        'id'    => $term->term_id,
+                                        'slug'  => $term->slug
+                                    );
+                                }
+                            }
+                        }
                     }
                     // Restore original Post Data
                     wp_reset_postdata();
@@ -107,6 +121,18 @@ class stag_section_bootstrap_agenda extends WP_Widget
                             ksort($agenda_items, SORT_STRING | SORT_ASC);
                             ?>
                             <div class="container agenda-event">
+                                <?php if (is_array($agenda_topics) && count($agenda_topics) > 0): ?>
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <p><? _e('Topics','stag');?>:
+                                                <button type="button" class="btn btn-default btn-xs btn-tag mb-2"><?= __('All'); ?></button>
+                                                <?php foreach($agenda_topics as $topic_id => $topic): ?>
+                                                    <button type="button" class="btn btn-info btn-xs btn-tag mb-2"><?= $topic['name']; ?></button>
+                                                <?php endforeach; ?>
+                                            </p>
+                                        </div>
+                                    </div>
+                                <?php endif;?>
                                 <?php if (is_array($agenda_terms) && count($agenda_terms) > 0): ?>
                                     <div class="row">
                                         <div class="col-sm-12">
@@ -142,6 +168,15 @@ class stag_section_bootstrap_agenda extends WP_Widget
                                                                 $category .= " <i class=\"fas fa-" . $agenda_terms[$catitem->term_id]['icon'] . "\"></i> " . $catitem->name;
                                                                 ?>
                                                                 <span class="label label-default tag"><?= $catitem->name; ?></span>
+                                                            <?php endforeach; ?>
+                                                        </div>
+                                                    <?php endif; ?>
+                                                    <?php if (is_array($hitem['topic']) && count($hitem['topic']) > 0): ?>
+                                                        <div style="display: none;">
+                                                            <span class="label label-primary tag hidden"><?= __('All'); ?></span>
+                                                            <?php
+                                                            foreach($hitem['topic'] as $topic_item): ?>
+                                                                <span class="label label-default tag"><?= $topic_item->name;?></span>
                                                             <?php endforeach; ?>
                                                         </div>
                                                     <?php endif; ?>
