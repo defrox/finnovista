@@ -6,6 +6,7 @@ $custom_logo = get_post_meta(get_the_ID(), '_stag_custom_page_logo', true);
 $dfx_title = '';
 $file = $_REQUEST['file'];
 $return_url = $_REQUEST['return'] ? $_REQUEST['return'] : "thank&#x2d;you";
+$lang = $_REQUEST['lang'] ? $_REQUEST['lang'] : false;
 $campaign = $_REQUEST['utm_campaign'] ? "<input type='text' style='display:none;' name='utm_campaign' value='" . $_REQUEST['utm_campaign'] . "'/>" : false;
 
 $returnUrl = "http&#x3a;&#x2f;&#x2f;www.finnovista.com&#x2f;$return_url&#x2f;&#x3f;file&#x3d;" . rawurlencode($file) .
