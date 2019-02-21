@@ -30,3 +30,30 @@ body.page-template-page-bootstrap-agenda .entry-content .card p {
     clear: both;
     width: 100%;
 }
+
+.entry-content .agenda-event ul.nav-tabs {
+    margin: 0;
+    padding: 0;
+}
+
+.entry-content .agenda-event .nav-tabs > .nav-item {
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.entry-content .agenda-event .nav-tabs {
+    border-bottom: none;
+}
+
+.entry-content .agenda-event .tab-content {
+    border: 1px solid transparent;
+    border-top: none;
+    border-right-color: #dee2e6;
+    border-left-color: #dee2e6;
+    border-bottom-color: #dee2e6;
+}
+
+.entry-content .agenda-event .nav-tabs .nav-link:not(.active) {
+    border-bottom-color: #dee2e6;
+}

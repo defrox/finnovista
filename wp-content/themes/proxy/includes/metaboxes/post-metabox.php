@@ -184,7 +184,10 @@ function stag_metabox_bootstrap_agenda_page(){
     // If the current page uses our specific
     // template, then output our custom metabox
 
-    if ( 'page-bootstrap-agenda-fs.php' == $page_template || 'page-bootstrap-agenda-visa.php' == $page_template ) {
+    if ('page-bootstrap-agenda-fs.php' == $page_template ||
+        'page-bootstrap-agenda-visa.php' == $page_template ||
+        'page-daily-agenda-fs.php' == $page_template ||
+        'page-daily-agenda-visa.php' == $page_template ) {
         $events = query_posts(array('post_type' => 'event'));
         $event_options = array('' => __('None', 'stag'));
         foreach ($events as $key => $value) {

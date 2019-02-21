@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Bootstrap Agenda Visa Everywhere
+Template Name: Daily Agenda Visa Everywhere
 */
 
 $event_id = get_post_meta(get_the_ID(), '_stag_linked_event', true);
@@ -79,6 +79,10 @@ if ( $query2->have_posts() ) {
     }
     // Restore original Post Data
     wp_reset_postdata();
+
+    // Initialize class vars for tabs
+    $first_nav = true;
+    $first_tab = true;
 }
 
 ?>
@@ -96,6 +100,8 @@ if ( $query2->have_posts() ) {
         });
 </script>
 <header id="subheader" class="clearfix">
+    <?php list($red, $green, $blue) = sscanf($bgcolor, "#%02x%02x%02x");
+    $bglightcolor = "rgba(" . $red . ", " . $green . ", " . $blue . ", 0.1)"; ?>
     <style type="text/css"> .single-event #subheader .subheader-inner .event_menu a {
             color: <?= $fontcolor;?> !important;
         }
@@ -109,6 +115,9 @@ if ( $query2->have_posts() ) {
             background-color: <?= $bgcolor;?> !important;
             border-color: <?= $bgcolor;?> !important;
             color: <?= $fontcolor;?> !important;
+        }
+        .nav-tabs .nav-link.active, .tab-content {
+            background-color: <?= $bglightcolor;?> !important;
         }
 
         .page-template-page-bootstrap-agenda-visa .event_title {
@@ -187,56 +196,75 @@ if ( $query2->have_posts() ) {
                     </div>
                     <?php endif;?>
                     <div class="row">
-                        <?php foreach($agenda_items as $day => $hour): ?>
-                        <div class="col-sm-<?= $day_col;?>" id="accordion<?= $day;?>">
-                            <div class="btn btn-primary btn-lg btn-block disabled mb-4" role="button" aria-disabled="true">
-                                <i class="far fa-calendar"></i> <?= date_i18n("j M Y", strtotime($day));?>
-                            </div>
-                            <?php ksort($hour);
-                            foreach($hour as $hitem): ?>
-                            <div class="card card-default agenda-item mb-2" data-toggle="collapse" href="#collapse<?= $hitem['id'];?>" id="agendaitem<?= $hitem['id'];?>">
-                                <?php if (is_array($hitem['category']) && count($hitem['category']) > 0): ?>
-                                    <div style="display: none;">
-                                        <span class="label label-primary tag hidden"><?= __('All'); ?></span>
-                                        <?php
-                                        $category = "";
-                                        foreach($hitem['category'] as $catitem):
-                                            $category .= " <i class=\"fas fa-" . $agenda_terms[$catitem->term_id]['icon'] . "\"></i> " . $catitem->name;
-                                        ?>
-                                            <span class="label label-default tag"><?= $catitem->name;?></span>
-                                        <?php endforeach; ?>
-                                    </div>
-                                <?php endif; ?>
-                                <?php if (is_array($hitem['topic']) && count($hitem['topic']) > 0): ?>
-                                    <div style="display: none;">
-                                        <span class="label label-primary tag hidden"><?= __('All'); ?></span>
-                                        <?php
-                                        foreach($hitem['topic'] as $topic_item): ?>
-                                            <span class="label label-default tag"><?= $topic_item->name;?></span>
-                                        <?php endforeach; ?>
-                                    </div>
-                                <?php endif; ?>
-                                <div class="card-header title">
-                                    <div class="d-flex mb-1"><span class="timer"><?= $hitem['start']; ?> - <?= $hitem['end']; ?></span> &nbsp; <span class="card-title"><?= $hitem['title'];?></span></div>
-                                </div>
-                                <div class="card-body">
-                                    <div class="d-flex"><span class="category"><?= $category;?></span></div>
-                                    <?php if ($hitem['avatar'] != ''):?><div class="d-flex pull-left mr-3"><span class="avatar"><img src="<?= $hitem['avatar']; ?>" /></span></div><?php endif; ?>
-                                    <div class="d-flex"><span class="speakers"><?= html_entity_decode($hitem['speakers']); ?></span></div>
-                                </div>
-                                <div id="collapse<?= $hitem['id']; ?>" class="collapse" data-parent="#accordion<?= $day;?>">
-                                    <div class="card-body">
-                                        <?= $hitem['content']; ?>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-sm-12">
+                            <?php
+                            ?>
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs nav-justified">
+                            <?php foreach($agenda_items as $day => $hour): ?>
+                                <li class="nav-item">
+                                    <a class="nav-link<?php echo $first_nav ? ' active' : ''; $first_nav = false; ?> p-2 font-weight-bold" data-toggle="tab" href="#tab-day<?= $day;?>">
+                                        <i class="far fa-calendar"></i> <?= date_i18n("j M Y", strtotime($day));?>
+                                    </a>
+                                </li>
                             <?php endforeach; ?>
+                            </ul>
+                            <!-- // Nav tabs -->
                         </div>
-                        <?php endforeach; ?>
+                        <div class="col-sm-12">
+                            <!-- Tab panes -->
+                            <div class="tab-content mb-5">
+                            <?php foreach($agenda_items as $day => $hour): ?>
+                                <div class="tab-pane fade fade-in<?php echo $first_tab ? ' active show' : ''; $first_tab = false; ?> px-3 pt-3" id="tab-day<?= $day;?>">
+                                <?php ksort($hour);
+//                                var_dump($hour);
+                                foreach($hour as $hitem): ?>
+                                    <div class="card card-default agenda-item mb-3" data-toggle="collapse" href="#collapse<?= $hitem['id'];?>" id="agendaitem<?= $hitem['id'];?>">
+                                        <?php if (is_array($hitem['category']) && count($hitem['category']) > 0): ?>
+                                            <div style="display: none;">
+                                                <span class="label label-primary tag hidden"><?= __('All'); ?></span>
+                                                <?php
+                                                $category = "";
+                                                foreach($hitem['category'] as $catitem):
+                                                    $category .= " <i class=\"fas fa-" . $agenda_terms[$catitem->term_id]['icon'] . "\"></i> " . $catitem->name;
+                                                ?>
+                                                    <span class="label label-default tag"><?= $catitem->name;?></span>
+                                                <?php endforeach; ?>
+                                            </div>
+                                        <?php endif; ?>
+                                        <?php if (is_array($hitem['topic']) && count($hitem['topic']) > 0): ?>
+                                            <div style="display: none;">
+                                                <span class="label label-primary tag hidden"><?= __('All'); ?></span>
+                                                <?php
+                                                foreach($hitem['topic'] as $topic_item): ?>
+                                                    <span class="label label-default tag"><?= $topic_item->name;?></span>
+                                                <?php endforeach; ?>
+                                            </div>
+                                        <?php endif; ?>
+                                        <div class="card-header title">
+                                            <div class="d-flex mb-1"><span class="timer"><?= $hitem['start']; ?> - <?= $hitem['end']; ?></span> &nbsp; <span class="card-title"><?= $hitem['title'];?></span></div>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="d-flex"><span class="category"><?= $category;?></span></div>
+                                            <?php if ($hitem['avatar'] != ''):?><div class="d-flex pull-left mr-3"><span class="avatar"><img src="<?= $hitem['avatar']; ?>" /></span></div><?php endif; ?>
+                                            <div class="d-flex"><span class="speakers"><?= html_entity_decode($hitem['speakers']); ?></span></div>
+                                        </div>
+                                        <div id="collapse<?= $hitem['id']; ?>" class="collapse" data-parent="#accordion<?= $day;?>">
+                                            <div class="card-body">
+                                                <?= $hitem['content']; ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php endforeach; ?>
+                                </div>
+                            <?php endforeach; ?>
+                            </div>
+                            <!-- // Tab panes -->
+                        </div>
                     </div>
                 </div>
                 <?php else:?>
-                    <div class="container"><?= __('To be disclosed.'); ?></div>
+                <div class="container"><?= __('To be disclosed.'); ?></div>
                 <?php endif;?>
             </div>
         </article>

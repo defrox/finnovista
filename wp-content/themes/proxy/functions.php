@@ -537,7 +537,11 @@ function stag_enqueue_scripts()
         wp_enqueue_script('fixto', get_template_directory_uri() . '/assets/js/fixto.min.js', array('jquery'), '', true);
 
         // Bootstrap Agenda files
-        if (is_page_template("page-bootstrap-agenda-fs.php") || is_page_template("page-bootstrap-agenda-visa.php") || get_post_type() == 'event') {
+        if (is_page_template("page-bootstrap-agenda-fs.php") ||
+            is_page_template("page-bootstrap-agenda-visa.php") ||
+            is_page_template("page-daily-agenda-fs.php") ||
+            is_page_template("page-daily-agenda-visa.php") ||
+            get_post_type() == 'event') {
             // Bootstrap 4
             wp_enqueue_script('bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js', '', '4.1.1', true);
             wp_enqueue_style('bootstrap', '//stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css');
