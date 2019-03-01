@@ -5733,7 +5733,9 @@ float: right;*/
 .page-template-finnosummit-page-php .event_title,
 .page-template-visa-everywhere-page-php .event_title,
 .page-template-page-bootstrap-agenda-fs .event_title,
-.page-template-page-bootstrap-agenda-visa .event_title {
+.page-template-page-bootstrap-agenda-visa .event_title,
+.page-template-page-daily-agenda-fs .event_title,
+.page-template-page-daily-agenda-visa .event_title{
     float: left;
     padding: 8px 10px 5px 30px;
 }

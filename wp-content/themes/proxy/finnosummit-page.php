@@ -32,7 +32,8 @@ $event_date_text = get_post_meta($event_id, '_stag_event_date_text', false);
             background-color: <?= $bgcolor;?>;
             color: <?= $fontcolor;?>;
         }
-        .bootstrap-agenda .btn-primary.disabled, .bootstrap-agenda .btn-tag {
+        .bootstrap-agenda .btn-primary.disabled, .bootstrap-agenda .btn-tag,
+        .daily-agenda .btn-primary.disabled, .daily-agenda .btn-tag {
             background-color: <?= $bgcolor;?> !important;
             border-color: <?= $bgcolor;?> !important;
             color: <?= $fontcolor;?> !important;

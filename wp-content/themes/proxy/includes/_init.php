@@ -16,6 +16,7 @@ require_once('widgets/widget-blog-category.php');
 require_once('widgets/widget-blog-category2.php');
 require_once('widgets/widget-bootstrap-agenda.php');
 require_once('widgets/widget-contact.php');
+require_once('widgets/widget-daily-agenda.php');
 require_once('widgets/widget-events.php');
 require_once('widgets/widget-event-venue.php');
 require_once('widgets/widget-flickr.php');

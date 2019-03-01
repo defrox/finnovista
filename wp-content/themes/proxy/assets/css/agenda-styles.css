@@ -1,8 +1,10 @@
-body.page-template-page-bootstrap-agenda ul.nav-pills {
+body.page-template-page-bootstrap-agenda ul.nav-pills,
+body.page-template-page-daily-agenda ul.nav-pills {
     list-style: none !important;
 }
 
-body.page-template-page-bootstrap-agenda .entry-content .card p {
+body.page-template-page-bootstrap-agenda .entry-content .card p,
+body.page-template-page-daily-agenda .entry-content .card p{
     margin: 0 !important;
 }
 

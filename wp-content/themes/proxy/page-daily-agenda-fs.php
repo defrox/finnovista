@@ -118,7 +118,7 @@ if ( $query2->have_posts() ) {
             background-color: <?= $bglightcolor;?> !important;
         }
 
-        .page-template-page-bootstrap-agenda-fs .event_title {
+        .page-template-page-daily-agenda-fs .event_title {
             color: <?= $fontcolor;?> !important;
         }
         #container .hfeed a {color: <?= $bgcolor;?> !important;}

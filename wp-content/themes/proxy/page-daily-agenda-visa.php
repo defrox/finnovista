@@ -120,7 +120,7 @@ if ( $query2->have_posts() ) {
             background-color: <?= $bglightcolor;?> !important;
         }
 
-        .page-template-page-bootstrap-agenda-visa .event_title {
+        .page-template-page-daily-agenda-visa .event_title {
             color: <?= $fontcolor;?> !important;
         }
 
