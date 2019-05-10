@@ -3,7 +3,8 @@
     <?php
     $skills = $event_type_terms = get_the_terms(get_the_ID(), 'event_type');
     if ($skills) {
-        $skill = $event_type = '';
+        $skill = [];
+        $event_type = '';
         foreach ($skills as $ski) {
             $skill[] .= $ski->name;
             $event_type_obj = $ski;

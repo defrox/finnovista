@@ -867,7 +867,7 @@ function language_selector_list()
         if (!empty($languages)) {
             echo '<ul>';
             foreach ($languages as $l) {
-                $language_code = split('-', icl_disp_language($l['language_code']));
+                $language_code = preg_split('/-/', icl_disp_language($l['language_code']));
                 echo "<li><span>";
                 if (!$l['active']) echo '<a href="' . $l['url'] . '">';
                 echo $language_code[0];

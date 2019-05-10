@@ -105,8 +105,8 @@ if (isset($_REQUEST['cat'])) $dfx_title .= get_term($category, '_stag_team_categ
                                 </div>
                             <?php endif; ?>
                             <div class="member-description">
-                                <p class="member-title"><a
-                                            href="/listado-colaboradores/<?php print ($category != '' || $area != '' || $fscity != '' || $pdcity != '' || $visacity != '' ? '?' : '') . ($category != '' ? '&cat=' . urlencode($category) : '') . ($area != '' ? '&area=' . urlencode($area) : '') . ($fscity != '' ? '&fscity=' . urlencode($fscity) : '') . ($pdcity != '' ? '&pdcity=' . urlencode($pdcity) : '') . ($visacity != '' ? '&visacity=' . urlencode($visacity) : '') . '#' . get_the_ID(); ?>"><?php the_title(); ?></a>
+                                <p class="member-title">
+                                    <a href="/listado-colaboradores/<?php print ($category != '' || $area != '' || $fscity != '' || $pdcity != '' || $visacity != '' ? '?' : '') . ($category != '' ? '&cat=' . urlencode($category) : '') . ($area != '' ? '&area=' . urlencode($area) : '') . ($fscity != '' ? '&fscity=' . urlencode($fscity) : '') . ($pdcity != '' ? '&pdcity=' . urlencode($pdcity) : '') . ($visacity != '' ? '&visacity=' . urlencode($visacity) : '') . '#' . get_the_ID(); ?>"><?php the_title(); ?></a>
                                 </p>
                                 <?php if (get_post_meta(get_the_ID(), '_stag_team_position', true) != '') echo '<p class="member-position">' . get_post_meta(get_the_ID(), '_stag_team_position', true) . '</p>'; ?>
                             </div>

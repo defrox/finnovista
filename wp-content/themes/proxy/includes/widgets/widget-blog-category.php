@@ -89,7 +89,7 @@ class stag_section_blog_category extends WP_Widget
                             while (have_posts()): the_post();
                                 $postCount++;
                                 $terms = get_the_terms(get_the_ID(), 'category');
-                                $color_categories = array(87,483,831,841,613,838,595,845,847,849,850,851);
+                                $color_categories = array(87,483,831,841,613,838,595,845,847,849,850,851,1240,1241);
                                 $pd_tag = $pd_css = $pd_color = $pd_tag2 = $pd_css2 = $pd_color2 = $setted = $setted2 = false;
                                 // Color categories
                                 if (sizeof($terms) > 0 && is_array($terms)) {
