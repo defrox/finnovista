@@ -103,5 +103,11 @@ jQuery(document).ready(function($) {
 			
 		});
 		
+		// Close Thickbox
+		$("body").delegate(".closetb","click",function(){
+			
+			tb_remove();
+			
+		});
 		
 });

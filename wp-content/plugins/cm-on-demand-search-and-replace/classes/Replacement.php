@@ -69,8 +69,10 @@ class CMODSAR_Replacement {
 		if ( empty( $replacements ) ) {
 			$replacements = array();
 		}
+		// Ticket 56905
+		$replace_from = trim($post[ 'replace_from' ]);
 
-		$replace[ 'from' ]	 = !empty( $post[ 'replace_from' ] ) ? $post[ 'replace_from' ] : '';
+		$replace[ 'from' ]	 = !empty( $replace_from ) ? $replace_from : '';
 		$replace[ 'to' ]	 = !empty( $post[ 'replace_to' ] ) ? $post[ 'replace_to' ] : '';
 		$replace[ 'case' ]	 = !empty( $post[ 'replace_case' ] ) ? 1 : 0;
 
@@ -91,10 +93,12 @@ class CMODSAR_Replacement {
 		if ( empty( $replacements ) ) {
 			$replacements = array();
 		}
+		// Ticket 56905
+		$replace_from = trim($post[ 'replace_from' ]);
 
 		$id = $post[ 'replace_id' ];
 		if ( isset( $replacements[ $id ] ) ) {
-			$replace[ 'from' ]	 = isset( $post[ 'replace_from' ] ) ? $post[ 'replace_from' ] : '';
+			$replace[ 'from' ]	 = isset( $replace_from ) ? $replace_from : '';
 			$replace[ 'to' ]	 = isset( $post[ 'replace_to' ] ) ? $post[ 'replace_to' ] : '';
 			$replace[ 'case' ]	 = !empty( $post[ 'replace_case' ] ) ? 1 : 0;
 
@@ -239,6 +243,7 @@ class CMODSAR_Replacement {
 		/*
 		 * Added code to update replacements while updating other options
 		 */
+
 		if ( isset( $post[ 'cmodsar_custom_from' ] ) && isset( $post[ 'cmodsar_custom_to' ] ) && isset( $post[ 'cmodsar_custom_case' ] ) ) {
 			if ( is_array( $post[ 'cmodsar_custom_from' ] ) && is_array( $post[ 'cmodsar_custom_to' ] ) && is_array( $post[ 'cmodsar_custom_case' ] ) ) {
 				$replacement_from	 = $post[ 'cmodsar_custom_from' ];
@@ -255,6 +260,15 @@ class CMODSAR_Replacement {
 						);
 					}
 				}
+
+				// Ticket 56905 Adding "Add Rule" function
+				$replace_from = trim($post[ 'cmodsar_custom_from_new' ]);
+
+		 		$replace[ 'from' ]	 = !empty( $replace_from ) ? $replace_from : '';
+		 		$replace[ 'to' ]	 = !empty( $post[ 'cmodsar_custom_to_new' ] ) ? $post[ 'cmodsar_custom_to_new' ] : '';
+		 		$replace[ 'case' ]	 = !empty( $post[ 'cmodsar_custom_case_new' ] ) ? 1 : 0;
+
+		 		$repl_array[] = $replace;
 
 				update_option( 'cmodsar_replacements', $repl_array );
 			}
@@ -281,7 +295,13 @@ class CMODSAR_Replacement {
 		if ( !empty( $repl ) && is_array( $repl ) ) {
 			foreach ( $repl as $r ) {
 				if ( !empty( $r[ 'from' ] ) ) {
-					$content = ($r[ 'case' ] == 1) ? str_replace( $r[ 'from' ], $r[ 'to' ], $content ) : str_ireplace( $r[ 'from' ], $r[ 'to' ], $content );
+					// Ticket 56905
+					$r[ 'from' ] = preg_replace( '/"(.*?)"/', '&#8221;$1&#8243;', $r[ 'from' ] );
+					$r[ 'from' ] = preg_replace( "/'(.*?)'/", '&#8217;$1&#8242;', $r[ 'from' ] );
+					$r[ 'from' ] = preg_replace( '/(.*?)"/', '$1&#8221;', $r[ 'from' ] );
+					$r[ 'from' ] = preg_replace( "/(.*?)'/", '$1&#8217;', $r[ 'from' ] );
+
+					$content = ($r[ 'case' ] == 1) ? str_replace( $r[ 'from' ], $r[ 'to' ], $content ) : str_replace( $r[ 'from' ], $r[ 'to' ], $content );
 				}
 			}
 		}

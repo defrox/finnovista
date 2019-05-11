@@ -10,6 +10,21 @@ $cminds_plugin_config = array(
     'plugin-affiliate'               => '',
     'plugin-redirect-after-install'  => admin_url( 'admin.php?page=cmodsar_settings' ),
     'plugin-show-guide'              => TRUE,
+        'plugin-upgrade-text'           => 'Good Reasons to Upgrade to Pro',
+    'plugin-upgrade-text-list'      => array(
+        array( 'title' => 'Introduction to the search and replace plugin', 'video_time' => '0:00' ),
+        array( 'title' => 'Use in titles, comments and excerpts', 'video_time' => '0:58' ),
+        array( 'title' => 'Time restricted search and replace', 'video_time' => '1:18' ),
+        array( 'title' => 'Exclude specific pages', 'video_time' => '1:30' ),
+        array( 'title' => 'Regex support', 'video_time' => 'More' ),
+        array( 'title' => 'Import and export rules', 'video_time' => 'More' ),
+        array( 'title' => 'ACF support', 'video_time' => 'More' ),
+        array( 'title' => 'More support to Yoast and WooCommerce content', 'video_time' => 'More' ),
+    ),
+    'plugin-upgrade-video-height'   => 240,
+    'plugin-upgrade-videos'         => array(
+        array( 'title' => 'Search and Replace Premium Features', 'video_id' => '124893784' ),
+    ),
     'plugin-guide-text'              => '    <div style="display:block">
         <ol>
          <li>This plugin allows you to setup the search & replace rules for the content of your site.</li>
@@ -43,19 +58,22 @@ $cminds_plugin_config = array(
 	'plugin-changelog-url'		 => CMODSAR_RELEASE_NOTES,
 	'plugin-licensing-aliases'	 => array( CMODSAR_LICENSE_NAME ),
 	'plugin-compare-table'	 => '
-            <div class="suite-package" style="padding-left:10px;"><h2>The premium version of this plugin is included in CreativeMinds All plugins suite:</h2><a href="https://www.cminds.com/wordpress-plugins-library/cm-wordpress-plugins-yearly-membership/" target="_blank"><img src="'.plugin_dir_url( __FILE__ ).'CMWPPluginssuite.png"></a></div>
-            <hr style="width:1000px; height:3px;">
             <div class="pricing-table" id="pricing-table"><h2 style="padding-left:10px;">Upgrade The On Demand Search and Replace Plugin:</h2>
                 <ul>
-                    <li class="heading" style="background-color:black;">Current Edition</li>
+                    <li class="heading" style="background-color:red;">Current Edition</li>
                     <li class="price">FREE<br /></li>
                      <li style="text-align:left;"><span class="dashicons dashicons-yes"></span>Define find and replace rules</li>
                     <li style="text-align:left;"><span class="dashicons dashicons-yes"></span>Supports posts and pages</li>
-                </ul>
+                     <hr>
+                    Other CreativeMinds Offerings
+                    <hr>
+                 <a href="https://www.cminds.com/wordpress-plugins-library/seo-keyword-hound-wordpress/" target="blank"><img src="' . plugin_dir_url( __FILE__ ). 'views/Hound2.png"  width="220"></a><br><br><br>
+                <a href="https://www.cminds.com/store/cm-wordpress-plugins-yearly-membership/" target="blank"><img src="' . plugin_dir_url( __FILE__ ). 'views/banner_yearly-membership_220px.png"  width="220"></a><br>
+              </ul>
 
                 <ul>
                    <li class="heading">Pro<a href="https://www.cminds.com/wordpress-plugins-library/purchase-cm-on-demand-search-and-replace-plugin-for-wordpress/" style="float:right;font-size:11px;color:white;" target="_blank">More</a></li>
-                    <li class="price">$29.00<br /> <span style="font-size:14px;">(For one Year / Site)<br />Additional pricing options available <a href="https://www.cminds.com/wordpress-plugins-library/purchase-cm-on-demand-search-and-replace-plugin-for-wordpress/" target="_blank"> >>> </a></span> <br /></li>
+                    <li class="price">$29.00<br /> <span style="font-size:14px;">(For one Year / 2 Sites)<br />Additional pricing options available <a href="https://www.cminds.com/wordpress-plugins-library/purchase-cm-on-demand-search-and-replace-plugin-for-wordpress/" target="_blank"> >>> </a></span> <br /></li>
                     <li class="action"><a href="https://www.cminds.com/?edd_action=add_to_cart&download_id=33640&wp_referrer=https://www.cminds.com/checkout/&edd_options[price_id]=1" style="font-size:18px;" target="_blank">Upgrade Now</a></li>
                      <li style="text-align:left;"><span class="dashicons dashicons-yes"></span>All Free Version Features <span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:green" title="All free features are supported in the pro"></span></li>  
                 <li style="text-align:left;"><span class="dashicons dashicons-yes"></span>All WordPress Content Types<span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:green" title="Define search and replace rules for comments, posts, pages, titles, content and excerpts "></span></li>
@@ -71,11 +89,11 @@ $cminds_plugin_config = array(
                 <li style="text-align:left;"><span class="dashicons dashicons-yes"></span>Target specific post<span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:green" title="Target rules to specific post or page."></span></li>
                 <li style="text-align:left;"><span class="dashicons dashicons-yes"></span>Regex search and replace<span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:green" title="Supports regex search and replace statements."></span></li>
                 <li style="text-align:left;"><span class="dashicons dashicons-yes"></span>External Plugins Support<span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:green" title="Special support for ACF, Yoast, Woocommerce and bbPress plugins fields"></span></li>
-                   <li class="support" style="background-color:lightgreen; text-align:left; font-size:14px;"><span class="dashicons dashicons-yes"></span> One year of expert support <span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:grey" title="You receive 365 days of a WordPress expert support. We will answer questions you have and also support any issue related to the plugin. We also provide on site support."></span><br />
-                        <span class="dashicons dashicons-yes"></span> Unlimited product updates <span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:grey" title="During the year, you can update the plugin as many times as needed and receive any new release and security update"></span><br />
-                        <span class="dashicons dashicons-yes"></span> Plugin can be used forever <span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:grey" title="If you choose not to renew the plugin license, you can still continue to use a long as you want."></span><br />
-                        <span class="dashicons dashicons-yes"></span> Save 35% once renewing license <span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:grey" title="If you choose to renew the plugin license you can do this anytime you choose. The renewal cost will be 35% off the product cost."></span></li>
-                </ul>
+                     <li class="support" style="background-color:lightgreen; text-align:left; font-size:14px;"><span class="dashicons dashicons-yes"></span> One year of expert support <span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:grey" title="You receive 365 days of WordPress expert support. We will answer questions you have and also support any issue related to the plugin. We will also provide on-site support."></span><br />
+                         <span class="dashicons dashicons-yes"></span> Unlimited product updates <span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:grey" title="During the license period, you can update the plugin as many times as needed and receive any version release and security update"></span><br />
+                        <span class="dashicons dashicons-yes"></span> Plugin can be used forever <span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:grey" title="Once license expires, If you choose not to renew the plugin license, you can still continue to use it as long as you want."></span><br />
+                        <span class="dashicons dashicons-yes"></span> Save 40% once renewing license <span class="dashicons dashicons-admin-comments cminds-package-show-tooltip" style="color:grey" title="Once license expires, If you choose to renew the plugin license you can do this anytime you choose. The renewal cost will be 35% off the product cost."></span></li>
+             </ul>
 
 
 

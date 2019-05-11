@@ -1,3 +1,4 @@
+/* global soliloquy_editor */
 /* ==========================================================
  * editor.js
  * http://soliloquywp.com/

@@ -4,8 +4,8 @@ Contributors: CreativeMindsSolutions
 Donate link: http://www.cminds.com/
 Tags: find,search,replace, search and replace
 Requires at least: 3.9
-Tested up to: 4.9.4
-Stable tag: 1.1.10
+Tested up to: 5.1.0
+Stable tag: 1.2.1
 
 Search and replace the words, phrases and HTML in real time throughout the content without changing the database.
 

@@ -71,46 +71,53 @@ function ewic_generate_slider( $id, $iswidget ) {
 			
 	//Generate Slider Script				
 	echo '<script type="text/javascript">
-	jQuery(document).ready(function() {
-		jQuery("#preloader'.$iswidget.'-'.$id.'").fadeOut(2000, function () {
-		jQuery(".bxslider'.$iswidget.'-'.$id.'").fadeIn(3000);
-		jQuery(".bxslider'.$iswidget.'-'.$id.'").bxSlider({
-			slideWidth: '.$sw.',
-			slideMargin: 10,
-			minSlides: 1,
-			pager: false,
-			useCSS: false,
-			easing: "'.$easing.'",
-			auto: '.$disenauto.',
-			autoControls: true,
-			stopAuto: false,
-			speed: 2000,
-			pause: '.get_post_meta( $id, 'ewic_meta_slide_delay', true ).'000,
-			adaptiveHeight: '.$autoheight.',
-			adaptiveHeightSpeed: 700,
-			controls: true,
-			preloadImages: "visible",
-			infiniteLoop: true,
-			captions: '.$disenttl.',
-			autoHover: true,
-			mode: "'.get_post_meta( $id, 'ewic_meta_slide_style', true ).'",
-			onSlideBefore:  function() {
-				jQuery(".bxslider'.$iswidget.'-'.$id.' .ewic-caption").slideUp();
-            },
-			onSlideAfter: function() {
-				jQuery("."+jQuery(".bxslider'.$iswidget.'-'.$id.'").parent().next().find(".bx-controls-auto").find("a").attr("class")).trigger("click");
-				jQuery(".bxslider'.$iswidget.'-'.$id.' .ewic-caption").slideDown();
-            }
+	jQuery(document).ready(function($) {
+		
+		$("#preloader'.$iswidget.'-'.$id.'").fadeOut(2000, function () {
 			
+			$("a[rel^=\'ewic'.$iswidget.'prettyPhoto['.$id.']\']").ewcPhoto({
+				theme: "ewc_default",
+				allow_expand: false,
+				deeplinking: false,
+				slideshow:'.get_post_meta( $id, 'ewic_meta_slide_lightbox_delay', true ).'000,
+				autoplay_slideshow:'.$disenlbauto.',
+				social_tools:false
 			});
 			
-			jQuery(".bx-clone a").removeAttr( "rel" );
+			$(".bxslider'.$iswidget.'-'.$id.'").fadeIn(3000);
 			
-			'.( ( get_post_meta( $id, 'ewic_meta_slide_nav', true ) != 'always' ) ? 'jQuery( ".bxslider'.$iswidget.'-'.$id.'" ).parent().parent().addClass( "navcontroller" );' : '' ).'
-
-			
-	jQuery("a[rel^=\'ewic'.$iswidget.'prettyPhoto['.$id.']\']").ewcPhoto({theme: "ewc_default", allow_expand: false, deeplinking: false, slideshow:'.get_post_meta( $id, 'ewic_meta_slide_lightbox_delay', true ).'000, autoplay_slideshow:'.$disenlbauto.', social_tools:false});
+			$(".bxslider'.$iswidget.'-'.$id.'").bxSlider({
+				slideWidth: '.$sw.',
+				slideMargin: 10,
+				minSlides: 1,
+				pager: false,
+				useCSS: false,
+				easing: "'.$easing.'",
+				auto: '.$disenauto.',
+				autoControls: true,
+				stopAuto: false,
+				speed: 2000,
+				pause: '.get_post_meta( $id, 'ewic_meta_slide_delay', true ).'000,
+				adaptiveHeight: '.$autoheight.',
+				adaptiveHeightSpeed: 700,
+				controls: true,
+				preloadImages: "visible",
+				infiniteLoop: true,
+				captions: '.$disenttl.',
+				autoHover: true,
+				mode: "'.get_post_meta( $id, 'ewic_meta_slide_style', true ).'",
+				onSlideBefore:  function() {
+					$(".bxslider'.$iswidget.'-'.$id.' .ewic-caption").slideUp();
+				},
+				onSlideAfter: function() {
+					$("."+$(".bxslider'.$iswidget.'-'.$id.'").parent().next().find(".bx-controls-auto").find("a").attr("class")).trigger("click");
+					$(".bxslider'.$iswidget.'-'.$id.' .ewic-caption").slideDown();
+				}
 				
+			});
+			
+			$(".bx-clone a").removeAttr( "rel" );
+			'.( ( get_post_meta( $id, 'ewic_meta_slide_nav', true ) != 'always' ) ? '$( ".bxslider'.$iswidget.'-'.$id.'" ).parent().parent().addClass( "navcontroller" );' : '' ).'	
 		});
 	});
 </script>';

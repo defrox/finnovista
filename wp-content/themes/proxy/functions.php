@@ -900,3 +900,30 @@ require_once($tmpDir . '/includes/_init.php');
 require_once($tmpDir . '/includes/theme-customizer.php');
 
 $language_terms = array('197', '198', '199', '200');
+
+// Footer RSS content
+function dfx_rss_content() {
+    $result = "";
+    $query = new WP_Query( 'posts_per_page=10' );
+    if ( $query->have_posts() )  {
+        while ($query->have_posts()) {
+            $query->the_post();
+
+            $title = get_the_title_rss();
+            $query->reset_postdata();
+
+            $excerpt = get_the_excerpt();
+            $query->reset_postdata();
+
+            $image = get_the_post_thumbnail($query->post->ID, 'archive-thumb');
+            $query->reset_postdata();
+
+            $permalink = esc_url( apply_filters( 'the_permalink_rss', get_permalink() ) );
+            $query->reset_postdata();
+
+            $result .= '<div class="feed-widget-stream-item"><strong class="item-title">' . $title . '</strong><br><div style="float:left;">' . $image . '</div>' . $excerpt . '<a href="' . $permalink . '" target="_blank"></a></div>';
+        }
+    }
+    wp_reset_postdata();
+    return $result;
+}

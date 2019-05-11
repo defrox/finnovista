@@ -98,9 +98,16 @@ function ewic_admin_head_script () {
 function ewic_add_meta_box( $meta_box )
 {
     if ( !is_array( $meta_box ) ) return false;
-    
+	
     // Create a callback function
-    $callback = create_function( '$post,$meta_box', 'ewic_create_meta_box( $post, $meta_box["args"] );' );
+	if ( EWIC_PHP7 ) {
+    	$callback = function( $post, $meta_box ) {
+			return ewic_create_meta_box( $post, $meta_box["args"] );
+		};
+	} else {
+		$callback = create_function( '$post, $meta_box', 'ewic_create_meta_box( $post, $meta_box["args"] );' );
+	}
+	
     add_meta_box( $meta_box['id'], $meta_box['title'], $callback, $meta_box['page'], $meta_box['context'], $meta_box['priority'], $meta_box );
 }
 
@@ -326,7 +333,7 @@ function ewic_metabox_work(){
 	    $meta_box = array(
 		'id' => 'ewic_meta_images',
 		'title' =>  __( 'Select/Upload Images', 'image-slider-widget' ),
-		'description' => __( '<span class="ewic-introjs"><span class="ewic-intro-help"></span><a href="javascript:void(0);" onclick="startIntro();">Click Here to learn How to Create Slider</a></span><br /><br />Click <strong><i>Add Images</i></strong> button below and select an images that you want to show in your widget area.<br />Press <strong>Ctrl + click on each images</strong> to select multiple images.', 'image-slider-widget' ),
+		'description' => __( '<div class="ewic-wpc"><a id="ewicdemotableclr" style="outline: none !important;" target="_blank" href="https://ghozy.link/ewicmtbox"><img class="ewichvrbutton" src="'.plugins_url( 'inc/images/wpc_metabox.png' , dirname(__FILE__) ).'" width="728" height="90" alt="Best Page Builder" ></a></div><br />Click <strong><i>Add Images</i></strong> button below and select an images that you want to show in your widget area.<br />Press <strong>Ctrl + click on each images</strong> to select multiple images.', 'image-slider-widget' ),
 		/*'description' => __( '<span class="ewic-introjs"><span class="ewic-intro-help"></span><a href="javascript:void(0);" onclick="startIntro();">Click Here to learn How to Create Slider</a></span><br /><br /><div class="ewicinfobox">Upgrade to PRO VERSION and you will get awesome slider options like <a href="http://demo.ghozylab.com/content/ewicpro.html?utm_source=procp&utm_medium=settingspage&utm_campaign=gotodemoprocp" target="_blank">this</a>. You will able to create elegant slider like the following example:<ul><li><a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-at-the-bottom/" target="_blank">Image Slider with Thumbnails at The Bottom
 </a></li><li><a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-bullet-navigation/" target="_blank">Image Slider with Bullet Navigation
 </a></li><li><a href="http://demo.ghozylab.com/plugins/easy-image-slider-plugin/image-slider-with-thumbnails-on-left/" target="_blank">Image Slider with Thumbnails on Left

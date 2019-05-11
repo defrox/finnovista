@@ -3,8 +3,8 @@ Contributors: GhozyLab
 Donate link: https://ghozy.link/rs3bq
 Tags: slider, image slider, photo slider, picture slider, responsive slider, slider plugin, slideshow, WordPress slider, slider image, wp slider, images, image
 Requires at least: 3.5
-Tested up to: 4.9.4
-Stable tag: 1.1.99
+Tested up to: 4.9.8
+Stable tag: 1.1.101
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -195,10 +195,18 @@ There are no complicated instructions for using Image Slider plugin because this
 
 == Upgrade Notice ==
 
-= 1.1.99 =
+= 1.1.101 =
 IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!
 
 == Changelog ==
+
+= 1.1.101 =
+* Update : Slider editor metabox
+
+= 1.1.100 =
+* Update : PHP 7 Ready
+* Fixed : Animation slider title not work
+* Fixed : Many other PHP and CSS clean and optimization
 
 = 1.1.99 =
 * Update : Several broken links

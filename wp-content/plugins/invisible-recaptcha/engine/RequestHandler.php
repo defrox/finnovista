@@ -12,9 +12,12 @@ class RequestHandler
 {
 	public static function handleRequest()
 	{
-		ModulesController::initializeAvailableModules();
+		
 
 		MchWpUtils::addActionHook('plugins_loaded', function(){
+			
+			ModulesController::initializeAvailableModules();
+			
 			switch(true)
 			{
 				case MchWpUtils::isUserInDashboard() : AdminEngine::getInstance();   break;

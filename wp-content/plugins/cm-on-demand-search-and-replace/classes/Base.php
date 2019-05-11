@@ -413,7 +413,8 @@ class CMODSAR_Base
     {
         $content = '';
         $settingsTabsArrayBase = array(
-            '99' => 'Server Information',
+           '55' => 'Upgrade',
+            '99' => 'Installation Tutorial',
         );
 
         $settingsTabsArray = apply_filters('cmodsar-settings-tabs-array', $settingsTabsArrayBase);

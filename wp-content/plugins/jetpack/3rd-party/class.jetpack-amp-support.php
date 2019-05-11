@@ -8,24 +8,14 @@
 class Jetpack_AMP_Support {
 
 	static function init() {
-		if ( ! self::is_amp_request() ) {
-			return;
+
+		// enable stats
+		if ( Jetpack::is_module_active( 'stats' ) ) {
+			add_action( 'amp_post_template_footer', array( 'Jetpack_AMP_Support', 'add_stats_pixel' ) );
 		}
 
-		// carousel
-		add_filter( 'jp_carousel_maybe_disable', '__return_true' );
-
-		// sharing
-		add_filter( 'sharing_enqueue_scripts', '__return_false' );
-		add_filter( 'jetpack_sharing_counts', '__return_false' );
-		add_filter( 'sharing_js', '__return_false' );
+		// Sharing.
 		add_filter( 'jetpack_sharing_display_markup', array( 'Jetpack_AMP_Support', 'render_sharing_html' ), 10, 2 );
-
-		// disable lazy images
-		add_filter( 'lazyload_is_enabled', '__return_false' );
-
-		// disable imploding CSS
-		add_filter( 'jetpack_implode_frontend_css', '__return_false' );
 
 		// enforce freedom mode for videopress
 		add_filter( 'videopress_shortcode_options', array( 'Jetpack_AMP_Support', 'videopress_enable_freedom_mode' ) );
@@ -45,37 +35,12 @@ class Jetpack_AMP_Support {
 		add_filter( 'post_flair_disable',  array( 'Jetpack_AMP_Support', 'is_amp_canonical' ), 99 );
 	}
 
-	static function init_filter_jetpack_widgets() {
-		if ( ! self::is_amp_request() ) {
-			return;
-		}
-
-		// widgets
-		add_filter( 'jetpack_widgets_to_include', array( 'Jetpack_AMP_Support', 'filter_available_widgets' ) );
-	}
-
 	static function is_amp_canonical() {
 		return function_exists( 'amp_is_canonical' ) && amp_is_canonical();
 	}
 
 	static function is_amp_request() {
-		// can't use is_amp_endpoint() since it's not ready early enough in init.
-		// is_amp_endpoint() implementation calls is_feed, which bails with a notice if plugins_loaded isn't finished
-		// "Conditional query tags do not work before the query is run"
-		$is_amp_request =
-				defined( 'AMP__VERSION' )
-			&&
-				! is_admin() // this is necessary so that modules can still be enabled/disabled/configured as per normal via Jetpack admin
-			&&
-				function_exists( 'amp_is_canonical' ) // this is really just testing if the plugin exists
-			&&
-				(
-					amp_is_canonical()
-				||
-					isset( $_GET[ amp_get_slug() ] )
-				||
-					( version_compare( AMP__VERSION, '1.0', '<' ) && self::has_amp_suffix() ) // after AMP 1.0, the amp suffix will no longer be supported
-				);
+		$is_amp_request = ( function_exists( 'is_amp_endpoint' ) && is_amp_endpoint() );
 
 		/**
 		 * Returns true if the current request should return valid AMP content.
@@ -87,23 +52,6 @@ class Jetpack_AMP_Support {
 		return apply_filters( 'jetpack_is_amp_request', $is_amp_request );
 	}
 
-	static function has_amp_suffix() {
-		$request_path = wp_parse_url( $_SERVER['REQUEST_URI'], PHP_URL_PATH );
-		return $request_path && preg_match( '#/amp/?$#i', $request_path );
-	}
-
-	static function filter_available_widgets( $widgets ) {
-		if ( self::is_amp_request() ) {
-			$widgets = array_filter( $widgets, array( 'Jetpack_AMP_Support', 'is_supported_widget' ) );
-		}
-
-		return $widgets;
-	}
-
-	static function is_supported_widget( $widget_path ) {
-		return substr( $widget_path, -14 ) !== '/milestone.php';
-	}
-
 	static function amp_disable_the_content_filters() {
 		if ( defined( 'WPCOM') && WPCOM ) {
 			add_filter( 'videopress_show_2015_player', '__return_true' );
@@ -113,6 +61,18 @@ class Jetpack_AMP_Support {
 
 		remove_filter( 'pre_kses', array( 'Filter_Embedded_HTML_Objects', 'filter' ), 11 );
 		remove_filter( 'pre_kses', array( 'Filter_Embedded_HTML_Objects', 'maybe_create_links' ), 100 );
+	}
+
+	/**
+	 * Add Jetpack stats pixel.
+	 *
+	 * @since 6.2.1
+	 */
+	static function add_stats_pixel() {
+		if ( ! has_action( 'wp_footer', 'stats_footer' ) ) {
+			return;
+		}
+		stats_render_amp_footer( stats_build_view_data() );
 	}
 
 	/**
@@ -200,11 +160,15 @@ class Jetpack_AMP_Support {
 		}
 
 		$metadata['image'] = array(
-			'@type'  => 'ImageObject',
-			'url'    => $image['src'],
-			'width'  => $image['src_width'],
-			'height' => $image['src_height'],
+			'@type' => 'ImageObject',
+			'url'   => $image['src'],
 		);
+		if ( isset( $image['src_width'] ) ) {
+			$metadata['image']['width'] = $image['src_width'];
+		}
+		if ( isset( $image['src_width'] ) ) {
+			$metadata['image']['height'] = $image['src_height'];
+		}
 
 		return $metadata;
 	}
@@ -278,11 +242,17 @@ class Jetpack_AMP_Support {
 	}
 
 	static function videopress_enable_freedom_mode( $options ) {
-		$options['freedom'] = true;
+		if ( self::is_amp_request() ) {
+			$options['freedom'] = true;
+		}
 		return $options;
 	}
 
 	static function render_sharing_html( $markup, $sharing_enabled ) {
+		if ( ! self::is_amp_request() ) {
+			return $markup;
+		}
+
 		remove_action( 'wp_footer', 'sharing_add_footer' );
 		if ( empty( $sharing_enabled ) ) {
 			return $markup;
@@ -328,7 +298,3 @@ add_action( 'init', array( 'Jetpack_AMP_Support', 'init' ), 1 );
 
 add_action( 'admin_init', array( 'Jetpack_AMP_Support', 'admin_init' ), 1 );
 
-// this is necessary since for better or worse Jetpack modules and widget files are loaded during plugins_loaded, which means we must
-// take the opportunity to intercept initialisation before that point, either by adding explicit detection into the module,
-// or preventing it from loading in the first place (better for performance)
-add_action( 'plugins_loaded', array( 'Jetpack_AMP_Support', 'init_filter_jetpack_widgets' ), 1 );

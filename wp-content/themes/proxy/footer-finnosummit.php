@@ -1,25 +1,6 @@
       <?php stag_content_end(); ?>
       <!-- END #container -->
     </div>
-<?php
-$event_id = get_post_meta(get_the_ID(), '_stag_linked_event', true);
-// Create a new DOMDocument object
-$doc = new DOMDocument();
-// Load the RSS file into the object
-$doc->load(stag_get_option('social_url_feed2'));
-// Initialize empty array
-$arrFeeds = array();
-// Get a list of all the elements with the name 'item'
-foreach ($doc->getElementsByTagName('item') as $node) {
-  $itemRSS = array (
-    'title' => $node->getElementsByTagName('title')->item(0)->nodeValue,
-    'desc' => $node->getElementsByTagName('description')->item(0)->nodeValue,
-    'link' => $node->getElementsByTagName('link')->item(0)->nodeValue,
-    'date' => $node->getElementsByTagName('pubDate')->item(0)->nodeValue
-  );
-  array_push($arrFeeds, $itemRSS);
-}
-?>
     <?php stag_footer_before(); ?>
       <!-- BEGIN .footer -->
       <footer class="footer finnosummit" role="contentinfo">
@@ -51,29 +32,26 @@ foreach ($doc->getElementsByTagName('item') as $node) {
         </div>
         <div class="bottom-section">
             <div class="grids">
-              <div class="grid-6 via-twitter">
-                <strong><?php echo __('Latest news'); ?></strong>
-                <hr>
-                <a class="twitter-timeline" data-width="100%" href="https://twitter.com/FinnoSUMMIT" data-widget-id="604960135845425152">Tweets by @FinnoSUMMIT</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>                          
-              </div>
-              <div class="grid-6 via-feed">
-                <strong><?php echo __('Featured news'); ?></strong>
-                <hr>
-                <div class="feed-widget">
-                  <div class="feed-widget-header"><?php echo __('Feeds'); ?> <a class="follow-button profile" href="<?php echo stag_get_option('social_url_feed2');?>" role="button" data-scribe="component:followbutton" title="<?php echo __('Follow'); ?>"><i class="fa fa-rss"></i>  <?php echo __('Follow'); ?></a></div>
-                  <div class="feed-widget-stream">
-                  <?php
-                   $str = "";
-                   $max_array = count($arrFeeds) < 10 ? count($arrFeeds) : 10;
-                   for ($i=0; $i<$max_array;$i++) {
-                       $str .= '<div class="feed-widget-stream-item"><strong class="item-title">'.$arrFeeds[$i]['title'].'</strong><br>'.$arrFeeds[$i]['desc'].'<a href="'.$arrFeeds[$i]['link'].'" target="_blank">[+]</a></div>';
-                   };
-                   print $str; ?>
-                  </div>
-                  <div class="feed-widget-footer"><a href="<?php echo stag_get_option('social_url_feed2');?>" target="_blank"><?php echo __('read more at'); ?> finnovista</a></div>
+                <div class="grid-6 via-twitter">
+                    <strong><?php echo __('Latest news'); ?></strong>
+                    <hr>
+                    <a class="twitter-timeline" href="https://twitter.com/Finnovista" data-widget-id="604364474393456640">Tweets by @Finnovista</a>
+                    <script>!function (d, s, id) {var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) {js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
                 </div>
-              </div>
+                <div class="grid-6 via-feed">
+                    <strong><?php echo __('Featured news'); ?></strong>
+                    <hr>
+                    <div class="feed-widget">
+                        <div class="feed-widget-header">
+                            <?php echo __('Feeds'); ?>
+                            <a class="follow-button profile" href="<?php echo stag_get_option('social_url_feed2'); ?>" role="button" data-scribe="component:followbutton" title="<?php echo __('Follow'); ?>"><i class="fa fa-rss"></i> <?php echo __('Follow'); ?></a>
+                        </div>
+                        <div class="feed-widget-stream"><?php echo dfx_rss_content(); ?></div>
+                        <div class="feed-widget-footer">
+                            <a href="<?php echo stag_get_option('social_url_feed'); ?>" target="_blank"><?php echo __('read more at'); ?> finnovista</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="grids">
                 <div class="grid-6 footer-left">

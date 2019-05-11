@@ -257,7 +257,7 @@ if ($noProcess==0){
 			
 		
 			
-				$content=findalignImage($maxchars,$content,$adjustImageSize,$float,$openWindow,$mediaImage,$thisLink,$noFollow,$catID,$thisLink,$stripSome,$useMediaImage);	
+				$content=findalignImage($maxchars,$content,$adjustImageSize,$float,$openWindow,$mediaImage,$thisLink,$noFollow,$catID,$stripSome,$useMediaImage);
 				
 				
 				
@@ -567,7 +567,7 @@ function rssmi_lightbox_filter($link,$targetWindow){
 	
 	
 	
-	function findalignImage($maxchars,$content,$adjustImageSize,$float,$openWindow,$mediaImage,$thisLink,$noFollow,$catID,$thisLink,$stripSome,$useMediaImage){
+	function findalignImage($maxchars,$content,$adjustImageSize,$float,$openWindow,$mediaImage,$thisLink,$noFollow,$catID,$stripSome,$useMediaImage){
 		
 		
 		

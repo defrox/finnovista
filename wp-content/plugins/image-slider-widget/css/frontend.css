@@ -37,7 +37,7 @@
 	position: relative;
 	}
 	
-#latest-box .bx-caption {
+#latest-box .ewic-caption {
 	font-size:14px;
 	text-align:center;
 	margin-bottom: 0px !important;
@@ -56,6 +56,11 @@
 .navcontroller:hover .bx-controls-direction a {
     opacity: 1;
 	}
+	
+/* Caption */
+.ewic-caption {
+	text-align:center;
+}
 
 /* Lightbox */	
 .lb-closeContainer{

@@ -12,9 +12,8 @@ function ewic_shortcode( $attsn ) {
 	
 	
 	ob_start();
-	
+	wp_enqueue_script( 'ewic-prettyphoto' );	
 	wp_enqueue_script( 'ewic-bxslider' );
-	wp_enqueue_script( 'ewic-prettyphoto' );
 	wp_enqueue_script( 'ewic-bxslider-easing' );
 	
 	wp_enqueue_style( 'ewic-frontend-css' );

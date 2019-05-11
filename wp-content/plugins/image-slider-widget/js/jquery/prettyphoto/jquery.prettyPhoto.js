@@ -469,7 +469,7 @@
 			
 			$ewc_overlay.fadeOut(settings.animation_speed, function(){
 				
-				if(settings.hideflash) $('object,embed,iframe[src*=youtube],iframe[src*=vimeo]').css('visibility','visible'); // Show the flash
+				if(settings != undefined && settings.hideflash) $('object,embed,iframe[src*=youtube],iframe[src*=vimeo]').css('visibility','visible'); // Show the flash
 				
 				$(this).remove(); // No more need for the prettyPhoto markup
 				
