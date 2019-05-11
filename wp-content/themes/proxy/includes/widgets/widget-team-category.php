@@ -40,13 +40,12 @@ class stag_section_team_category extends WP_Widget
 
         ?>
 
-        <!-- BEGIN #team.section-block -->
+        <!-- BEGIN #team-category.section-block -->
         <!-- widget team category  -->
-        <section id="<?php echo stag_to_slug($id); ?>" class="section-block team-widget">
+        <section id="<?php echo stag_to_slug($id); ?>" class="section-block team-widget team-category-widget">
             <div class="inner-section">
-                <!-- mentor  -->
+                <!-- members  -->
                 <?php
-                //echo '<br/>'.$before_title . 'Mentores' . $after_title;
                 echo '<h2 class="main-title">' . $title . '</h2>';
                 if ($subtitle != '') echo '<p class="sub-title">' . $subtitle . '</p>';
 
@@ -85,35 +84,14 @@ class stag_section_team_category extends WP_Widget
                 if ($ordering != '') {
                     $metakey_args = '_stag_team_order';
                     $orderby_args = array(  'meta_value meta_value_num' => $ordering,
-                                            'meta_value' => 'ASC',
+                                            'meta_value' => $ordering,
                                             'title' => 'ASC');
-                    $metaquery_args = array(
-                        'relation' => 'OR',
+                    $metaquery1_args = array(
+                        'relation' => 'AND',
                         array(
                             'key'     => '_stag_team_order',
-                            'compare' => 'EXISTS'
-                        ),
-                        array(
-                            'key'     => '_stag_team_order',
-                            'compare' => 'NOT EXISTS'
-                        )
-                    );
-                    $metaquery_args = array(
-                        'key' => '_stag_team_order',
-                        'value' => '',
-                        'compare' => 'LIKE'
-                    );
-                    $metaquery_argss = array(
-                        'relation' => 'OR',
-                        array(
-                            'key'     => '_stag_team_order',
-                            'value' => '',
-                            'compare' => 'EXISTS'
-                        ),
-                        array(
-                            'key'     => '_stag_team_order',
-                            'value' => '',
-                            'compare' => 'NOT EXISTS'
+                            'compare' => '>',
+                            'value'   => 0
                         ),
                         array (
                             'relation' => 'AND',
@@ -122,12 +100,58 @@ class stag_section_team_category extends WP_Widget
                             $visacity_args
                         )
                     );
-                    $metaquery_args = array(
-                        'relation' => 'AND',
-                        $fscity_args,
-                        $pdcity_args,
-                        $visacity_args
+
+                    $metaquery2_args = array(
+                        'relation' => 'OR',
+                        array(
+                            'key'     => '_stag_team_order',
+                            'compare' => 'EXISTS',
+                            'value'   => ''
+                        ),
+                        array(
+                            'key'     => '_stag_team_order',
+                            'compare' => 'NOT EXISTS',
+                            'value'   => ''
+                        ),
+                        array (
+                            'relation' => 'AND',
+                            $fscity_args,
+                            $pdcity_args,
+                            $visacity_args
+                        )
                     );
+
+                    $args1 = array(
+                        'post_type' => 'team',
+                        'meta_query' => $metaquery1_args,
+                        'tax_query' => array(
+                            'relation' => 'AND',
+                            $cat_args,
+                            $area_args,
+                        ),
+                        'meta_key' => $metakey_args,
+                        'posts_per_page' => $number_posts,
+                        'orderby' => $orderby_args
+                    );
+
+                    $args2 = array(
+                        'post_type' => 'team',
+                        'meta_query' => $metaquery2_args,
+                        'tax_query' => array(
+                            'relation' => 'AND',
+                            $cat_args,
+                            $area_args,
+                        ),
+                        'posts_per_page' => $number_posts,
+                        'orderby' => $orderby_args
+                    );
+
+                    if (!$number_posts) $args1 = $args2 = false;
+                    $the_query1 = new WP_Query($args1);
+                    $the_query2 = new WP_Query($args2);
+                    $the_query = new WP_Query();
+                    $the_query->posts = array_merge( $the_query1->posts, $the_query2->posts );
+                    $the_query->post_count = $the_query1->post_count + $the_query2->post_count;
                 } else {
                     $metaquery_args = array(
                         'relation' => 'AND',
@@ -135,29 +159,30 @@ class stag_section_team_category extends WP_Widget
                         $pdcity_args,
                         $visacity_args
                     );
-                    $orderby_args = array('title' => 'ASC');
+                    $qargs = array(
+                        'post_type' => 'team',
+                        'meta_query' => $metaquery_args,
+                        'tax_query' => array(
+                            'relation' => 'AND',
+                            $cat_args,
+                            $area_args,
+                        ),
+                        'posts_per_page' => $number_posts,
+                        'orderby' => 'post_date',
+                        'order' => 'DESC'
+                    );
+
+                    if (!$number_posts) $qargs = false;
+                    $the_query = new WP_Query($qargs);
                 }
-
-                $args = array(
-                    'post_type' => 'team',
-                    'meta_query' => $metaquery_args,
-                    'tax_query' => array(
-                        'relation' => 'AND',
-                        $cat_args,
-                        $area_args,
-                    ),
-                    'meta_key' => $metakey_args,
-                    'posts_per_page' => $number_posts,
-                    'orderby' => $orderby_args
-                );
-
-                if (!$number_posts) $args = false;
-                $the_query = new WP_Query($args);
                 ?>
                 <div class="team-members">
                     <?php
                     if ($the_query->have_posts()) {
+                        $posts_counter = 0;
                         while ($the_query->have_posts()): $the_query->the_post();
+                            $posts_counter ++;
+                            if ($posts_counter > $number_posts) break;
                             $area_tags = wp_get_post_terms(get_the_ID(), '_stag_team_area_type');
                             $area_tag = $area_tags[0]->name;
                             if ($area_tag == 'Ninguno' || $area_tag == '' || is_null($area_tag)) $area_tag = '&nbsp;';
@@ -196,7 +221,7 @@ class stag_section_team_category extends WP_Widget
                     wp_reset_postdata();
                     ?>
                 </div>
-                <!-- end mentor -->
+                <!-- end members -->
             </div>
             <div class="clearfix"></div>
             <?php if ($after_title != '') echo '<div class="after_title">' . $after_title . '</div>'; ?>
@@ -210,7 +235,7 @@ class stag_section_team_category extends WP_Widget
             <?php
             endif;
             ?>
-            <!-- END #team.section-block -->
+            <!-- END #team-caegory.section-block -->
         </section>
         <script>
             jQuery(document).ready(function () {

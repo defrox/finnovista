@@ -39,12 +39,11 @@ class stag_section_team_category2 extends WP_Widget
 
         ?>
 
-        <!-- BEGIN #team.section-block -->
-        <section id="<?php echo stag_to_slug($id); ?>" class="section-block team-widget version2">
+        <!-- BEGIN #team-category2.section-block -->
+        <section id="<?php echo stag_to_slug($id); ?>" class="section-block team-widget team-category2-widget version2">
             <div class="inner-section">
-                <!-- mentor  -->
+                <!-- members  -->
                 <?php
-                //echo '<br/>'.$before_title . 'Mentores' . $after_title;
                 echo '<h2 class="main-title">' . $title . '</h2>';
                 if ($subtitle != '') echo '<p class="sub-title">' . $subtitle . '</p>';
 
@@ -60,17 +59,17 @@ class stag_section_team_category2 extends WP_Widget
                 );
                 $fscity_args = array(
                     'key' => '_stag_team_fscity',
-                    'value' => $fscity,
+                    'value' => preg_replace('/-/', ' ', $fscity),
                     'compare' => 'LIKE'
                 );
                 $pdcity_args = array(
                     'key' => '_stag_team_pitch_days',
-                    'value' => $pdcity,
+                    'value' => preg_replace('/-/', ' ', $pdcity),
                     'compare' => 'LIKE'
                 );
                 $visacity_args = array(
                     'key' => '_stag_team_visacity',
-                    'value' => $visacity,
+                    'value' => preg_replace('/-/', ' ', $visacity),
                     'compare' => 'LIKE'
                 );
 
@@ -80,38 +79,108 @@ class stag_section_team_category2 extends WP_Widget
                 if ($pdcity == '') $pdcity_args = '';
                 if ($visacity == '') $visacity_args = '';
 
-                $args = array(
-                    'post_type' => 'team',
-                    'meta_query' => array(
+                if ($ordering != '') {
+                    $metakey_args = '_stag_team_order';
+                    $orderby_args = array(  'meta_value meta_value_num' => $ordering,
+                        'meta_value' => $ordering,
+                        'title' => 'ASC');
+                    $metaquery1_args = array(
+                        'relation' => 'AND',
+                        array(
+                            'key'     => '_stag_team_order',
+                            'compare' => '>',
+                            'value'   => 0
+                        ),
+                        array (
+                            'relation' => 'AND',
+                            $fscity_args,
+                            $pdcity_args,
+                            $visacity_args
+                        )
+                    );
+
+                    $metaquery2_args = array(
+                        'relation' => 'OR',
+                        array(
+                            'key'     => '_stag_team_order',
+                            'compare' => 'EXISTS',
+                            'value'   => ''
+                        ),
+                        array(
+                            'key'     => '_stag_team_order',
+                            'compare' => 'NOT EXISTS',
+                            'value'   => ''
+                        ),
+                        array (
+                            'relation' => 'AND',
+                            $fscity_args,
+                            $pdcity_args,
+                            $visacity_args
+                        )
+                    );
+
+                    $args1 = array(
+                        'post_type' => 'team',
+                        'meta_query' => $metaquery1_args,
+                        'tax_query' => array(
+                            'relation' => 'AND',
+                            $cat_args,
+                            $area_args,
+                        ),
+                        'meta_key' => $metakey_args,
+                        'posts_per_page' => $number_posts,
+                        'orderby' => $orderby_args
+                    );
+
+                    $args2 = array(
+                        'post_type' => 'team',
+                        'meta_query' => $metaquery2_args,
+                        'tax_query' => array(
+                            'relation' => 'AND',
+                            $cat_args,
+                            $area_args,
+                        ),
+                        'posts_per_page' => $number_posts,
+                        'orderby' => $orderby_args
+                    );
+
+                    if (!$number_posts) $args1 = $args2 = false;
+                    $the_query1 = new WP_Query($args1);
+                    $the_query2 = new WP_Query($args2);
+                    $the_query = new WP_Query();
+                    $the_query->posts = array_merge( $the_query1->posts, $the_query2->posts );
+                    $the_query->post_count = $the_query1->post_count + $the_query2->post_count;
+                } else {
+                    $metaquery_args = array(
                         'relation' => 'AND',
                         $fscity_args,
                         $pdcity_args,
-                        $visacity_args,
-                    ),
-                    'tax_query' => array(
-                        'relation' => 'AND',
-                        $cat_args,
-                        $area_args,
-                    ),
-                    'posts_per_page' => $number_posts,
-                    'orderby' => 'post_date',
-                    'order' => 'DESC'
-                );
+                        $visacity_args
+                    );
+                    $qargs = array(
+                        'post_type' => 'team',
+                        'meta_query' => $metaquery_args,
+                        'tax_query' => array(
+                            'relation' => 'AND',
+                            $cat_args,
+                            $area_args,
+                        ),
+                        'posts_per_page' => $number_posts,
+                        'orderby' => 'post_date',
+                        'order' => 'DESC'
+                    );
 
-                if ($ordering != '') {
-                    $args['meta_key'] = '_stag_team_order';
-                    $args['orderby'] = 'meta_value_num';
-                    $args['order'] = $ordering;
+                    if (!$number_posts) $qargs = false;
+                    $the_query = new WP_Query($qargs);
                 }
-
-                $the_query = new WP_Query($args);
-                //$the_query = new WP_Query(array( 'post_type' => 'team','meta_value' => 'speaker','posts_per_page' => -1 ));
                 ?>
                 <div class="team-members">
                     <?php
                     if ($the_query->have_posts()) {
-                        $i = 0;
+                        $posts_counter = $i= 0;
                         while ($the_query->have_posts()): $the_query->the_post();
+                            $posts_counter ++;
+                            if ($posts_counter > $number_posts) break;
                             ?>
                             <div id="<?php print get_the_ID() ?>"><p></p></div>
                             <section class="member-section <?php echo $i % 2 == 0 ? "even" : "odd" ?>">
@@ -163,7 +232,7 @@ class stag_section_team_category2 extends WP_Widget
                     wp_reset_postdata();
                     ?>
                 </div>
-                <!-- end member -->
+                <!-- end members -->
             </div>
             <?php
             if ($no_posts >= intval($number_posts) && $more_link == 'true'): ?>
@@ -175,7 +244,7 @@ class stag_section_team_category2 extends WP_Widget
             <?php
             endif;
             ?>
-            <!-- END #team.section-block -->
+            <!-- END #team-category2.section-block -->
         </section>
         <script>
             jQuery(document).ready(function () {
