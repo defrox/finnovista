@@ -29,9 +29,9 @@
         <div class="bottom-section">
             <div class="grids">
                 <div class="grid-6 via-twitter">
-                    <strong><?php echo __('Latest news'); ?></strong>
+                    <strong><?php echo __('Latest news'); $lang = $_REQUEST['lang'] ? $_REQUEST['lang'] : 'es'; ?></strong>
                     <hr>
-                    <a class="twitter-timeline" href="https://twitter.com/Finnovista" data-widget-id="604364474393456640">Tweets by @Finnovista</a>
+                    <a class="twitter-timeline" data-theme="dark" data-link-color="#2EEAA4" lang="<?php echo strtoupper($lang); ?>"  href="https://twitter.com/Finnovista" data-widget-id="604364474393456640">Tweets by @Finnovista</a>
                     <script>!function (d, s, id) {var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) {js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
                 </div>
                 <div class="grid-6 via-feed">
