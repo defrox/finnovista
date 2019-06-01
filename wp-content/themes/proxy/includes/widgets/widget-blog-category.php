@@ -109,7 +109,7 @@ class stag_section_blog_category extends WP_Widget
                                 $terms2 = get_the_terms(get_the_ID(), 'post_tag');
                                 global $language_terms;
                                 // Color language tag
-                                if (sizeof($terms2) > 0 && is_array($terms2)) {
+                                if (is_array($terms2) && sizeof($terms2) > 0) {
                                     foreach ($terms2 as $term2) {
                                         if (in_array($term2->term_id, $language_terms) && !$setted2) {
                                             $pd_tag2 = $term2->name;
