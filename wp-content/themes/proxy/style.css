@@ -5794,7 +5794,7 @@ float: right;*/
 .page-template-pitch-days-php #container .hentry .entry-content.pdentry .overlay {
     padding-right: 0;
     padding-left: 0;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 
 .agenda-item .avatar img {

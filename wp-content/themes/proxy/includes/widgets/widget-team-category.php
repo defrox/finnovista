@@ -83,9 +83,6 @@ class stag_section_team_category extends WP_Widget
 
                 if ($ordering != '') {
                     $metakey_args = '_stag_team_order';
-                    $orderby_args = array(  'meta_value meta_value_num' => $ordering,
-                                            'meta_value' => $ordering,
-                                            'title' => 'ASC');
                     $metaquery1_args = array(
                         'relation' => 'AND',
                         array(
@@ -102,22 +99,22 @@ class stag_section_team_category extends WP_Widget
                     );
 
                     $metaquery2_args = array(
-                        'relation' => 'OR',
+                        'relation' => 'AND',
+                        $fscity_args,
+                        $pdcity_args,
+                        $visacity_args,
                         array(
-                            'key'     => '_stag_team_order',
-                            'compare' => 'EXISTS',
-                            'value'   => ''
-                        ),
-                        array(
-                            'key'     => '_stag_team_order',
-                            'compare' => 'NOT EXISTS',
-                            'value'   => ''
-                        ),
-                        array (
-                            'relation' => 'AND',
-                            $fscity_args,
-                            $pdcity_args,
-                            $visacity_args
+                                'relation' => 'OR',
+                                array(
+                                    'key'     => '_stag_team_order',
+                                    'compare' => 'EXISTS',
+                                    'value'   => ''
+                                ),
+                                array(
+                                    'key'     => '_stag_team_order',
+                                    'compare' => 'NOT EXISTS',
+                                    'value'   => ''
+                                ),
                         )
                     );
 
@@ -131,7 +128,8 @@ class stag_section_team_category extends WP_Widget
                         ),
                         'meta_key' => $metakey_args,
                         'posts_per_page' => $number_posts,
-                        'orderby' => $orderby_args
+                        'orderby' => 'meta_value_num',
+                        'order' => $ordering
                     );
 
                     $args2 = array(
@@ -143,7 +141,8 @@ class stag_section_team_category extends WP_Widget
                             $area_args,
                         ),
                         'posts_per_page' => $number_posts,
-                        'orderby' => $orderby_args
+                        'orderby' => 'title',
+                        'order' => 'ASC'
                     );
 
                     if (!$number_posts) $args1 = $args2 = false;
@@ -176,7 +175,7 @@ class stag_section_team_category extends WP_Widget
                     $the_query = new WP_Query($qargs);
                 }
                 ?>
-                <div class="team-members">
+                <div class="team-members" data-ordering="<?php echo $ordering; ?>" data-num-posts="<?php echo $the_query->post_count; ?>">
                     <?php
                     if ($the_query->have_posts()) {
                         $posts_counter = 0;
@@ -187,7 +186,7 @@ class stag_section_team_category extends WP_Widget
                             $area_tag = $area_tags[0]->name;
                             if ($area_tag == 'Ninguno' || $area_tag == '' || is_null($area_tag)) $area_tag = '&nbsp;';
                             ?>
-                            <div class="member">
+                            <div class="member" data-order="<?php echo get_post_meta(get_the_ID(), '_stag_team_order', true); ?>">
                                 <?php if ($area_tag != ''): ?>
                                     <div
                                             class="area-tag <?php echo seoUrl($area_tag); ?>"><?php echo $area_tag; ?></div>
@@ -263,6 +262,7 @@ class stag_section_team_category extends WP_Widget
         $instance['area'] = strip_tags($new_instance['area']);
         $instance['fscity'] = strip_tags($new_instance['fscity']);
         $instance['pdcity'] = strip_tags($new_instance['pdcity']);
+        $instance['visacity'] = strip_tags($new_instance['visacity']);
         $instance['more_link'] = strip_tags($new_instance['more_link']);
         $instance['number_posts'] = strip_tags($new_instance['number_posts']);
         $instance['id'] = strip_tags($new_instance['id']);

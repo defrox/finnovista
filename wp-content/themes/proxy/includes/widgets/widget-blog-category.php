@@ -17,6 +17,7 @@ class stag_section_blog_category extends WP_Widget
         $title = apply_filters('widget_title', $instance['title']);
         $subtitle = $instance['subtitle'];
         $category = $instance['category'];
+        $more_link = $instance['more_link'] ? 'true' : 'false';
         $id = $instance['id'];
         $number_posts = $instance['number_posts'];
         $translate = $instance['translate'];
@@ -153,7 +154,7 @@ class stag_section_blog_category extends WP_Widget
                         ?>
                     </div>
                     <?php $no_posts = wp_count_posts();
-                    if ($no_posts->publish > $number_posts): ?>
+                    if ($no_posts->publish > $number_posts && $more_link != 'true'): ?>
                         <div class="clearfix"></div>
                         <div <?php post_class($d_c); ?> >
                             <a class="bottom-link"
@@ -220,6 +221,7 @@ class stag_section_blog_category extends WP_Widget
         $instance['id'] = strip_tags($new_instance['id']);
         $instance['translate'] = strip_tags($new_instance['translate']);
         $instance['alt_links'] = strip_tags($new_instance['alt_links']);
+        $instance['more_link'] = strip_tags($new_instance['more_link']);
         $instance['sort_date'] = strip_tags($new_instance['sort_date']);
 
         return $instance;
@@ -250,6 +252,10 @@ class stag_section_blog_category extends WP_Widget
         </p>
 
         <p>
+            <label
+                    for="<?php echo $this->get_field_id('more_link'); ?>"><?php _e('Hide view all link:', 'stag'); ?></label>
+            <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id('more_link'); ?>"
+                   name="<?php echo $this->get_field_name('more_link'); ?>" <?php checked(@$instance['more_link'], 'on'); ?> />
             <label for="<?php echo $this->get_field_id('translate'); ?>"><?php _e('Translate:', 'stag'); ?></label>
             <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id('translate'); ?>"
                    name="<?php echo $this->get_field_name('translate'); ?>" <?php checked(@$instance['translate'], 'on'); ?> />

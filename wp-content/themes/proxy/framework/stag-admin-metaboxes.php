@@ -91,7 +91,7 @@ function stag_create_meta_box($post, $meta_box)
             case 'multicheck':
                 if ($meta) $meta = explode(',', $meta);
                 echo '<td class="stag-box-' . $field['type'] . '">';
-                //echo '<input type="text" name="stag_meta[' . $field['id'] . ']" value="off" />';
+                echo '<input type="hidden" name="stag_meta[' . $field['id'] . ']" value="off" />';
                 foreach ($field['options'] as $option) {
                     echo '<label class="checkbox-label"><input type="checkbox" name="stag_meta[' . $field['id'] . '][]" value="' . $option . '" class="checkbox multibox"';
                     if ($meta) {
