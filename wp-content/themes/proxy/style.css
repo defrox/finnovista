@@ -1178,7 +1178,8 @@ h3#pings {
 
 .entry-content ul, .comment-body ul {
     list-style: disc;
-	list-style-position: inside;
+	/*list-style-position: inside;*/
+    list-style-position: outside;
     margin: 10px 0px 10px 40px;
 }
 
@@ -3618,7 +3619,8 @@ h3#pings {
 
 .entry-content ul, .comment-body ul {
     list-style: disc;
-    list-style-position: inside;
+    /*list-style-position: inside;*/
+    list-style-position: outside;
     margin: 10px 0px 10px 40px;
 }
 
@@ -6615,4 +6617,38 @@ body {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;*/
+}
+
+.flex-container-row {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.flex-container-row > .flex-item {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    text-align: center;
 }

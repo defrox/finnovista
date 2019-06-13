@@ -11,8 +11,8 @@
 	    </article>
   	</div>
 <?php endwhile; ?>  
-<span style="float:left;margin:-25px 0 50px 70px;"><?php previous_post('&laquo; %', '', 'yes'); ?></span>
-<span style="float:right;margin: -25px 70px 50px 0;"><?php next_post('% &raquo; ', '', 'yes'); ?></span>
+<span style="float:left;margin:-25px 0 50px 70px;"><?php previous_post_link('&laquo; %link'); ?></span>
+<span style="float:right;margin: -25px 70px 50px 0;"><?php next_post_link('%link &raquo; '); ?></span>
 <?php comments_template('', true); ?>
 <?php endif; ?>        
 <?php get_footer() ?>     
