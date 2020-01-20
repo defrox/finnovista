@@ -9,8 +9,9 @@ function dfx_excerpt_more( $more ) {
 add_filter('excerpt_more', 'dfx_excerpt_more');
 
 $wp_query = new WP_Query($args); ?>
-                 <?php $posts=query_posts($query_string . '&posts_per_page=-1'); ?>
-<div class="inner-section">
+<?php //$posts=query_posts($query_string . '&posts_per_page=-1'); ?>
+<?php $posts=query_posts($query_string); ?>
+    <div class="inner-section">
 <h1 class="main-title"><?php _e('Search Results');?></h1>           
     
 <?php if (have_posts()) : ?>

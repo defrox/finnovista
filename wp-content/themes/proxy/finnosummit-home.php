@@ -48,24 +48,40 @@ Template Name: FINNOSUMMIT Home
                     'meta_query' => array(
                         'relation' => 'OR',
                         array(
-                            'key' => '_stag_event_date',
-                            'value' => date('Y-m-d'),
-                            'type' => 'DATE',
-                            'compare' => '>=',
+                            'relation' => 'OR',
+                            array(
+                                'key' => '_stag_event_date',
+                                'value' => date('Y-m-d'),
+                                'type' => 'DATE',
+                                'compare' => '>=',
+                            ),
+                            array(
+                                'key' => '_stag_show_past_event',
+                                'value' => 'on',
+                                'compare' => '=',
+                            ),
                         ),
                         array(
-                            'key' => '_stag_show_past_event',
-                            'value' => 'on',
-                            'compare' => '=',
-                        ),
-                        /*array(
-                            'key' => '_stag_event_date_text',
-                            'compare' => 'EXISTS',
-                        ),*/
-                        array(
-                            'key' => '_stag_event_date_text',
-                            'compare' => '!=',
-                            'value' => '',
+                            'relation' => 'AND',
+                            array(
+                                'key' => '_stag_event_date',
+                                'compare' => '=',
+                                'value' => '',
+                            ),
+                            array(
+                                'key' => '_stag_show_past_event',
+                                'value' => 'on',
+                                'compare' => '=',
+                            ),
+                            /*array(
+                                'key' => '_stag_event_date_text',
+                                'compare' => 'EXISTS',
+                            ),*/
+                            array(
+                                'key' => '_stag_event_date_text',
+                                'compare' => '!=',
+                                'value' => '',
+                            ),
                         ),
                     ),
                     'tax_query' => array(

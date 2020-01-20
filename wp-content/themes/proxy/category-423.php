@@ -4,7 +4,8 @@
 $args = array( 'post_type' => 'post', 'posts_per_page' => 10, 'paged' => $paged );
 $cat_name = get_query_var('cat');
 $wp_query = new WP_Query($args); ?>
-                 <?php $posts=query_posts($query_string . '&posts_per_page=-1&cat='.$cat_name); ?>
+<?php //$posts=query_posts($query_string . '&posts_per_page=-1&cat='.$cat_name); ?>
+<?php $posts=query_posts($query_string . '&cat='.$cat_name); ?>
 <div class="inner-section">
 <h1 class="main-title"><?php echo get_cat_name($cat_name); ?></h1>
 <div>

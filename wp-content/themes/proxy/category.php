@@ -4,7 +4,8 @@
 $args = array( 'post_type' => 'post', 'posts_per_page' => 10, 'paged' => $paged );
 $cat_name = get_query_var('cat');
 $wp_query = new WP_Query($args); ?>
-                 <?php $posts=query_posts($query_string . '&posts_per_page=-1&cat='.$cat_name); ?>
+<?php //$posts=query_posts($query_string . '&posts_per_page=-1&cat='.$cat_name); ?>
+<?php $posts=query_posts($query_string . '&cat='.$cat_name); ?>
 <div class="inner-section">
 <h1 class="main-title"><?php _e('Category'); ?>: <?php echo get_cat_name($cat_name); ?>     </h1>
                 
@@ -16,7 +17,7 @@ while ( have_posts() ) : the_post(); $postCount++;
                                 $terms2 = get_the_terms(get_the_ID(), 'post_tag');
                                 $pd_tag = $pd_css = $pd_color = $pd_tag2 = $pd_css2 = $pd_color2 = $setted2 = false;
                                 global $language_terms;
-                                if (sizeof($terms2) > 0 && is_array($terms2)) {
+                                if (is_array($terms2) && sizeof($terms2) > 0) {
                                     foreach ($terms2 as $term2) {
                                         if (in_array($term2->term_id, $language_terms) && !$setted2) {
                                             $pd_tag2 = $term2->name;

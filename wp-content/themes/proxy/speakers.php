@@ -5,6 +5,48 @@
  */
 ?>
 <?php get_header();
+
+function dfx_get_next_posts_link( $label = null, $max_page = 0, $wp_query, $paged = 1) {
+    if ( !$max_page )
+        $max_page = $wp_query->max_num_pages;
+
+    $nextpage = intval($paged) + 1;
+
+    if ( null === $label )
+        $label = __( 'Next Page &raquo;' );
+
+    if ( !is_single() && ( $nextpage <= $max_page ) ) {
+        /**
+         * Filters the anchor tag attributes for the next posts page link.
+         *
+         * @since 2.7.0
+         *
+         * @param string $attributes Attributes for the anchor tag.
+         */
+        $attr = apply_filters( 'next_posts_link_attributes', '' );
+
+        return '<a href="' . next_posts( $max_page, false ) . "\" $attr>" . preg_replace('/&([^#])(?![a-z]{1,8};)/i', '&#038;$1', $label) . '</a>';
+    }
+}
+
+function dfx_get_prev_posts_link( $label = null, $paged ) {
+    if ( null === $label )
+        $label = __( '&laquo; Previous Page' );
+
+    if ( !is_single() && $paged > 1 ) {
+        /**
+         * Filters the anchor tag attributes for the previous posts page link.
+         *
+         * @since 2.7.0
+         *
+         * @param string $attributes Attributes for the anchor tag.
+         */
+        $attr = apply_filters( 'previous_posts_link_attributes', '' );
+        return '<a href="' . previous_posts( false ) . "\" $attr>". preg_replace( '/&([^#])(?![a-z]{1,8};)/i', '&#038;$1', $label ) .'</a>';
+    }
+}
+
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 $dfx_title = '';
 $area = $_REQUEST['area'];
 $category = $_REQUEST['cat'];
@@ -73,7 +115,8 @@ if (isset($_REQUEST['cat'])) $dfx_title .= get_term($category, '_stag_team_categ
                     $cat_args,
                     $area_args,
                 ),
-                'posts_per_page' => -1,
+                'posts_per_page' => 200,
+                'paged' => $paged,
                 'orderby' => 'title',
                 'order' => 'ASC'
             );
@@ -128,5 +171,8 @@ if (isset($_REQUEST['cat'])) $dfx_title .= get_term($category, '_stag_team_categ
                 ?>
             </div>
         </div>
+        <!-- then the pagination links -->
+        <?=  $paged > 1 ? dfx_get_prev_posts_link( '&laquo; ' . __('previous'), $paged) : ""; ?>
+        <?php echo dfx_get_next_posts_link( __('next') . ' &raquo;', 0, $the_query, $paged); ?>
     </section>
 <?php get_footer() ?>

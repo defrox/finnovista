@@ -5,7 +5,8 @@ $args = array( 'post_type' => 'post', 'posts_per_page' => 10, 'paged' => $paged 
 
 $tagname = get_query_var('tag');
 $wp_query = new WP_Query($args); ?>
-                 <?php $posts=query_posts($query_string . '&posts_per_page=-1&tag='.$tagname); ?>
+<?php //$posts=query_posts($query_string . '&posts_per_page=-1&tag='.$tagname); ?>
+<?php $posts=query_posts($query_string . '&tag='.$tagname); ?>
 <div class="inner-section">
 <h1 class="main-title"><?php _e('Etiqueta'); ?>: <?php echo str_replace('-',' ',$tagname);?></h1>     
           

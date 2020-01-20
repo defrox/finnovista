@@ -915,7 +915,7 @@ function dfx_rss_content() {
             $excerpt = get_the_excerpt();
             $query->reset_postdata();
 
-            $image = get_the_post_thumbnail($query->post->ID, 'archive-thumb');
+            $image = get_the_post_thumbnail($query->post->ID, 'thumbnail');
             $query->reset_postdata();
 
             $permalink = esc_url( apply_filters( 'the_permalink_rss', get_permalink() ) );
